@@ -25,3 +25,9 @@ kernelspec:
 ```{admonition} Exercise
 Download a dataset of your choice from link and inspect the data.
 ```
+
+## Datasets
+
+- {Download}`bees.csv<./data/bees.csv>` {cite}`bees-2020`
+- {Download}`AVONET.csv<./data/AVONET.csv>` {cite}`tobias-2022`
+- {Download}`COL.csv<./data/COL.csv>` {cite}`col-2024`
