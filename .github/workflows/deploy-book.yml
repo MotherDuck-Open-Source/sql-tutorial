@@ -17,8 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        repository: motherduckdb/sql-tutorial
-        token: ${{ secrets.ACCESS_TOKEN }}
+        repository: MotherDuck-Open-Source/sql-tutorial
 
     # Install dependencies
     - name: Set up Python 3.11
@@ -45,5 +44,3 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
-      with:
-        token: ${{ secrets.ACCESS_TOKEN }}
