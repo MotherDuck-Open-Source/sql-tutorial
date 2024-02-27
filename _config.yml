@@ -3,7 +3,7 @@
 
 title: SQL Tutorial
 author: MotherDuck
-logo: duck.png
+logo: duckdb_python.png
 copyright: 2024
 
 # Force re-execution of notebooks on each build.
