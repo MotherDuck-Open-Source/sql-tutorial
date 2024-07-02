@@ -69,7 +69,6 @@ print(result)
 ```
 This will return a DataFrame with employees who earn more than 60000, sorted by their names.
 
-Using Only Ibis with a DuckDB Backend
 Finally, let's see how we can perform more complex operations using only Ibis. Suppose we want to calculate the average salary by department:
 
 # Group by department and calculate average salary
@@ -83,11 +82,3 @@ print(result)
 This will give us a DataFrame with the average salary for each department.
 
 And that's it! You've learned how to use Ibis with DuckDB to query and manipulate your data without writing SQL. Happy coding!
-
-
-# 3. Use DuckDB as the engine, all with DataFrame syntax
-
-- Pandas, Apache Arrow, Numpy, Polars
-- Ibis
-- PySpark API
-- DuckDB Relational API
