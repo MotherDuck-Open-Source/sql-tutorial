@@ -23,10 +23,40 @@ Today, we'll cover some basic operations using data from a file named `students.
 First, we need to load the data from our students.csv file into DuckDB. Here's how you do it:
 
 ```SQL
-CREATE TABLE students AS SELECT * FROM read_csv('students.csv');
+CREATE TABLE students (
+    name VARCHAR,
+    age INTEGER,
+    english_score INTEGER,
+    history_score INTEGER
+);
+
+INSERT INTO students VALUES
+('Alice', 15, 92, 85),
+('Bob', 16, 78, 89),
+('Charlie', 15, 85, 90);
 ```
 
-This command creates a new table called `students` and loads all the data from the `students.csv` file into it.
+This command creates a new table called `students` and inserts some example rows.
+
+You can now run describe the table:
+
+```SQL
+DESCRIBE students;
+```
+
+This returns a table that shows you details about the columns, such as the name and variable type.
+
+```bash
+┌───────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
+│  column_name  │ column_type │  null   │   key   │ default │  extra  │
+│    varchar    │   varchar   │ varchar │ varchar │ varchar │ varchar │
+├───────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
+│ name          │ VARCHAR     │ YES     │         │         │         │
+│ age           │ INTEGER     │ YES     │         │         │         │
+│ english_score │ INTEGER     │ YES     │         │         │         │
+│ history_score │ INTEGER     │ YES     │         │         │         │
+└───────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
+```
 
 ### Grab the Whole Table
 
@@ -140,23 +170,23 @@ Create a new table called `birds` using the `AVONET.csv` file linked in the Data
 ```
 
 ```{admonition} Exercise
-Select only the species name, beak width and beak depth columns from the birds table.
+Select only the Species_Common_Name, Beak_Width and Beak_Depth columns from the birds table.
 ```
 
 ```{admonition} Exercise
-Add a new calculated column called `beak_size` that gets the sum of the beak width and depth.
+Add a new calculated column called `Beak_Size` that gets the sum of the Beak_Width and Beak_Depth.
 ```
 
 ```{admonition} Exercise
-Filter rows where the `beak_size` is greater than 100.
+Filter rows where the `Beak_Size` is greater than 100.
 ```
 
 ```{admonition} Exercise
-Order the rows by `beak_size` in descending order.
+Order the rows by `Beak_Size` in descending order.
 ```
 
 ```{admonition} Exercise
-Group the rows by location and calculate the average `beak_size` for each group.
+Group the rows by location and calculate the average `Beak_Size` for each group.
 ```
 
 ### Bonus exercises
