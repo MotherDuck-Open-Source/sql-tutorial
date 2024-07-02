@@ -37,5 +37,7 @@ By the end of this tutorial, you'll have a solid understanding of SQL basics, ho
 
 ## Setup instructions
 
-1. Install [DuckDB](https://duckdb.org/docs/installation)
-2. Install [Python](https://www.python.org/downloads/)
+
+1. Log into [Google Colab](https://colab.research.google.com/) or start a local [Jupyter Notebook](https://jupyter.org/install).
+2. Install the latest version of `duckdb` by running `pip install --upgrade duckdb`.
+3. (Optional for the "Do more with your data" section) Sign up for MotherDuck via https://app.motherduck.com/?auth_flow=signup
