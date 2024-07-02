@@ -1,4 +1,4 @@
-# 5. Give your data wings!
+# 5. Collaborating with data in the Cloud
 
 1. What is a Data Warehouse and why do I need one?
 2. Sharing a DuckDB database with AWS
