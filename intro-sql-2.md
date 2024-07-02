@@ -1,12 +1,12 @@
 # 2. Learn to quack SQL with DuckDB: Joins and Subqueries
 
-# 1. Understanding SQL Joins
+## Understanding SQL Joins
 In SQL, a Join operation allows you to combine rows from two or more tables based on a related column between them. This is incredibly useful when you need to pull together related information that is stored in different tables.
 
-## Example Tables
+### Example Tables
 Let's start with two tables:
 
-### Table 1: Students
+#### Table 1: Students
 
 | StudentID | Name |
 | --------- | ---- |
@@ -15,7 +15,7 @@ Let's start with two tables:
 | 3 | Charlie |
 
 
-### Table 2: Grades
+#### Table 2: Grades
 
 | StudentID | Course | Grade |
 | --------- | ------ | ----- |
@@ -25,7 +25,7 @@ Let's start with two tables:
 | 3 | Math | 92 |
 | 3 | Science | 88 |
 
-## Performing a SQL Join
+### Performing a SQL Join
 
 We want to combine these tables to find the average grade for each student. To do this, we'll use a SQL Join operation. Specifically, we'll use an INNER JOIN, which combines rows from both tables only when there is a match in the StudentID column.
 
@@ -40,7 +40,7 @@ INNER JOIN Grades ON Students.StudentID = Grades.StudentID
 GROUP BY Students.Name;
 ```
 
-## Step-by-Step Explanation
+### Step-by-Step Explanation
 Let's break down the SQL query step by step:
 
 `SELECT Students.Name, AVG(Grades.Grade) AS AverageGrade`: We're selecting the student's name and the average of their grades. The result will be labeled as "AverageGrade".
@@ -51,7 +51,7 @@ Let's break down the SQL query step by step:
 
 `GROUP BY Students.Name`: We're grouping the results by the student's name to calculate the average grade for each student.
 
-## Result
+### Result
 After running the SQL query, the result will look like this:
 
 | Name | AverageGrade |
@@ -60,17 +60,17 @@ After running the SQL query, the result will look like this:
 | Bob | 78 |
 | Charlie | 90 |
 
-## Conclusion
+### Conclusion
 
 And that's it! You've successfully learned how to use a SQL Join to combine two tables and extract useful information. Practice this with different datasets to get more comfortable with SQL Joins. Happy querying!
 
-# 2. Subqueries
+## 2. Subqueries
 
-## What is a Subquery?
+### What is a Subquery?
 
 A subquery, also known as an inner query or nested query, is a query within another SQL query. It's like a query inside a query! Subqueries are used to perform operations that require multiple steps, such as filtering data based on a complex condition or aggregating data before using it in the main query.
 
-## Example
+### Example
 
 Let's start by looking at our example table, `students.csv`. This table contains the following columns:
 
@@ -80,11 +80,11 @@ Let's start by looking at our example table, `students.csv`. This table contains
 - grade: The grade the student is in.
 - score: The student's score in the last exam.
 
-## Using Subqueries in DuckDB
+### Using Subqueries in DuckDB
 
 Let's dive into some examples to understand how subqueries work in DuckDB.
 
-### Example 1: Finding Top Scorers
+#### Example 1: Finding Top Scorers
 Suppose we want to find the students who scored above the average score. We can use a subquery to calculate the average score first, and then use that result in our main query:
 
 ```SQL
@@ -95,7 +95,7 @@ WHERE score > (SELECT AVG(score) FROM students);
 
 In this example, the subquery (`SELECT AVG(score) FROM students`) calculates the average score of all students. The main query then selects the names and scores of students who scored above this average.
 
-### Example 2: Finding Students in the Top Grade
+#### Example 2: Finding Students in the Top Grade
 
 Next, let's find the students who are in the same grade as the student with the highest score. Here's how we can do it:
 
@@ -110,7 +110,7 @@ WHERE grade = (SELECT grade
 
 In this example, the subquery (`SELECT grade FROM students ORDER BY score DESC LIMIT 1`) finds the grade of the student with the highest score. The main query then selects the names, grades, and scores of all students in that grade.
 
-### Example 3: Using the WITH Clause
+#### Example 3: Using the WITH Clause
 
 Now, let's see how we can use the `WITH` clause to make our queries more readable. Suppose we want to find the names and scores of students who scored above the average score. Here's how we can do it using the `WITH` clause:
 
@@ -126,9 +126,9 @@ WHERE students.score > avg_score.avg;
 
 In this example, the `WITH` clause creates a temporary result set called `avg_score` that contains the average score. The main query then selects the names and scores of students who scored above this average.
 
-# Exercises
+## Exercises
 
-## Datasets
+### Datasets
 
 - {Download}`AVONET.csv<./data/AVONET.csv>` {cite}`tobias-2022`
 - {Download}`COL.csv<./data/COL.csv>` {cite}`col-2024`
