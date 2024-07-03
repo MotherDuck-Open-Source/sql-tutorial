@@ -1,16 +1,16 @@
 # Learn SQL the Quacky way!
 
-As scientists and Python developers, you're likely familiar with NumPy or DataFrame tools like Pandas, Polars or PyArrow for data manipulation and analysis. These are powerful tools, but as your datasets grow and your analyses become more complex, you may find yourself pushing against its limits. This is where SQL comes in.
+You're likely familiar with NumPy or DataFrame tools like Pandas, Polars or PyArrow for data manipulation and analysis. These are powerful tools, but as your datasets grow and your analyses become more complex, you may find yourself pushing against its limits. This is where SQL comes in.
 
-[Structured Query Language](https://duckdb.org/docs/sql/introduction.html) (or SQL for short) is the standard language for interacting with relational databases. It's been around for decades and remains crucial in the data science toolkit. DuckDB is an in-process SQL OLAP database management system, designed to be fast and efficient for analytical queries. It is a database that lives in-process which makes it fast, portable and easy to use and deploy. It's especially great for learning SQL because all you need to do is to download it, and it runs right on your laptop! It combines the simplicity of SQLite with the analytical power of traditional data warehouses. But why should you care about SQL or `duckdb`?
+[Structured Query Language](https://duckdb.org/docs/sql/introduction.html) (or SQL for short) is the standard language for interacting with relational databases. It's been around for decades and remains crucial in the data science toolkit.
 
-## Why use DuckDB with Python?
+[DuckDB](https://duckdb.org/) is an in-process SQL OLAP database management system, designed to be fast and efficient for analytical queries. It is a database that lives in-process which makes it fast, portable and easy to use and deploy. It's especially great for learning SQL because all you need to do is to download it, and it runs right on your laptop! It combines the simplicity of SQLite with the analytical power of traditional data warehouses.
 
-_Dataset_
+But why should you care about SQL or `duckdb`?
 
-- {Download}`washington_weather.csv<./data/washington_weather.csv>`
+## Why use DuckDB?
 
-Let's start with a simple example. Imagine you're working with a climate dataset (~49k rows), and you want to filter it to find all records where the temperature is above 25°C and precipitation is below 10 mm. With `pandas`, you might write:
+Let's start with a simple example. Imagine you're working with a climate dataset with ~50k rows, such as {Download}`washington_weather.csv<./data/washington_weather.csv>`, and you want to filter it to find all records where the temperature is above 25°C and precipitation is below 10 mm. With `pandas`, you might write:
 
 
 ```python
