@@ -20,7 +20,7 @@ Let's dive in and learn how to load data, grab a whole table, pick specific colu
 
 ## Basic operations
 
-### Load Data
+### Load Data into your database
 
 First, we need to load some example data into DuckDB:
 
@@ -40,11 +40,15 @@ INSERT INTO students VALUES
 
 This command creates a new table called `students` and inserts some example rows.
 
+## Load data from a CSV file
+
 If you have data in a CSV file {Download}`students.csv<./data/students.csv>`, you can load it into DuckDB as well:
 
 ```SQL
 CREATE TABLE students AS SELECT * FROM read_csv('students.csv');
 ```
+
+## Describe the table
 
 You can now describe the table:
 
