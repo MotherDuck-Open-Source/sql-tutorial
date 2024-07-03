@@ -18,7 +18,9 @@ Today, we'll cover some basic operations in DuckDB SQL. DuckDB is a high-perform
 
 Let's dive in and learn how to load data, grab a whole table, pick specific columns, add a calculated column, and filter rows using the `WHERE` clause.
 
-NOTE: If you are in Google Collab or a Jupyter notebook, remember to put the magic `%%dql` directive in the beginning of each SQL cell.
+```{Note}
+If you are in Google Collab or a Jupyter notebook, remember to put the magic `%%dql` directive in the beginning of each SQL cell.
+```
 
 ## Basic operations
 

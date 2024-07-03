@@ -9,6 +9,8 @@
     ```
 3. (For section 5) <a href="https://app.motherduck.com/?auth_flow=signup" target="_blank">Sign up for MotherDuck</a>
 
+    Every new account receives a 30-day free trial of the MotherDuck Standard Plan, with no credit card required. After the end of your Standard Plan free trial, your account will automatically move to the MotherDuck Free Plan, no action needed on your part.
+
 
 ## How to run SQL queries
 
@@ -28,7 +30,6 @@ and using the `%%dql` magic command:
 
 ```python
 %%dql
--- Your query here
 SELECT 42;
 ```
 
@@ -46,7 +47,7 @@ In a separate cell, pass the connection object to the magic command with the `-c
 ```python
 %%dql -co con
 CREATE TABLE test_table as (SELECT 42);
-FROM test_table;    -- this is a short form of SELECT * FROM test_table
+SELECT * FROM test_table;
 ```
 
 

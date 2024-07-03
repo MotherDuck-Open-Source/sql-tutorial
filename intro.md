@@ -10,14 +10,14 @@ But why should you care about SQL or `duckdb`?
 
 ## Why use DuckDB?
 
-Let's start with a simple example. Imagine you're working with a climate dataset with ~50k rows, such as {Download}`washington_weather.csv<./data/washington_weather.csv>`, and you want to filter it to find all records where the temperature is above 25°C and precipitation is below 10 mm. With `pandas`, you might write:
+Let's start with a simple example. Imagine you're working with a climate dataset with ~50k rows, such as {Download}`washington_weather.csv<./data/washington_weather.csv>`, and you want to filter it to find all records where the observed temperature is above 25°C and precipitation is below 10 mm. With `pandas`, you might write:
 
 
 ```python
 import pandas as pd
 
 df = pd.read_csv('washington_weather.csv')
-filtered_df = df[(df['TAVG'] > 25) & (df['PRCP'] < 10)]
+filtered_df = df[(df['temperature_obs'] > 25) & (df['precipitation'] < 10)]
 ```
 
 This works well for small to medium-sized datasets. But what if your data doesn't fit in memory? What if you're working with a database that's constantly being updated? Or, what if you're working in an environment where Python is not available? Here's how you'd do the same thing in SQL with `duckdb`:
@@ -25,7 +25,7 @@ This works well for small to medium-sized datasets. But what if your data doesn'
 ```sql
 SELECT *
 FROM read_csv('washington_weather.csv')
-WHERE TAVG > 25 AND PRCP < 10;
+WHERE temperature_obs > 25 AND precipitation < 10;
 ```
 
 This SQL query can work on datasets of any size, is often more efficient, and can be run close to where the data lives, reducing data transfer.
