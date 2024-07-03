@@ -8,6 +8,5 @@ chapters:
 - file: intro-sql-1
 - file: intro-sql-2
 - file: sql-and-python
-- file: data-viz
 - file: data-in-the-cloud
 - file: datasets
