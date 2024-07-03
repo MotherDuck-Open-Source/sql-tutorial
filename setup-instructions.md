@@ -46,10 +46,23 @@ In a separate cell, pass the connection object to the magic command with the `-c
 ```python
 %%dql -co con
 CREATE TABLE test_table as (SELECT 42);
-FROM test_table;
+FROM test_table;    -- this is a short form of SELECT * FROM test_table
 ```
 
 
 ### MotherDuck
 
-You can also run SQL directly in a MotherDuck notebook. After <a href="https://app.motherduck.com/?auth_flow=signup" target="_blank">signing up</a>, go to <a href="https://app.motherduck.com/" target="_blank">app.motherduck.com</a> and log in. You'll see a SQL notebook environment where you can create cells and run SQL queries.
+You can also run SQL directly in a MotherDuck notebook. After <a href="https://app.motherduck.com/?auth_flow=signup" target="_blank">signing up</a>, go to <a href="https://app.motherduck.com/" target="_blank">app.motherduck.com</a> and log in. You'll see a SQL notebook environment where you can create cells, upload CSV files and run SQL queries.
+
+
+## How to read files
+
+In a local Jupyter notebook, you can use the local filesystem with no extra steps!
+
+In Google Collab, you'll need to mount a folder in Google Drive, which makes all files in that folder available to query under `/content/gdrive/MyDrive` path:
+```
+from google.colab import drive
+drive.mount('/content/gdrive')
+```
+
+In MotherDuck, you can add JSON, CSV or Parquet file directly using the Add Files button in the top left of the UI.

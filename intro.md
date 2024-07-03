@@ -28,7 +28,7 @@ FROM read_csv('washington_weather.csv')
 WHERE temperature > 25 AND precipitation < 10;
 ```
 
-This SQL query can work on datasets of any size, is often more efficient, and can be run directly on the database server, reducing data transfer.
+This SQL query can work on datasets of any size, is often more efficient, and can be run close to where the data lives, reducing data transfer.
 
 Throughout this tutorial, we'll explore how SQL can complement your Python skills, enabling you to:
 

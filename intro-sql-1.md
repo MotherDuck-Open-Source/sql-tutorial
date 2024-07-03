@@ -18,6 +18,8 @@ Today, we'll cover some basic operations in DuckDB SQL. DuckDB is a high-perform
 
 Let's dive in and learn how to load data, grab a whole table, pick specific columns, add a calculated column, and filter rows using the `WHERE` clause.
 
+NOTE: If you are in Google Collab or a Jupyter notebook, remember to put the magic `%%dql` directive in the beginning of each SQL cell.
+
 ## Basic operations
 
 ### Load Data into your database
@@ -50,13 +52,13 @@ CREATE TABLE students AS SELECT * FROM read_csv('students.csv');
 
 ## Describe the table
 
-You can now describe the table:
+You can now describe the table to learn its structure:
 
 ```SQL
 DESCRIBE students;
 ```
 
-This returns a table that shows you details about the columns, such as the name and variable type.
+This returns a table that shows you details about the columns, such as the column name and its type.
 
 ```bash
 ┌───────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
@@ -89,13 +91,13 @@ This command selects all columns and rows from the students table.
 
 ### Pick the Columns that You Want
 
-Sometimes, you may only want to see specific columns. For example, if you only want to see the name and age columns, you can use this command:
+Sometimes, you may only want to see specific columns. For example, if you only want to see the `name` and `age` columns, you can use this command:
 
 ```SQL
 SELECT name, age FROM students;
 ```
 
-This command selects only the name and age columns from the students table.
+This command selects only the `name` and `age` columns from the students table.
 
 | name | age |
 |------|-----|
@@ -105,7 +107,7 @@ This command selects only the name and age columns from the students table.
 
 ### Add a Calculated Column
 
-You can also add a calculated column to your results. For example, if you want to calculate the average of two columns, english_score and history_score, you can do this:
+You can also add a calculated column to your results. For example, if you want to calculate the average of two columns, `english_score` and `history_score`, you can do this:
 
 ```SQL
 SELECT name, english_score, history_score, 
