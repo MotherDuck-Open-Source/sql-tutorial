@@ -17,7 +17,7 @@ Let's start with a simple example. Imagine you're working with a climate dataset
 import pandas as pd
 
 df = pd.read_csv('washington_weather.csv')
-filtered_df = df[(df['temperature'] > 25) & (df['precipitation'] < 10)]
+filtered_df = df[(df['TAVG'] > 25) & (df['PRCP'] < 10)]
 ```
 
 This works well for small to medium-sized datasets. But what if your data doesn't fit in memory? What if you're working with a database that's constantly being updated? Or, what if you're working in an environment where Python is not available? Here's how you'd do the same thing in SQL with `duckdb`:
@@ -25,7 +25,7 @@ This works well for small to medium-sized datasets. But what if your data doesn'
 ```sql
 SELECT *
 FROM read_csv('washington_weather.csv')
-WHERE temperature > 25 AND precipitation < 10;
+WHERE TAVG > 25 AND PRCP < 10;
 ```
 
 This SQL query can work on datasets of any size, is often more efficient, and can be run close to where the data lives, reducing data transfer.
