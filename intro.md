@@ -4,7 +4,7 @@ As scientists and Python developers, you're likely familiar with NumPy or DataFr
 
 [Structured Query Language](https://duckdb.org/docs/sql/introduction.html) (or SQL for short) is the standard language for interacting with relational databases. It's been around for decades and remains crucial in the data science toolkit. DuckDB is an in-process SQL OLAP database management system, designed to be fast and efficient for analytical queries. It is a database that lives in-process which makes it fast, portable and easy to use and deploy. It's especially great for learning SQL because all you need to do is to download it, and it runs right on your laptop! It combines the simplicity of SQLite with the analytical power of traditional data warehouses. But why should you care about SQL or `duckdb`?
 
-## Simple example
+## Why use DuckDB with Python?
 
 _Dataset_
 
@@ -39,11 +39,3 @@ Throughout this tutorial, we'll explore how SQL can complement your Python skill
 - Share your data with your collaborators and efficiently access large amounts of data
 
 By the end of this tutorial, you'll have a solid understanding of SQL basics, how to integrate SQL with your Python workflows, and when to choose SQL over DataFrame tools (and vice versa).
-
-
-## Setup instructions
-
-
-1. Log into [Google Colab](https://colab.research.google.com/) or start a local [Jupyter Notebook](https://jupyter.org/install).
-2. Install the latest version of `duckdb` by running `pip install --upgrade duckdb`.
-3. (Optional for the "Do more with your data" section) Sign up for MotherDuck via https://app.motherduck.com/?auth_flow=signup
