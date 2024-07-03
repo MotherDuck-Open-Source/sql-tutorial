@@ -12,7 +12,7 @@
 
 ## How to run SQL queries
 
-DuckDB offers two database modes: in-memory and file-based. In-memory databases store data in RAM, providing lightning-fast operations but losing data when closed, ideal for temporary processing. File-based databases store data on disk, offering persistence and larger data capacity, suitable for long-term storage and sharing. You can easily switch between modes, allowing flexibility to balance performance and data retention needs.
+Throughout this tutorial, we'll show you SQL queries that you can run to inspect and manipulate data with DuckDB. DuckDB offers two database modes: in-memory and file-based. In-memory databases store data in RAM, providing lightning-fast operations but losing data when closed, ideal for temporary processing. File-based databases store data on disk, offering persistence and larger data capacity, suitable for long-term storage and sharing. You can easily switch between modes, allowing flexibility to balance performance and data retention needs.
 
 ### Jupyter Notebook: in-memory database
 
