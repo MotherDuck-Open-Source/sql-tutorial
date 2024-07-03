@@ -1,6 +1,7 @@
 Common_Name,Scientific_Name
 Abbott's babbler,Malacocincla abbotti
 Abbott's booby,Papasula abbotti
+Abbott's starling,Poeoptera femoralis
 Abbott's starling,Arizelopsar femoralis
 Abd al-Kuri sparrow,Passer hemileucus
 Abdim's stork,Ciconia abdimii
@@ -54,6 +55,7 @@ African emerald cuckoo,Chrysococcyx cupreus
 African finfoot,Podica senegalensis
 African firefinch,Lagonosticta rubricata
 African fish eagle,Icthyophaga vocifer
+African fish eagle,Haliaeetus vocifer
 African golden oriole,Oriolus auratus
 African goshawk,Accipiter tachiro
 African grass owl,Tyto capensis
@@ -106,6 +108,7 @@ Aguiguan reed warbler,Acrocephalus nijoi
 Agulhas long-billed lark,Certhilauda brevirostris
 Ahanta spurfowl,Pternistis ahantensis
 Ainley's storm petrel,Hydrobates cheimomnestes
+Akun eagle-owl,Bubo leucostictus
 Akun eagle-owl,Ketupa leucosticta
 Alagoas antwren,Myrmotherula snowi
 Alagoas curassow,Mitu mitu
@@ -117,8 +120,9 @@ Albertine owlet,Glaucidium albertinum
 Albertine sooty boubou,Laniarius holomelas
 Aldabra brush warbler,Nesillas aldabrana
 Aldabra drongo,Dicrurus aldabranus
-Aldabra fody,Foudia aldabrana
+Aldabra fody,Ploceus weynsi
 Aldabra fody,F. aldabrana
+Aldabra fody,Foudia aldabrana
 Aldabra white-eye,Zosterops aldabrensis
 Alder flycatcher,Empidonax alnorum
 Aleutian tern,Onychoprion aleuticus
@@ -151,7 +155,7 @@ Amazonian barred woodcreeper,Dendrocolaptes certhia
 Amazonian black tyrant,Knipolegus poecilocercus
 Amazonian elaenia,Myiopagis cinerea
 Amazonian grosbeak,Cyanoloxia rothschildii
-Amazonian inezia,Inezia subflava)
+Amazonian inezia,Inezia subflava
 Amazonian motmot,Momotus momota
 Amazonian pygmy owl,Glaucidium hardyi
 Amazonian scrub flycatcher,Sublegatus obscurior
@@ -179,8 +183,8 @@ American gray flycatcher,Empidonax wrightii
 American herring gull,Larus smithsonianus
 American kestrel,Falco sparverius
 American oystercatcher,Haematopus palliatus
-American purple gallinule,Porphyrio martinicus
 American purple gallinule,Porphyrio martinica
+American purple gallinule,Porphyrio martinicus
 American pygmy kingfisher,Chloroceryle aenea
 American redstart,Setophaga ruticilla
 American robin,Turdus migratorius
@@ -205,6 +209,7 @@ Anchieta's barbet,Stactolaema anchietae
 Anchieta's sunbird,Anthreptes anchietae
 Ancient antwren,Herpsilochmus gentryi
 Ancient murrelet,Synthliboramphus antiquus
+Andaman boobook,Ninox affinis
 Andaman bulbul,Brachypodius fuscoflavescens
 Andaman coucal,Centropus andamanensis
 Andaman crake,Rallina canningi
@@ -250,6 +255,12 @@ Andean swift,Aeronautes andecolus
 Andean teal,Anas andium
 Andean tinamou,Nothoprocta pentlandii
 Andean tit-spinetail,Leptasthenura andicola
+Angola batis,Batis minulla
+Angola cave chat,Xenocopsychus ansorgei
+Angola lark,Mirafra angolensis
+Angola slaty flycatcher,Melaenornis brunneus
+Angola swallow,Hirundo angolensis
+Angola waxbill,Coccopygia bocagei
 Anhinga,Anhinga anhinga
 Anjouan brush warbler,Nesillas longicaudata
 Anjouan scops owl,Otus capnodes
@@ -305,6 +316,7 @@ Arabian woodpecker,Dendrocoptes dorae
 Arafura fantail,Rhipidura dryas
 Arafura shrikethrush,Colluricincla megarhyncha
 Araripe manakin,Chiroxiphia bokermanni
+Araripe manakin,Antilophia bokermanni
 Araucaria tit-spinetail,Leptasthenura setaria
 Archbold's bowerbird,Archboldia papuensis
 Archbold's newtonia,Newtonia archboldi
@@ -370,6 +382,8 @@ Ashy-headed green pigeon,Treron phayrei
 Ashy-headed greenlet,Hylophilus pectoralis
 Ashy-headed laughingthrush,Argya cinereifrons
 Ashy-headed tyrannulet,Phyllomyias cinereiceps
+Ashy-throated chlorospingus,Chlorospingus canigularis
+Ashy-throated parrotbill,Sinosuthora alphonsiana
 Ashy-throated parrotbill,Suthora alphonsiana
 Ashy-throated warbler,Phylloscopus maculipennis
 Asian barred owlet,Glaucidium cuculoides
@@ -380,8 +394,10 @@ Asian dowitcher,Limnodromus semipalmatus
 Asian emerald cuckoo,Chrysococcyx maculatus
 Asian fairy-bluebird,Irena puella
 Asian glossy starling,Aplonis panayensis
-Asian golden weaver,Ploceus hypoxanthus
+Asian golden weaver,Ploceus weynsi
 Asian golden weaver,P. hypoxanthus
+Asian golden weaver,Ploceus hypoxanthus
+Asian green bee-eater,Merops orientalis
 Asian green bee-eater,	Merops orientalis
 Asian house martin,Delichon dasypus
 Asian koel,Eudynamys scolopaceus
@@ -448,11 +464,13 @@ Australian pratincole,Stiltia isabella
 Australian raven,Corvus coronoides
 Australian reed warbler,Acrocephalus australis
 Australian ringneck,Barnardius zonarius
+Australian rufous fantail,Rhipidura rufifrons
 Australian shelduck,Tadorna tadornoides
 Australian swiftlet,Aerodramus terraereginae
 Australian tern,Gelochelidon macrotarsa
 Australian white ibis,Threskiornis molucca
 Australian wood duck,Chenonetta jubata
+Australian zebra finch,Taeniopygia castanotis
 Ayacucho thistletail,Asthenes ayacuchensis
 Ayeyarwady bulbul,Pycnonotus blanfordi
 Ayres's hawk-eagle,Hieraaetus ayresii
@@ -471,6 +489,7 @@ Azure-crested flycatcher,Myiagra azureocapilla
 Azure-crowned hummingbird,Saucerottia cyanocephala
 Azure-hooded jay,Cyanolyca cucullata
 Azure-naped jay,Cyanocorax heilprini
+Azure-rumped parrot,Tanygnathus sumatranus
 Azure-rumped tanager,Poecilostreptus cabanisi
 Azure-shouldered tanager,Thraupis cyanoptera
 Azure-winged magpie,Cyanopica cyanus
@@ -478,8 +497,9 @@ Babbling starling,Neocichla gutturalis
 Bachman's sparrow,Peucaea aestivalis
 Bachman's warbler,Vermivora bachmanii
 Baer's pochard,Aythya baeri
-Baglafecht weaver,Ploceus baglafecht
+Baglafecht weaver,Ploceus weynsi
 Baglafecht weaver,P. baglafecht
+Baglafecht weaver,Ploceus baglafecht
 Bagobo babbler,Leonardina woodi
 Bahama mockingbird,Mimus gundlachii
 Bahama oriole,Icterus northropi
@@ -527,6 +547,7 @@ Band-tailed antbird,Hypocnemoides maculicauda
 Band-tailed antshrike,Thamnophilus melanothorax
 Band-tailed antwren,Myrmotherula urosticta
 Band-tailed barbthroat,Threnetes ruckeri
+Band-tailed cacique,Cacicus latirostris
 Band-tailed earthcreeper,Ochetorhynchus phoenicurus
 Band-tailed fruiteater,Pipreola intermedia
 Band-tailed guan,Penelope argyrotis
@@ -572,6 +593,7 @@ Bannerman's sunbird,Cyanomitra bannermani
 Bannerman's turaco,Tauraco bannermani
 Bannerman's weaver,Ploceus bannermani
 Bannerman's weaver,P. bannermani
+Bannerman's weaver,Ploceus weynsi
 Bar-backed partridge,Arborophila brunneopectus
 Bar-bellied cuckooshrike,Coracina striata
 Bar-bellied pitta,Hydrornis elliotii
@@ -596,6 +618,7 @@ Bar-winged prinia,Prinia familiaris
 Bar-winged rail,Hypotaenidia poeciloptera
 Bar-winged weaver,Ploceus angolensis
 Bar-winged weaver,P. angolensis
+Bar-winged weaver,Ploceus weynsi
 Bar-winged wood wren,Henicorhina leucoptera
 Bar-winged wren-babbler,Spelaeornis troglodytoides
 Barau's petrel,Pterodroma baraui
@@ -614,6 +637,7 @@ Bare-eyed white-eye,Zosterops superciliosus
 Bare-faced bulbul,Nok hualon
 Bare-faced curassow,Crax fasciolata
 Bare-faced go-away-bird,Crinifer personatus
+Bare-faced go-away-bird,Corythaixoides personatus
 Bare-faced ground dove,Metriopelia ceciliae
 Bare-faced ibis,Phimosus infuscatus
 Bare-headed laughingthrush,Melanocichla calva
@@ -641,11 +665,13 @@ Barred cuckoo-dove,Macropygia unchall
 Barred cuckooshrike,Coracina lineata
 Barred dove,Geopelia maugeus
 Barred eagle-owl,Ketupa sumatrana
+Barred eagle-owl,Bubo sumatranus
 Barred forest falcon,Micrastur ruficollis
 Barred fruiteater,Pipreola arcuata
 Barred hawk,Morphnarchus princeps
 Barred honey buzzard,Pernis celebensis
 Barred honeyeater,Glycifohia undulata
+Barred honeyeater,Gliciphila undulata
 Barred laughingthrush,Ianthocincla lunulata
 Barred long-tailed cuckoo,Cercococcyx montanus
 Barred owl,Strix varia
@@ -669,6 +695,7 @@ Bates's paradise flycatcher,Terpsiphone batesi
 Bates's sunbird,Cinnyris batesi
 Bates's swift,Apus batesi
 Bates's weaver,P. batesi
+Bates's weaver,Ploceus weynsi
 Bates's weaver,Ploceus batesi
 Baudin's black cockatoo,Zanda baudinii
 Baudo guan,Penelope ortoni
@@ -688,8 +715,9 @@ Bay-crowned brushfinch,Atlapetes seebohmi
 Bay-headed tanager,Tangara gyrola
 Bay-ringed tyrannulet,Phylloscartes sylviolus
 Bay-vented cotinga,Doliornis sclateri
-Baya weaver,Ploceus philippinus
 Baya weaver,P. philippinus
+Baya weaver,Ploceus weynsi
+Baya weaver,Ploceus philippinus
 Beach kingfisher,Todiramphus saurophagus
 Beach stone-curlew,Esacus magnirostris
 Bearded barbet,Pogonornis dubius
@@ -741,8 +769,9 @@ Bernier's teal,Anas bernieri
 Bernier's vanga,Oriolia bernieri
 Berthelot's pipit,Anthus berthelotii
 Bertoni's antbird,Drymophila rubricollis
-Bertram's weaver,Ploceus bertrandi
+Bertram's weaver,Ploceus weynsi
 Bertram's weaver,P. bertrandi
+Bertram's weaver,Ploceus bertrandi
 Beryl-spangled tanager,Tangara nigroviridis
 Berylline hummingbird,Saucerottia beryllina
 Besra,Accipiter virgatus
@@ -769,6 +798,7 @@ Bicolored conebill,Conirostrum bicolor
 Bicolored flowerpecker,Dicaeum bicolor
 Bicolored hawk,Accipiter bicolor
 Bicolored scrubwren,Aethomyias nigrorufus
+Bicolored scrubwren,Crateroscelis nigrorufa
 Bicolored wren,Campylorhynchus griseus
 Bimaculated lark,Melanocorypha bimaculata
 Biscutate swift,Streptoprocne biscutata
@@ -777,6 +807,8 @@ Bismarck crow,Corvus insularis
 Bismarck fantail,Rhipidura dahli
 Bismarck hanging parrot,Loriculus tener
 Bismarck kingfisher,Ceyx websteri
+Bismarck pitta,Erythropitta gazellae
+Bismarck pitta,Erythropitta splendida
 Bismarck pitta,Erythropitta novaehibernicae
 Bismarck whistler,Pachycephala citreogaster
 Bismarck white-eye,Zosterops hypoxanthus
@@ -787,6 +819,7 @@ Black bee-eater,Merops gularis
 Black berrypecker,Melanocharis nigra
 Black bishop,E. gierowii
 Black bishop,Euplectes gierowii
+Black bishop,Ploceus weynsi
 Black bittern,Ixobrychus flavicollis
 Black boubou,Laniarius nigerrimus
 Black bulbul,Hypsipetes leucocephalus
@@ -836,6 +869,7 @@ Black nunbird,Monasa atra
 Black oriole,Oriolus hosii
 Black oropendola,Psarocolius guatimozinus
 Black oystercatcher,Haematopus bachmani
+Black paradise flycatcher,Terpsiphone atrocaudata
 Black partridge,Melanoperdix niger
 Black petrel,Procellaria parkinsoni
 Black phoebe,Sayornis nigricans
@@ -843,6 +877,7 @@ Black pitohui,Melanorectes nigrescens
 Black rail,Laterallus jamaicensis
 Black redstart,Phoenicurus ochruros
 Black robin,karure
+Black robin,Petroica traversi
 Black rosy finch,Leucosticte atrata
 Black saw-wing,Psalidoprocne pristoptera
 Black scimitarbill,Rhinopomastus aterrimus
@@ -868,6 +903,7 @@ Black tinamou,Tinamus osgoodi
 Black turnstone,Arenaria melanocephala
 Black vulture,Coragyps atratus
 Black wheatear,Oenanthe leucura
+Black wood pigeon,Columba janthina
 Black woodpecker,Dryocopus martius
 Black-and-buff woodpecker,Meiglyptes jugularis
 Black-and-chestnut eagle,Spizaetus isidori
@@ -905,6 +941,7 @@ Black-backed bittern,Ixobrychus dubius
 Black-backed bush tanager,Urothraupis stolzmanni
 Black-backed butcherbird,Cracticus mentalis
 Black-backed cisticola,Cisticola eximius
+Black-backed dwarf kingfisher,Ceyx erithaca
 Black-backed forktail,Enicurus immaculatus
 Black-backed grosbeak,Pheucticus aureoventris
 Black-backed oriole,Icterus abeillei
@@ -917,6 +954,7 @@ Black-backed tody-flycatcher,Poecilotriccus pulchellus
 Black-backed water tyrant,Fluvicola albiventer
 Black-backed woodpecker,Picoides arcticus
 Black-banded barbet,Psilopogon javensis
+Black-banded crake,Anurolimnas fasciatus
 Black-banded crake,Laterallus fasciatus
 Black-banded flycatcher,Ficedula timorensis
 Black-banded fruit dove,Ptilinopus alligator
@@ -967,6 +1005,7 @@ Black-billed thrush,Turdus ignobilis
 Black-billed treehunter,Thripadectes melanorhynchus
 Black-billed turaco,Tauraco schuettii
 Black-billed weaver,Ploceus melanogaster
+Black-billed weaver,Ploceus weynsi
 Black-billed weaver,P. melanogaster
 Black-billed wood dove,Turtur abyssinicus
 Black-billed wood hoopoe,Phoeniculus somaliensis
@@ -982,6 +1021,7 @@ Black-breasted parrotbill,Paradoxornis flavirostris
 Black-breasted puffbird,Notharchus pectoralis
 Black-breasted puffleg,Eriocnemis nigrivestis
 Black-breasted thrush,Turdus dissimilis
+Black-breasted weaver,Ploceus weynsi
 Black-breasted weaver,Ploceus benghalensis
 Black-breasted weaver,P. benghalensis
 Black-breasted wood quail,Odontophorus leucolaemus
@@ -1015,6 +1055,7 @@ Black-capped screech owl,Megascops atricapilla
 Black-capped siskin,Spinus atriceps
 Black-capped social weaver,P. cabanisi
 Black-capped social weaver,Pseudonigrita cabanisi
+Black-capped social weaver,Ploceus weynsi
 Black-capped sparrow,Arremon abeillei
 Black-capped speirops,Zosterops lugubris
 Black-capped swallow,Atticora pileata
@@ -1051,6 +1092,7 @@ Black-chinned siskin,Spinus barbatus
 Black-chinned sparrow,Spizella atrogularis
 Black-chinned weaver,Ploceus nigrimentus
 Black-chinned weaver,P. nigrimentus
+Black-chinned weaver,Ploceus weynsi
 Black-chinned whistler,Pachycephala mentalis
 Black-chinned yuhina,Yuhina nigrimenta
 Black-collared apalis,Oreolais pulcher
@@ -1076,6 +1118,7 @@ Black-crowned barwing,Actinodura sodangorum
 Black-crowned fulvetta,Schoeniparus klossi
 Black-crowned monjita,Neoxolmis coronatus
 Black-crowned night heron,Nycticorax nycticorax
+Black-crowned palm-tanager,Phaenicophilus palmarum
 Black-crowned pitta,Erythropitta ussheri
 Black-crowned scimitar babbler,Pomatorhinus ferruginosus
 Black-crowned sparrow-lark,Eremopterix nigriceps
@@ -1084,6 +1127,7 @@ Black-crowned tityra,Tityra inquisitor
 Black-crowned waxbill,Estrilda nonnula
 Black-crowned white-eye,Zosterops atrifrons
 Black-dotted piculet,Picumnus squamulatus nigropunctatus
+Black-eared barbet,Psilopogon duvaucelii
 Black-eared catbird,Ailuroedus melanotis
 Black-eared cuckoo,Chrysococcyx osculans
 Black-eared fairy,Heliothryx auritus
@@ -1128,6 +1172,7 @@ Black-footed albatross,Phoebastria nigripes
 Black-fronted brushfinch,Atlapetes nigrifrons
 Black-fronted bushshrike,Chlorophoneus nigrifrons
 Black-fronted dotterel,Charadrius melanops
+Black-fronted dotterel,Elseyornis melanops
 Black-fronted fig parrot,Cyclopsitta nigrifrons
 Black-fronted flowerpecker,Dicaeum igniferum
 Black-fronted ground tyrant,Muscisaxicola frontalis
@@ -1179,6 +1224,7 @@ Black-headed trogon,Trogon melanocephalus
 Black-headed waxbill,Estrilda atricapilla
 Black-headed weaver,Ploceus melanocephalus
 Black-headed weaver,P. melanocephalus
+Black-headed weaver,Ploceus weynsi
 Black-headed whistler,Pachycephala monacha
 Black-headed woodpecker,Picus erythropygius
 Black-hooded antshrike,Thamnophilus bridgesi
@@ -1213,8 +1259,9 @@ Black-necked stilt,Himantopus mexicanus
 Black-necked stork,Ephippiorhynchus asiaticus
 Black-necked swan,Cygnus melancoryphus
 Black-necked wattle-eye,Platysteira chalybea
-Black-necked weaver,P. nigricollis
 Black-necked weaver,Ploceus nigricollis
+Black-necked weaver,P. nigricollis
+Black-necked weaver,Ploceus weynsi
 Black-necked woodpecker,Colaptes atricollis
 Black-necklaced honeyeater,Lichmera notabilis
 Black-necklaced scimitar babbler,Erythrogenys erythrocnemis
@@ -1309,12 +1356,14 @@ Black-winged lapwing,Vanellus melanopterus
 Black-winged lory,Eos cyanogenia
 Black-winged lovebird,Agapornis taranta
 Black-winged monarch,Monarcha frater
+Black-winged myna,Acridotheres melanopterus
 Black-winged oriole,Oriolus nigripennis
 Black-winged parrot,Hapalopsittaca melanotis
 Black-winged petrel,Pterodroma nigripennis
 Black-winged pratincole,Glareola nordmanni
-Black-winged red bishop,E. hordeaceus
 Black-winged red bishop,Euplectes hordeaceus
+Black-winged red bishop,Ploceus weynsi
+Black-winged red bishop,E. hordeaceus
 Black-winged saltator,Saltator atripennis
 Black-winged snowfinch,Montifringilla adamsi
 Black-winged stilt,Himantopus himantopus
@@ -1369,6 +1418,7 @@ Blue lorikeet,Vini peruviana
 Blue malkoha,Ceuthmochares aereus
 Blue manakin,Chiroxiphia caudata
 Blue mockingbird,Melanotis caerulescens
+Blue noddy,Anous ceruleus
 Blue noddy,hinaokū
 Blue nuthatch,Sitta azurea
 Blue paradise flycatcher,Terpsiphone cyanescens
@@ -1376,6 +1426,7 @@ Blue petrel,Halobaena caerulea
 Blue pitta,Hydrornis cyaneus
 Blue quail,Synoicus adansonii
 Blue rock thrush,Monticola solitarius
+Blue seedeater,Amaurospiza concolor
 Blue swallow,Hirundo atrocaerulea
 Blue waxbill,Uraeginthus angolensis
 Blue whistling thrush,Myophonus caeruleus
@@ -1400,8 +1451,9 @@ Blue-bellied roller,Coracias cyanogaster
 Blue-billed black tyrant,Knipolegus cyanirostris
 Blue-billed curassow,Crax alberti
 Blue-billed duck,Oxyura australis
-Blue-billed malimbe,Malimbus nitens
+Blue-billed malimbe,Ploceus weynsi
 Blue-billed malimbe,M. nitens
+Blue-billed malimbe,Malimbus nitens
 Blue-billed teal,Spatula hottentota
 Blue-black grassquit,Volatinia jacarina
 Blue-black grosbeak,Cyanoloxia cyanoides
@@ -1414,6 +1466,7 @@ Blue-browed tanager,Tangara cyanotis
 Blue-capped cordon-bleu,Uraeginthus cyanocephalus
 Blue-capped fruit dove,Ptilinopus monacha
 Blue-capped ifrit,Ifrita kowaldi
+Blue-capped manakin,Lepidothrix coronata
 Blue-capped motmot,Momotus coeruliceps
 Blue-capped puffleg,Eriocnemis glaucopoides
 Blue-capped redstart,Phoenicurus coeruleocephala
@@ -1441,7 +1494,9 @@ Blue-faced malkoha,Phaenicophaeus viridirostris
 Blue-faced parrotfinch,Erythrura trichroa
 Blue-faced rail,Gymnocrex rosenbergii
 Blue-footed booby,Sula nebouxii
+Blue-fronted amazon,Amazona aestiva
 Blue-fronted blue flycatcher,Eumyias hoevelli
+Blue-fronted blue flycatcher,Cyornis hoevelli
 Blue-fronted fig parrot,Cyclopsitta gulielmitertii
 Blue-fronted lancebill,Doryfera johannae
 Blue-fronted lorikeet,Charmosynopsis toxopei
@@ -1481,6 +1536,7 @@ Blue-rumped pitta,Hydrornis soror
 Blue-shouldered robin-chat,Cossypha cyanocampter
 Blue-spotted wood dove,Turtur afer
 Blue-streaked lory,Eos lotor
+Blue-streaked lory,Eos reticulata
 Blue-tailed bee-eater,Merops philippinus
 Blue-tailed emerald,Chlorostilbon mellisugus
 Blue-tailed hummingbird,Saucerottia cyanura
@@ -1488,6 +1544,7 @@ Blue-throated barbet,Psilopogon asiaticus
 Blue-throated bee-eater,Merops viridis
 Blue-throated blue flycatcher,Cyornis rubeculoides
 Blue-throated brown sunbird,Cyanomitra cyanolaema
+Blue-throated goldentail,Chlorestes eliciae
 Blue-throated hillstar,Oreotrochilus cyanolaemus
 Blue-throated macaw,Ara glaucogularis
 Blue-throated motmot,Aspatha gularis
@@ -1499,6 +1556,7 @@ Blue-throated toucanet,Aulacorhynchus caeruleogularis
 Blue-tufted starthroat,Heliomaster furcifer
 Blue-vented hummingbird,Saucerottia hoffmanni
 Blue-wattled bulbul,Brachypodius nieuwenhuisii
+Blue-wattled bulbul,Pycnonotus nieuwenhuisii
 Blue-whiskered tanager,Tangara johannae
 Blue-winged goose,Cyanochen cyanoptera
 Blue-winged kookaburra,Dacelo leachii
@@ -1530,16 +1588,19 @@ Blyth's reed warbler,Acrocephalus dumetorum
 Blyth's rosefinch,Carpodacus grandis
 Blyth's swift,Apus leuconyx
 Blyth's tragopan,Tragopan blythii
+Boano monarch,Symposiachrus boanensis
 Boat-billed flycatcher,Megarynchus pitangua
 Boat-billed heron,Cochlearius cochlearius
 Boat-billed tody-tyrant,Hemitriccus josephinae
 Boat-tailed grackle,Quiscalus major
-Bob-tailed weaver,Brachycope anomala
 Bob-tailed weaver,B. anomala
+Bob-tailed weaver,Ploceus weynsi
+Bob-tailed weaver,Brachycope anomala
 Bobolink,Dolichonyx oryzivorus
 Bocage's akalat,Sheppardia bocagei
 Bocage's bushshrike,Chlorophoneus bocagei
 Bocage's sunbird,Nectarinia bocagii
+Bocage's weaver,Ploceus weynsi
 Bocage's weaver,P. temporalis
 Bocage's weaver,Ploceus temporalis
 Bogotá rail,Rallus semiplumbeus
@@ -1553,6 +1614,7 @@ Bolivian earthcreeper,Tarphonomus harterti
 Bolivian recurvebill,Syndactyla striata
 Bolivian slaty antshrike,Thamnophilus sticturus
 Bolivian spinetail,Cranioleuca henricae
+Bolivian tapaculo,Scytalopus bolivianus
 Bolivian tyrannulet,Zimmerius bolivianus
 Bolivian warbling finch,Poospiza boliviana
 Bolle's pigeon,Columba bollii
@@ -1561,6 +1623,7 @@ Bonaparte's nightjar,Caprimulgus concretus
 Bonaparte's parakeet,Pyrrhura lucianii
 Bonelli's eagle,Aquila fasciata
 Bonin greenfinch,Chloris kittlitzi
+Bonin petrel,Pterodroma hypoleuca
 Bonin petrel, nunulu[2]
 Bonin white-eye,Apalopteron familiare
 Bonin wood pigeon,Columba versicolor
@@ -1575,6 +1638,7 @@ Bornean black-capped babbler,Pellorneum capistratoides
 Bornean blue flycatcher,Cyornis superbus
 Bornean bristlehead,Pityriasis gymnocephala
 Bornean bulbul,Rubigula montis
+Bornean crested fireback,Lophura ignita
 Bornean forktail,Enicurus borneensis
 Bornean frogmouth,Batrachostomus mixtus
 Bornean green magpie,Cissa jefferyi
@@ -1593,11 +1657,13 @@ Botteri's sparrow,Peucaea botterii
 Boucard's wren,Campylorhynchus jocosus
 Bougainville bush warbler,Horornis haddeni
 Bougainville crow,Corvus meeki
+Bougainville fantail,Rhipidura drownei
 Bougainville honeyeater,Stresemannia bougainvillei
 Bougainville monarch,Monarcha erythrostictus
 Bougainville thicketbird,Cincloramphus llaneae
 Bougainville whistler,Pachycephala richardsi
 Boulder chat,Pinarornis plumosus
+Boulder finch,Idiopsar brachyurus
 Bounty shag,Leucocarbo ranfurlyi
 Bourke's parrot,Neopsephotus bourkii
 Bower's shrikethrush,Colluricincla boweri
@@ -1620,6 +1686,8 @@ Braun's bushshrike,Laniarius brauni
 Brazilian laniisoma,Laniisoma elegans
 Brazilian merganser,Mergus octosetaceus
 Brazilian ruby,Heliodoxa rubricauda
+Brazilian ruby,Clytolaema rubricauda
+Brazilian tanager,Ramphocelus bresilius
 Brazilian tanager,Ramphocelus bresilia
 Brazilian teal,Amazonetta brasiliensis
 Brazilian tinamou,Crypturellus strigulosus
@@ -1658,6 +1726,7 @@ Broad-tailed paradise whydah,Vidua obtusa
 Broad-tipped hermit,Anopetia gounellei
 Broad-winged hawk,Buteo platypterus
 Brolga,Antigone rubicunda
+Bronze ground dove,Alopecoenas beccarii
 Bronze ground dove,Pampusana beccarii
 Bronze mannikin,Spermestes cucullata
 Bronze parotia,Parotia berlepschi
@@ -1684,6 +1753,7 @@ Brooks's leaf warbler,Phylloscopus subviridis
 Brown accentor,Prunella fulvescens
 Brown babbler,Turdoides plebejus
 Brown barbet,Caloramphus fuliginosus
+Brown boobook,Ninox scutulata
 Brown booby,Sula leucogaster
 Brown bullfinch,Pyrrhula nipalensis
 Brown bush warbler,Locustella luteoventris
@@ -1714,6 +1784,7 @@ Brown oriole,Oriolus szalayi
 Brown parisoma,Curruca lugens
 Brown parrotbill,Paradoxornis unicolor
 Brown pelican,Pelecanus occidentalis
+Brown prinia,Prinia polychroa
 Brown quail,Synoicus ypsilophorus
 Brown rock chat,Oenanthe fusca
 Brown scrub robin,Cercotrichas signata
@@ -1766,8 +1837,9 @@ Brown-capped rosy finch,Leucosticte australis
 Brown-capped tit-spinetail,Leptasthenura fuliginiceps
 Brown-capped tyrannulet,Ornithion brunneicapillus
 Brown-capped vireo,Vireo leucophrys
-Brown-capped weaver,Ploceus insignis
 Brown-capped weaver,P. insignis
+Brown-capped weaver,Ploceus weynsi
+Brown-capped weaver,Ploceus insignis
 Brown-capped whitestart,Myioborus brunniceps
 Brown-cheeked bulbul,Alophoixus bres
 Brown-cheeked fulvetta,Alcippe poioicephala
@@ -1784,6 +1856,7 @@ Brown-crowned scimitar babbler,Pomatorhinus phayrei
 Brown-crowned tchagra,Tchagra australis
 Brown-eared bulbul,Hypsipetes amaurotis
 Brown-eared woodpecker,Pardipicus caroli
+Brown-eared woodpecker,Campethera caroli
 Brown-flanked bush warbler,Horornis fortipes
 Brown-flanked tanager,Thlypopsis pectoralis
 Brown-fronted woodpecker,Dendrocoptes auriceps
@@ -1797,6 +1870,7 @@ Brown-headed honeyeater,Melithreptus brevirostris
 Brown-headed jewel-babbler,Ptilorrhoa geislerorum
 Brown-headed nuthatch,Sitta pusilla
 Brown-headed paradise kingfisher,Tanysiptera danae
+Brown-headed parrot,Poicephalus cryptoxanthus
 Brown-headed thrush,Turdus chrysolaus
 Brown-hooded gull,Chroicocephalus maculipennis
 Brown-hooded kingfisher,Halcyon albiventris
@@ -1818,6 +1892,7 @@ Brown-throated sunbird,Anthreptes malacensis
 Brown-throated wattle-eye,Platysteira cyanea
 Brown-winged kingfisher,Pelargopsis amauroptera
 Brown-winged parrotbill,Suthora brunnea
+Brown-winged parrotbill,Sinosuthora brunnea
 Brown-winged schiffornis,Schiffornis turdina
 Brown-winged starling,Aplonis grandis
 Brown-winged whistling thrush,Myophonus castaneus
@@ -1833,6 +1908,7 @@ Bryan's shearwater,Puffinus bryani
 Bubbling cisticola,Cisticola bulliens
 Buckley's forest falcon,Micrastur buckleyi
 Budgerigar,"BUJ-ər-ih-gar, -⁠ə-ree-"
+Budgerigar,Melopsittacus undulatus
 Buff-banded rail,Hypotaenidia philippensis
 Buff-banded thicketbird,Cincloramphus bivittatus
 Buff-banded tyrannulet,Mecocerculus hellmayri
@@ -1854,6 +1930,7 @@ Buff-breasted paradise kingfisher,Tanysiptera sylvia
 Buff-breasted sabrewing,Campylopterus duidae
 Buff-breasted sandpiper,Calidris subruficollis
 Buff-breasted tody-tyrant,Hemitriccus mirandae
+Buff-breasted wheatear,Oenanthe bottae
 Buff-breasted wren,Cantorchilus leucotis
 Buff-bridled Inca finch,Incaspiza laeta
 Buff-browed chachalaca,Ortalis superciliaris
@@ -1865,6 +1942,7 @@ Buff-collared nightjar,Antrostomus ridgwayi
 Buff-crested bustard,Lophotis gindiana
 Buff-faced pygmy parrot,Micropsitta pusio
 Buff-faced scrubwren,Aethomyias perspicillatus
+Buff-faced scrubwren,Sericornis perspicillatus
 Buff-fronted foliage-gleaner,Dendroma rufa
 Buff-fronted owl,Aegolius harrisii
 Buff-fronted quail-dove,Zentrygon costaricensis
@@ -1878,6 +1956,7 @@ Buff-sided robin,Poecilodryas cerviniventris
 Buff-spotted flameback,Chrysocolaptes lucidus
 Buff-spotted flufftail,Sarothrura elegans
 Buff-spotted woodpecker,Pardipicus nivosus
+Buff-spotted woodpecker,Campethera nivosa
 Buff-streaked chat,Campicoloides bifasciatus
 Buff-tailed coronet,Boissonneaua flavescens
 Buff-tailed sicklebill,Eutoxeres condamini
@@ -1918,6 +1997,7 @@ Burchell's sandgrouse,Pterocles burchelli
 Burchell's starling,Lamprotornis australis
 Burmese bush lark,Mirafra microptera
 Burmese bushtit,Aegithalos sharpei
+Burmese myna,Acridotheres burmannicus
 Burmese nuthatch,Sitta neglecta
 Burmese prinia,Prinia cooki
 Burmese shrike,Lanius collurioides
@@ -1930,9 +2010,13 @@ Buru boobook,Ninox hantu
 Buru bush warbler,Locustella disturbans
 Buru cuckooshrike,Coracina fortis
 Buru dwarf kingfisher,Ceyx cajeli
+Buru flowerpecker,Dicaeum erythrothorax
+Buru friarbird,Philemon moluccensis
 Buru golden bulbul,Hypsipetes mysticalis
 Buru green pigeon,Treron aromaticus
 Buru honeyeater,Lichmera deningeri
+Buru jungle flycatcher,Eumyias additus
+Buru monarch,Symposiachrus loricatus
 Buru mountain pigeon,Gymnophaps mada
 Buru racket-tail,Prioniturus mada
 Buru thrush,Geokichla dumasi
@@ -1948,6 +2032,7 @@ Buzzing flowerpecker,Dicaeum hypoleucum
 Böhm's bee-eater,Merops boehmi
 Böhm's flycatcher,Bradornis boehmi
 Böhm's spinetail,Neafrapus boehmi
+Caatinga antwren,Herpsilochmus sellowi
 Caatinga antwren,Radinopsyche sellowi
 Caatinga cacholote,Pseudoseisura cristata
 Caatinga parakeet,Eupsittula cactorum
@@ -1968,6 +2053,7 @@ Caica parrot,Pyrilia caica
 Calabarzon babbler,Sterrhoptilus affinis
 Calandra lark,Melanocorypha calandra
 Calayan rail,Aptenorallus calayanensis
+Calayan rail,Gallirallus calayanensis
 California condor,Gymnogyps californianus
 California gnatcatcher,Polioptila californica
 California gull,Larus californicus
@@ -1976,6 +2062,7 @@ California scrub jay,Aphelocoma californica
 California thrasher,Toxostoma redivivum
 California towhee,Melozone crissalis
 Calliope hummingbird,kə-LY-ə-pee
+Calliope hummingbird,Selasphorus calliope
 Cambodian laughingthrush,Garrulax ferrarius
 Cambodian tailorbird,Orthotomus chaktomuk
 Cameroon greenbul,Arizelocichla montana
@@ -1983,6 +2070,7 @@ Cameroon indigobird,Vidua camerunensis
 Cameroon olive greenbul,Phyllastrephus poensis
 Cameroon olive pigeon,Columba sjostedti
 Cameroon sunbird,Cyanomitra oritis
+Camiguin boobook,Ninox leventisi
 Camiguin hanging parrot,Loriculus camiguinensis
 Campbell albatross,Thalassarche impavida
 Campbell shag,Leucocarbo campbelli
@@ -2041,6 +2129,7 @@ Cape sugarbird,Promerops cafer
 Cape teal,Anas capensis
 Cape vulture,Gyps coprotheres
 Cape wagtail,Motacilla capensis
+Cape weaver,Ploceus weynsi
 Cape weaver,P. capensis
 Cape weaver,Ploceus capensis
 Cape white-eye,Zosterops virens
@@ -2056,6 +2145,7 @@ Carbonated sierra finch,Rhopospina carbonaria
 Cardinal lory,Pseudeos cardinalis
 Cardinal myzomela,Myzomela cardinalis
 Cardinal quelea,Quelea cardinalis
+Cardinal quelea,Ploceus weynsi
 Cardinal quelea,Q. cardinalis
 Cardinal woodpecker,Dendropicos fuscescens
 Carib grackle,Quiscalus lugubris
@@ -2067,9 +2157,11 @@ Carmelite sunbird,Chalcomitra fuliginosa
 Carmiol's tanager,Chlorothraupis carmioli
 Carnaby's black cockatoo,Zanda latirostris
 Carola's parotia,", Parotia carolae"
+Carola's parotia,Parotia carolae
 Carolina chickadee,Poecile carolinensis
 Carolina parakeet,Conuropsis carolinensis
 Carolina wren,Thryothorus ludovicianus
+Caroline reed warbler,Acrocephalus syrinx
 Carp's tit,Melaniparus carpi
 Carpentarian grasswren,Amytornis dorotheae
 Carrion crow,Corvus corone
@@ -2078,10 +2170,12 @@ Carruthers's cisticola,Cisticola carruthersi
 Carunculated caracara,Phalcoboenus carunculatus
 Carunculated fruit dove,Ptilinopus granulifrons
 Caspian gull,Larus cachinnans
+Caspian plover,Charadrius asiaticus
 Caspian plover,Anarhynchus asiaticus
 Caspian snowcock,Tetraogallus caspius
 Caspian tern,Hydroprogne caspia
 Caspian tit,Poecile hyrcanus
+Casqued cacique,Cacicus oseryi
 Cassia crossbill,Loxia sinesciuris
 Cassin's auklet,Ptychoramphus aleuticus
 Cassin's finch,Haemorhous cassinii
@@ -2089,8 +2183,9 @@ Cassin's flycatcher,Muscicapa cassini
 Cassin's hawk-eagle,Aquila africana
 Cassin's honeybird,Prodotiscus insignis
 Cassin's kingbird,Tyrannus vociferans
-Cassin's malimbe,Malimbus cassini
 Cassin's malimbe,M. cassini
+Cassin's malimbe,Malimbus cassini
+Cassin's malimbe,Ploceus weynsi
 Cassin's sparrow,Peucaea cassinii
 Cassin's spinetail,Neafrapus cassini
 Cassin's vireo,Vireo cassinii
@@ -2106,11 +2201,13 @@ Cayenne jay,Cyanocorax cayanus
 Cayenne nightjar,Setopagis maculosa
 Ceara woodcreeper,Xiphorhynchus atlanticus
 Ceará gnateater,Conopophaga cearae
+Cebu boobook,Ninox rumseyi
 Cebu flowerpecker,Dicaeum quadricolor
 Cedar waxwing,Bombycilla cedrorum
 Celestial monarch,Hypothymis coelestis
 Central American pygmy owl,Glaucidium griseiceps
 Cerulean cuckooshrike,Coracina temminckii
+Cerulean flycatcher,Eutrichomyias rowleyi
 Cerulean kingfisher,Alcedo coerulescens
 Cerulean warbler,Setophaga cerulea
 Cerulean-capped manakin,Lepidothrix coeruleocapilla
@@ -2121,6 +2218,7 @@ Chaco eagle,Buteogallus coronatus
 Chaco earthcreeper,Tarphonomus certhioides
 Chaco owl,Strix chacoensis
 Chaco puffbird,Nystalus striatipectus
+Chaco sparrow,Rhynchospiza strigiceps
 Chad firefinch,Lagonosticta umbrinodorsalis
 Chalk-browed mockingbird,Mimus saturninus
 Changeable hawk-eagle,Nisaetus cirrhatus
@@ -2163,6 +2261,7 @@ Chestnut bulbul,Hemixos castanonotus
 Chestnut bunting,Emberiza rutila
 Chestnut forest rail,Rallicula rubra
 Chestnut munia,Lonchura atricapilla
+Chestnut owlet,Glaucidium castaneum
 Chestnut piculet,Picumnus cinnamomeus
 Chestnut quail-thrush,Cinclosoma castanotum
 Chestnut rail,Eulabeornis castaneoventris
@@ -2171,8 +2270,9 @@ Chestnut sparrow,Passer eminibey
 Chestnut teal,Anas castanea
 Chestnut thrush,Turdus rubrocanus
 Chestnut wattle-eye,Platysteira castanea
-Chestnut weaver,Ploceus rubiginosus
 Chestnut weaver,P. rubiginosus
+Chestnut weaver,Ploceus weynsi
+Chestnut weaver,Ploceus rubiginosus
 Chestnut wood quail,Odontophorus hyperythrus
 Chestnut woodpecker,Celeus elegans
 Chestnut-backed antbird,Poliocrania exsul
@@ -2183,12 +2283,14 @@ Chestnut-backed jewel-babbler,Ptilorrhoa castanonota
 Chestnut-backed laughingthrush,Pterorhinus nuchalis
 Chestnut-backed owlet,Glaucidium castanotum
 Chestnut-backed sparrow-lark,Eremopterix leucotis
-Chestnut-backed sparrow-weaver,P. rufoscapulatus
+Chestnut-backed sparrow-weaver,Ploceus weynsi
 Chestnut-backed sparrow-weaver,Plocepasser rufoscapulatus
+Chestnut-backed sparrow-weaver,P. rufoscapulatus
 Chestnut-backed tanager,Stilpnia preciosa
 Chestnut-backed thornbird,Phacellodomus dorsalis
 Chestnut-backed thrush,Geokichla dohertyi
 Chestnut-banded plover,Anarhynchus pallidus
+Chestnut-banded plover,Charadrius pallidus
 Chestnut-bellied cotinga,Doliornis remseni
 Chestnut-bellied cuckoo,Coccyzus pluvialis
 Chestnut-bellied euphonia,Euphonia pectoralis
@@ -2203,6 +2305,7 @@ Chestnut-bellied mountain tanager,Dubusia castaneoventris
 Chestnut-bellied nuthatch,Sitta cinnamoventris
 Chestnut-bellied partridge,Arborophila javanica
 Chestnut-bellied rock thrush,Monticola rufiventris
+Chestnut-bellied sandgrouse,Pterocles exustus
 Chestnut-bellied sandgrouse,citation needed
 Chestnut-bellied seed finch,Sporophila angolensis
 Chestnut-bellied seedeater,Sporophila castaneiventris
@@ -2244,8 +2347,9 @@ Chestnut-crowned bush warbler,Cettia major
 Chestnut-crowned foliage-gleaner,Automolus rufipileatus
 Chestnut-crowned gnateater,Conopophaga castaneiceps
 Chestnut-crowned laughingthrush,Trochalopteron erythrocephalum
-Chestnut-crowned sparrow-weaver,P. superciliosus
+Chestnut-crowned sparrow-weaver,Ploceus weynsi
 Chestnut-crowned sparrow-weaver,Plocepasser superciliosus
+Chestnut-crowned sparrow-weaver,P. superciliosus
 Chestnut-crowned warbler,Phylloscopus castaniceps
 Chestnut-eared aracari,Pteroglossus castanotis
 Chestnut-eared bunting,Emberiza fucata
@@ -2269,6 +2373,7 @@ Chestnut-hooded laughingthrush,Pterorhinus treacheri
 Chestnut-naped antpitta,Grallaria nuchalis
 Chestnut-naped forktail,Enicurus ruficapillus
 Chestnut-naped spurfowl,Pternistis castaneicollis
+Chestnut-naped spurfowl,Pternistis atrifrons
 Chestnut-necklaced partridge,Tropicoperdix charltonii
 Chestnut-quilled rock pigeon,Petrophassa rufipennis
 Chestnut-rumped babbler,Stachyris maculata
@@ -2378,6 +2483,7 @@ Christmas boobook,Ninox natalis
 Christmas frigatebird,Fregata andrewsi
 Christmas imperial pigeon,Ducula whartoni
 Christmas shearwater,ʻaoʻū[2]
+Christmas shearwater,Puffinus nativitatis
 Christmas white-eye,Zosterops natalis
 Chubb's cisticola,Cisticola chubbi
 Chubut steamer duck,Tachyeres leucocephalus
@@ -2419,8 +2525,9 @@ Cinnamon screech owl,Megascops petersoni
 Cinnamon tanager,Schistochlamys ruficapillus
 Cinnamon teal,Spatula cyanoptera
 Cinnamon warbling finch,Poospiza ornata
-Cinnamon weaver,P. badius
 Cinnamon weaver,Ploceus badius
+Cinnamon weaver,P. badius
+Cinnamon weaver,Ploceus weynsi
 Cinnamon woodpecker,Celeus loricatus
 Cinnamon-banded kingfisher,Todiramphus australasia
 Cinnamon-bellied flowerpiercer,Diglossa baritula
@@ -2449,6 +2556,7 @@ Cinnamon-throated woodcreeper,Dendrexetastes rufigula
 Cinnamon-vented piha,Lipaugus lanioides
 Cipo canastero,Asthenes luizae
 Cirl bunting,SURL
+Cirl bunting,Emberiza cirlus
 Citreoline trogon,Trogon citreolus
 Citril finch,Carduelis citrinella
 Citrine canary-flycatcher,Culicicapa helianthea
@@ -2465,8 +2573,9 @@ Claret-breasted fruit dove,Ptilinopus viridis
 Clarión wren,Troglodytes tanneri
 Clark's grebe,Aechmophorus clarkii
 Clark's nutcracker,Nucifraga columbiana
-Clarke's weaver,Ploceus golandi
 Clarke's weaver,P. golandi
+Clarke's weaver,Ploceus weynsi
+Clarke's weaver,Ploceus golandi
 Claudia's leaf warbler,Phylloscopus claudiae
 Clay-colored sparrow,Spizella pallida
 Clay-colored thrush,Turdus grayi
@@ -2483,6 +2592,7 @@ Coal tit,Periparus ater
 Coal-crested finch,Charitospiza eucosma
 Coastal cisticola,Cisticola haematocephalus
 Coastal miner,Geositta peruviana
+Cobalt-rumped parrotlet,Forpus xanthopterygius
 Cobalt-winged parakeet,Brotogeris cyanoptera
 Cobb's wren,Troglodytes cobbi
 Cocha antshrike,Thamnophilus praecox
@@ -2495,6 +2605,7 @@ Cocoi heron,Ardea cocoi
 Coconut lorikeet,Trichoglossus haematodus
 Cocos cuckoo,Coccyzus ferrugineus
 Cocos finch,Pinaroloxias inornata
+Cocos tyrannulet,Nesotriccus ridgwayi
 Coiba spinetail,Cranioleuca dissita
 Coleto,Sarcops calvus
 Colima pygmy owl,Glaucidium palmarum
@@ -2517,12 +2628,14 @@ Collared inca,Coeligena torquata
 Collared kingfisher,Todiramphus chloris
 Collared lark,Mirafra collaris
 Collared laughingthrush,Trochalopteron yersini
+Collared lory,Vini solitarius
 Collared lory,Vini solitaria
 Collared myna,Acridotheres albocinctus
 Collared nightjar,Gactornis enarratus
 Collared owlet,Taenioptynx brodiei
 Collared palm thrush,Cichladusa arquata
 Collared petrel,Pterodroma brevipes
+Collared plover,Charadrius collaris
 Collared plover,Anarhynchus collaris
 Collared pratincole,Glareola pratincola
 Collared puffbird,Bucco capensis
@@ -2550,6 +2663,7 @@ Common buttonquail,Turnix sylvaticus
 Common buzzard,Buteo buteo
 Common cactus finch,Geospiza scandens
 Common chiffchaff,Phylloscopus collybita
+Common chlorospingus,Chlorospingus flavopectus
 Common cicadabird,Edolisoma tenuirostre
 Common crane,Grus grus
 Common cuckoo,Cuculus canorus
@@ -2594,6 +2708,8 @@ Common redpoll,Acanthis flammea
 Common redshank,Tringa totanus
 Common redstart,Phoenicurus phoenicurus
 Common reed bunting,Emberiza schoeniclus
+Common reed warbler,Acrocephalus scirpaceus
+Common reed warbler,Acrocephalus baeticatus
 Common ringed plover,Charadrius hiaticula
 Common rock thrush,Monticola saxatilis
 Common rosefinch,Carpodacus erythrinus
@@ -2602,6 +2718,7 @@ Common scale-backed antbird,Willisornis poecilinotus
 Common scimitarbill,Rhinopomastus cyanomelas
 Common scoter,Melanitta nigra
 Common shelduck,Tadorna tadorna
+Common smoky honeyeater,Melipotes fumigatus
 Common snipe,Gallinago gallinago
 Common starling,Sturnus vulgaris
 Common sunbird-asity,Neodrepanis coruscans
@@ -2614,15 +2731,23 @@ Common whitethroat,Curruca communis
 Common wood pigeon,Columba palumbus
 Common woodshrike,Tephrodornis pondicerianus
 Common yellowthroat,Geothlypis trichas
+Comoro blue pigeon,Alectroenas sganzini
+Comoro cuckooshrike,Coracina cucullata
+Comoro green pigeon,Treron griveaudi
+Comoro olive pigeon,Columba pollenii
+Comoro thrush,Turdus bewsheri
 Comoros blue vanga,Cyanolanius comorensis
-Comoros fody,Foudia eminentissima
+Comoros fody,Ploceus weynsi
 Comoros fody,F. eminentissima
-Compact weaver,P. superciliosus
+Comoros fody,Foudia eminentissima
 Compact weaver,Ploceus superciliosus
+Compact weaver,P. superciliosus
+Compact weaver,Ploceus weynsi
 Cone-billed tanager,Conothraupis mesoleuca
 Congo martin,Riparia congica
 Congo moor chat,Myrmecocichla tholloni
 Congo peafowl,Afropavo congensis
+Congo pied hornbill,Lophoceros fasciatus
 Congo serpent eagle,Dryotriorchis spectabilis
 Congo sunbird,Cinnyris congensis
 Connecticut warbler,Oporornis agilis
@@ -2682,6 +2807,7 @@ Cream-colored courser,Cursorius cursor
 Cream-colored woodpecker,Celeus flavus
 Cream-eyed bulbul,Pycnonotus pseudosimplex
 Cream-striped bulbul,Ixos leucogrammicus
+Cream-striped bulbul,Pycnonotus leucogrammicus
 Cream-throated white-eye,Zosterops atriceps
 Cream-vented bulbul,Pycnonotus simplex
 Cream-winged cinclodes,Cinclodes albiventris
@@ -2720,8 +2846,10 @@ Crested guineafowl,Guttera
 Crested honey buzzard,Pernis ptilorhynchus
 Crested hornero,Furnarius cristatus
 Crested ibis,Nipponia nippon
+Crested jayshrike,Platylophus galericulatus
 Crested kingfisher,Megaceryle lugubris
 Crested lark,Galerida cristata
+Crested malimbe,Ploceus weynsi
 Crested malimbe,M. malimbicus
 Crested malimbe,Malimbus malimbicus
 Crested myna,Acridotheres cristatellus
@@ -2735,6 +2863,7 @@ Crested satinbird,Cnemophilus macgregorii
 Crested serpent eagle,Spilornis cheela
 Crested shelduck,Tadorna cristata
 Crested spinetail,Cranioleuca subcristata
+Crested tit,Lophophanes cristatus
 Crested tit-warbler,Leptopoecile elegans
 Crested treeswift,Hemiprocne coronata
 Crested white-eye,Heleia dohertyi
@@ -2759,6 +2888,7 @@ Crimson-breasted finch,Rhodospingus cruentus
 Crimson-breasted flowerpecker,Prionochilus percussus
 Crimson-breasted shrike,Laniarius atrococcineus
 Crimson-browed finch,Carpodacus subhimachalus
+Crimson-collared grosbeak,Rhodothraupis celaeno
 Crimson-collared grosbeak,Periporphyrus celaeno
 Crimson-collared tanager,Ramphocelus sanguinolentus
 Crimson-crested woodpecker,Campephilus melanoleucos
@@ -2769,6 +2899,7 @@ Crimson-fronted cardinal,Paroaria baeri
 Crimson-headed partridge,Haematortyx sanguiniceps
 Crimson-hooded manakin,Pipra aureola
 Crimson-mantled woodpecker,Colaptes rivolii
+Crimson-naped woodpecker,Dryobates cathpharius
 Crimson-rumped myzomela,Myzomela eichhorni
 Crimson-rumped toucanet,Aulacorhynchus haematopygus
 Crimson-rumped waxbill,Estrilda rhodopyga
@@ -2820,6 +2951,7 @@ Cuban tody,Todus multicolor
 Cuban trogon,Priotelus temnurus
 Cuban vireo,Vireo gundlachii
 Cuckoo-finch,Anomalospiza imberbis
+Cuckoo-roller,Leptosomus discolor
 Cundinamarca antpitta,Grallaria kaestneri
 Curl-crested aracari,Pteroglossus beauharnaisii
 Curl-crested jay,Cyanocorax cristatellus
@@ -2830,6 +2962,8 @@ Curve-billed scythebill,Campylorhamphus procurvoides
 Curve-billed thrasher,Toxostoma curvirostre
 Curve-billed tinamou,Nothoprocta curvirostris
 Curve-winged sabrewing,Pampa curvipennis
+Curve-winged sabrewing,Pampa excellens
+Curve-winged sabrewing,Campylopterus curvipennis
 Cut-throat finch,Amadina fasciata
 Cuzco brushfinch,Atlapetes canigenis
 Cuzco warbler,Myiothlypis chrysogaster
@@ -2855,8 +2989,9 @@ Dark hawk-cuckoo,Hierococcyx bocki
 Dark pewee,Contopus lugubris
 Dark-backed imperial pigeon,Ducula lacernulata
 Dark-backed sibia,Heterophasia melanoleuca
-Dark-backed weaver,P. bicolor
+Dark-backed weaver,Ploceus weynsi
 Dark-backed weaver,Ploceus bicolor
+Dark-backed weaver,P. bicolor
 Dark-backed wood quail,Odontophorus melanonotus
 Dark-bellied cinclodes,Cinclodes patagonicus
 Dark-billed cuckoo,Coccyzus melacoryphus
@@ -2883,6 +3018,7 @@ Darwin's flycatcher,Pyrocephalus nanus
 Darwin's nothura,Nothura darwinii
 Darwin's rhea,Rhea pennata
 Daurian jackdaw,Coloeus dauuricus
+Daurian jackdaw,Corvus dauuricus
 Daurian partridge,Perdix dauurica
 Daurian redstart,Phoenicurus auroreus
 Daurian starling,Agropsar sturninus
@@ -2917,6 +3053,7 @@ Dimorphic dwarf kingfisher,Ceyx margarethae
 Dimorphic egret,Egretta dimorpha
 Dimorphic fantail,Rhipidura brachyrhyncha
 Dinelli's doradito,Pseudocolopteryx dinelliana
+Diuca finch,Diuca diuca
 Dja River scrub warbler,Bradypterus grandis
 Djibouti spurfowl,Pternistis ochropectus
 Dodson's bulbul,Pycnonotus dodsoni
@@ -2926,17 +3063,20 @@ Dolphin gull,Leucophaeus scoresbii
 Donaldson Smith's nightjar,Caprimulgus donaldsoni
 Donaldson Smith's sparrow-weaver,P. donaldsoni
 Donaldson Smith's sparrow-weaver,Plocepasser donaldsoni
+Donaldson smith's sparrow-weaver,Ploceus weynsi
 Doria's goshawk,Megatriorchis doriae
 Dorst's cisticola,Cisticola guinea
 Dot-backed antbird,Hylophylax punctulatus
 Dot-eared coquette,Lophornis gouldii
 Dot-fronted woodpecker,Veniliornis frontalis
 Dot-winged antwren,Microrhopias quixensis
+Dot-winged crake,Porzana spiloptera
 Dot-winged crake,Laterallus spiloptera
 Dotted tanager,Ixothraupis varia
 Double-banded courser,Rhinoptilus africanus
 Double-banded greytail,Xenerpestes minlosi
 Double-banded plover,Anarhynchus bicinctus
+Double-banded plover,Charadrius bicinctus
 Double-banded pygmy tyrant,Lophotriccus vitiosus
 Double-banded sandgrouse,Pterocles bicinctus
 Double-barred finch,Stizoptera bichenovii
@@ -2945,6 +3085,7 @@ Double-collared seedeater,Sporophila caerulescens
 Double-crested cormorant,Nannopterum auritum
 Double-eyed fig parrot,Cyclopsitta diophthalma
 Double-spurred spurfowl,Pternistis bicalcaratus
+Double-striped thick-knee,Burhinus bistriatus
 Double-striped thick-knee,Hesperoburhinus bistriatus
 Double-toothed barbet,Pogonornis bidentatus
 Double-toothed kite,Harpagus bidentatus
@@ -2977,10 +3118,12 @@ Dupont's lark,Chersophilus duponti
 Dusky antbird,Cercomacroides tyrannina
 Dusky babbler,Turdoides tenebrosa
 Dusky broadbill,Corydon sumatranus
+Dusky chlorospingus,Chlorospingus semifuscus
 Dusky crag martin,Ptyonoprogne concolor
 Dusky crested flycatcher,Elminia nigromitrata
 Dusky crimsonwing,Cryptospiza jacksoni
 Dusky eagle-owl,Ketupa coromanda
+Dusky eagle-owl,Bubo coromandus
 Dusky fulvetta,Schoeniparus brunneus
 Dusky gerygone,Gerygone tenebrosa
 Dusky grasswren,Amytornis purnelli
@@ -3070,10 +3213,13 @@ Eastern cattle egret,Bubulcus coromandus
 Eastern chanting goshawk,Melierax poliopterus
 Eastern chat-tanager,Calyptophilus frugivorus
 Eastern clapper lark,Mirafra fasciolata
+Eastern crested berrypecker,Paramythia montium
+Eastern crested guineafowl,Guttera pucherani
 Eastern crowned warbler,Phylloscopus coronatus
 Eastern double-collared sunbird,Cinnyris mediocris
 Eastern golden weaver,Ploceus subaureus
 Eastern golden weaver,P. subaureus
+Eastern golden weaver,Ploceus weynsi
 Eastern grass owl,Tyto longimembris
 Eastern grey woodpecker,Dendropicos spodocephalus
 Eastern imperial eagle,Aquila heliaca
@@ -3084,6 +3230,7 @@ Eastern marsh harrier,Circus spilonotus
 Eastern meadowlark,Sturnella magna
 Eastern miombo sunbird,Cinnyris manoensis
 Eastern nicator,Nicator gularis
+Eastern olivaceous flatbill,Rhynchocyclus olivaceus
 Eastern olivaceous warbler,Iduna pallida
 Eastern osprey,Pandion haliaetus cristatus
 Eastern parotia,Parotia helenae
@@ -3092,6 +3239,7 @@ Eastern plantain-eater,Crinifer zonurus
 Eastern rock nuthatch,Sitta tephronota
 Eastern rosella,Platycercus eximius
 Eastern screech owl,Megascops asio
+Eastern shriketit,Falcunculus frontatus
 Eastern spinebill,Acanthorhynchus tenuirostris
 Eastern spot-billed duck,Anas zonorhyncha
 Eastern striolated puffbird,Nystalus striolatus
@@ -3148,6 +3296,7 @@ Elliot's laughingthrush,Trochalopteron elliotii
 Elliot's pheasant,Syrmaticus ellioti
 Elliot's storm petrel,Oceanites gracilis
 Elliot's woodpecker,Dendropicos elliotii
+Elliot's woodpecker,Chloropicus elliotii
 Elusive antpitta,Grallaria eludens
 Emei Shan liocichla,Liocichla omeiensis
 Emei leaf warbler,Phylloscopus emeiensis
@@ -3188,6 +3337,7 @@ Eurasian bittern,Botaurus stellaris
 Eurasian blackcap,Sylvia atricapilla
 Eurasian blue tit,Cyanistes caeruleus
 Eurasian bullfinch,Pyrrhula pyrrhula
+Eurasian chaffinch,Fringilla coelebs
 Eurasian collared dove,Streptopelia decaocto
 Eurasian coot,Fulica atra
 Eurasian crag martin,Ptyonoprogne rupestris
@@ -3196,6 +3346,7 @@ Eurasian dotterel,Eudromias morinellus
 Eurasian eagle-owl,Bubo bubo
 Eurasian golden oriole,Oriolus oriolus
 Eurasian goshawk,Accipiter gentilis
+Eurasian griffon vulture,Gyps fulvus
 Eurasian hobby,Falco subbuteo
 Eurasian hoopoe,Upupa epops
 Eurasian jay,Garrulus glandarius
@@ -3229,6 +3380,7 @@ European honey buzzard,Pernis apivorus
 European nightjar,Caprimulgus europaeus
 European pied flycatcher,Ficedula hypoleuca
 European robin,Erithacus rubecula
+European rock pipit,Anthus petrosus
 European roller,Coracias garrulus
 European serin,Serinus serinus
 European shag,Gulosus aristotelis
@@ -3267,8 +3419,9 @@ Fan-tailed gerygone,Gerygone flavolateralis
 Fan-tailed grassbird,Catriscus brevirostris
 Fan-tailed raven,Corvus rhipidurus
 Fan-tailed warbler,Basileuterus lachrymosus
-Fan-tailed widowbird,E. axillaris
 Fan-tailed widowbird,Euplectes axillaris
+Fan-tailed widowbird,Ploceus weynsi
+Fan-tailed widowbird,E. axillaris
 Fanti saw-wing,Psalidoprocne obscura
 Far Eastern curlew,Numenius madagascariensis
 Fasciated antshrike,Cymbilaimus lineatus
@@ -3327,8 +3480,9 @@ Fiji woodswallow,Artamus mentalis
 Fine-banded woodpecker,Campethera taeniolaema
 Fine-barred piculet,Picumnus subtilis
 Fine-spotted woodpecker,Campethera punctuligera
-Finn's weaver,Ploceus megarhynchus
 Finn's weaver,P. megarhynchus
+Finn's weaver,Ploceus megarhynchus
+Finn's weaver,Ploceus weynsi
 Finsch's bulbul,Iole finschii
 Finsch's euphonia,Euphonia finschi
 Finsch's francolin,Scleroptila finschi
@@ -3343,6 +3497,7 @@ Fire-breasted flowerpecker,Dicaeum ignipectus
 Fire-capped tit,Cephalopyrus flammiceps
 Fire-crested alethe,Alethe castanea
 Fire-eyed diucon,Pyrope pyrope
+Fire-fronted bishop,Ploceus weynsi
 Fire-fronted bishop,Euplectes diadematus
 Fire-fronted bishop,E. diadematus
 Fire-maned bowerbird,Sericulus bakeri
@@ -3422,6 +3577,7 @@ Forest buzzard,Buteo trizonatus
 Forest canary,Crithagra scotops
 Forest double-collared sunbird,Cinnyris fuelleborni
 Forest elaenia,Myiopagis gaimardii
+Forest fody,Ploceus weynsi
 Forest fody,F. omissa
 Forest fody,Foudia omissa
 Forest honeyeater,Microptilotis montanus
@@ -3440,6 +3596,7 @@ Forest wood hoopoe,Phoeniculus castaneiceps
 Fork-tailed drongo,Dicrurus adsimilis
 Fork-tailed drongo-cuckoo,Surniculus dicruroides
 Fork-tailed flycatcher,Tyrannus savana
+Fork-tailed palm swift,Tachornis squamata
 Fork-tailed storm petrel,Hydrobates furcatus
 Fork-tailed sunbird,Aethopyga christinae
 Fork-tailed tody-tyrant,Hemitriccus furcatus
@@ -3450,13 +3607,15 @@ Four-banded sandgrouse,Pterocles quadricinctus
 Foveaux shag,Leucocarbo stewarti
 Fox kestrel,Falco alopex
 Fox sparrow,Passerella iliaca
-Fox's weaver,P. spekeoides
+Fox's weaver,Ploceus weynsi
 Fox's weaver,Ploceus spekeoides
+Fox's weaver,P. spekeoides
 Foxy cisticola,Cisticola troglodytes
 Foxy lark,Calendulauda alopex
 Frances's sparrowhawk,Accipiter francesiae
 Franklin's gull,Leucophaeus pipixcan
 Fraser's eagle-owl,Ketupa poensis
+Fraser's eagle-owl,Bubo poensis
 Fraser's forest flycatcher,Fraseria ocreata
 Fraser's rufous thrush,Stizorhina fraseri
 Fraser's sunbird,Deleornis fraseri
@@ -3489,6 +3648,8 @@ Fulvous-breasted woodpecker,Dendrocopos macei
 Fulvous-chested jungle flycatcher,Cyornis olivaceus
 Fulvous-chinned nunlet,Nonnula sclateri
 Fulvous-crested tanager,Tachyphonus surinamus
+Fulvous-crowned scrub tyrant,Euscarthmus meloryphus
+Fulvous-faced scrub tyrant,Euscarthmus fulviceps
 Fulvous-headed brushfinch,Atlapetes fulviceps
 Fulvous-headed tanager,Thlypopsis fulviceps
 Fulvous-vented euphonia,Euphonia fulvicrissa
@@ -3521,6 +3682,7 @@ Gambel's quail,Callipepla gambelii
 Gang-gang cockatoo,Callocephalon fimbriatum
 Gansu leaf warbler,Phylloscopus kansuensis
 Garden emerald,Chlorostilbon assimilis
+Garden sunbird,Cinnyris jugularis
 Garden warbler,Sylvia borin
 Garganey,Spatula querquedula
 Garnet pitta,Erythropitta granatina
@@ -3532,10 +3694,12 @@ Geelvink pygmy parrot,Micropsitta geelvinkiana
 Genovesa cactus finch,Geospiza propinqua
 Genovesa ground finch,Geospiza acutirostris
 Gentoo penguin,JEN-too
+Gentoo penguin,Pygoscelis papua
 Geoffroy's daggerbill,Schistes geoffroyi
 Geomalia,Zoothera heinrichi
 Germain's peacock-pheasant,Polyplectron germaini
 Germain's swiftlet,Aerodramus germani
+Gerrus paradisaea,Paradisaea raggiana
 Giant antpitta,Grallaria gigantea
 Giant antshrike,Batara cinerea
 Giant babax,Pterorhinus waddelli
@@ -3556,6 +3720,7 @@ Giant sunbird,Dreptes thomensis
 Giant swiftlet,Hydrochous gigas
 Giant weaver,P. grandis
 Giant weaver,Ploceus grandis
+Giant weaver,Ploceus weynsi
 Giant white-eye,Megazosterops palauensis
 Giant wood rail,Aramides ypecaha
 Giant wren,Campylorhynchus chiapensis
@@ -3570,6 +3735,7 @@ Gillett's lark,Mirafra gilletti
 Gilliard's honeyeater,Vosea whitemanensis
 Gilt-edged tanager,Tangara cyanoventris
 Gizo white-eye,Zosterops luteirostris
+Glacier finch,Idiopsar speculifer
 Glaucous gull,Larus hyperboreus
 Glaucous macaw,Anodorhynchus glaucus
 Glaucous tanager,Thraupis glaucocolpa
@@ -3590,8 +3756,9 @@ Glow-throated hummingbird,Selasphorus ardens
 Glowing puffleg,Eriocnemis vestita
 Godlewski's bunting,Emberiza godlewskii
 Goeldi's antbird,Akletos goeldii
-Gola malimbe,M. ballmanni
 Gola malimbe,Malimbus ballmanni
+Gola malimbe,Ploceus weynsi
+Gola malimbe,M. ballmanni
 Gold-ringed tanager,Bangsia aureocincta
 Goldcrest,Regulus regulus
 Golden babbler,Cyanoderma chrysaeum
@@ -3606,8 +3773,9 @@ Golden masked owl,Tyto aurantia
 Golden monarch,Carterornis chrysomela
 Golden myna,Mino anais
 Golden nightjar,Caprimulgus eximius
-Golden palm weaver,Ploceus bojeri
+Golden palm weaver,Ploceus weynsi
 Golden palm weaver,P. bojeri
+Golden palm weaver,Ploceus bojeri
 Golden parakeet,Guaruba guarouba
 Golden parrotbill,Suthora verreauxi
 Golden pheasant,Chrysolophus pictus
@@ -3616,10 +3784,12 @@ Golden swallow,Tachycineta euchrysea
 Golden tanager,Tangara arthus
 Golden vireo,Vireo hypochryseus
 Golden white-eye,Cleptornis marchei
-Golden-backed bishop,Euplectes aureus
 Golden-backed bishop,E. aureus
+Golden-backed bishop,Ploceus weynsi
+Golden-backed bishop,Euplectes aureus
 Golden-backed mountain tanager,Cnemathraupis aureodorsalis
 Golden-backed weaver,Ploceus jacksoni
+Golden-backed weaver,Ploceus weynsi
 Golden-backed weaver,P. jacksoni
 Golden-backed whistler,Pachycephala aurea
 Golden-bellied flycatcher,Myiodynastes hemichrysus
@@ -3676,6 +3846,7 @@ Golden-naped barbet,Psilopogon pulcherrimus
 Golden-naped finch,Pyrrhoplectes epauletta
 Golden-naped tanager,Chalcothraupis ruficervix
 Golden-naped weaver,P. aureonucha
+Golden-naped weaver,Ploceus weynsi
 Golden-naped weaver,Ploceus aureonucha
 Golden-naped woodpecker,Melanerpes chrysauchen
 Golden-olive woodpecker,Colaptes rubiginosus
@@ -3703,6 +3874,7 @@ Golden-winged warbler,Vermivora chrysoptera
 Goldenface,Pachycare flavogriseum
 Goldie's bird-of-paradise,Paradisaea decora
 Goldie's lorikeet,Glossoptilus goldiei
+Goldie's lorikeet,Glossoptila goldiei
 Goldman's warbler,Setophaga goldmani
 Goliath coucal,Centropus goliath
 Goliath heron,Ardea goliath
@@ -3728,8 +3900,11 @@ Graceful honeyeater,Microptilotis gracilis
 Graceful pitta,Erythropitta venusta
 Graceful prinia,Prinia gracilis
 Gran Canaria blue chaffinch,Fringilla polatzeki
+Grand comore drongo,Dicrurus fuscipennis
 Grand rhabdornis,Rhabdornis grandis
 Grandala,Grandala coelicolor
+Grande comore brush warbler,Nesillas brevicaudata
+Grande comore bulbul,Hypsipetes parvirostris
 Grant's bluebill,Spermophaga poliogenys
 Grass wren,Cistothorus platensis
 Grass-green tanager,Chlorornis riefferii
@@ -3749,6 +3924,7 @@ Gray vireo,Vireo vicinior
 Gray's grasshopper warbler,Helopsaltes fasciolatus
 Gray's lark,Ammomanopsis grayi
 Gray-barred wren,Campylorhynchus megalopterus
+Gray-cheeked thrush,Catharus minimus
 Gray-crowned rosy finch,Leucosticte tephrocotis
 Gray-headed elaenia,Myiopagis caniceps
 Gray-headed kite,Leptodon cayanensis
@@ -3793,6 +3969,7 @@ Great knot,Calidris tenuirostris
 Great lizard cuckoo,Coccyzus merlini
 Great myna,Acridotheres grandis
 Great parrotbill,Paradoxornis aemodium
+Great parrotbill,Conostoma aemodium
 Great potoo,Nyctibius grandis
 Great reed warbler,Acrocephalus arundinaceus
 Great rosefinch,Carpodacus rubicilla
@@ -3848,10 +4025,12 @@ Greater melampitta,Megalampitta gigantea
 Greater necklaced laughingthrush,Pterorhinus pectoralis
 Greater painted-snipe,Rostratula benghalensis
 Greater pewee,Contopus pertinax
+Greater prairie-chicken,Tympanuchus cupido
 Greater racket-tailed drongo,Dicrurus paradiseus
 Greater rhea,Rhea americana
 Greater roadrunner,Geococcyx californianus
 Greater sage-grouse,Centrocercus urophasianus
+Greater sand plover,Charadrius leschenaultii
 Greater sand plover,Anarhynchus leschenaultii
 Greater scaup,Aythya marila
 Greater scythebill,Drymotoxeres pucheranii
@@ -3947,8 +4126,10 @@ Green-crowned plovercrest,Stephanoxis lalandi
 Green-crowned warbler,Phylloscopus burkii
 Green-eared barbet,Psilopogon faiostrictus
 Green-faced parrotfinch,Erythrura viridifacies
+Green-fronted hummingbird,Leucolia viridifrons
 Green-fronted hummingbird,Ramosomyia viridifrons
 Green-fronted lancebill,Doryfera ludovicae
+Green-fronted white-eye,Zosterops minor
 Green-headed hillstar,Oreotrochilus stolzmanni
 Green-headed oriole,Oriolus chlorocephalus
 Green-headed sunbird,Cyanomitra verticalis
@@ -3996,6 +4177,7 @@ Grey fantail,Rhipidura albiscapa
 Grey francolin,Ortygornis pondicerianus
 Grey friarbird,Philemon kisserensis
 Grey go-away-bird,Crinifer concolor
+Grey go-away-bird,Corythaixoides concolor
 Grey goshawk,Accipiter novaehollandiae
 Grey grasswren,Amytornis barbatus
 Grey ground thrush,Geokichla princei
@@ -4032,6 +4214,7 @@ Grey tit-flycatcher,Fraseria plumbea
 Grey treepie,Dendrocitta formosae
 Grey trembler,Cinclocerthia gutturalis
 Grey wagtail,Motacilla cinerea
+Grey warbler,Gerygone igata
 Grey warbler-finch,Certhidea fusca
 Grey waxbill,Glaucestrilda perreini
 Grey whistler,Pachycephala simplex
@@ -4054,6 +4237,7 @@ Grey-backed thrush,Turdus hortulorum
 Grey-banded mannikin,Lonchura vana
 Grey-bellied antbird,Ammonastes pelzelni
 Grey-bellied bulbul,Ixodia cyaniventris
+Grey-bellied bulbul,Rubigula cyaniventris
 Grey-bellied comet,Taphrolesbia griseiventris
 Grey-bellied cuckoo,Cacomantis passerinus
 Grey-bellied flowerpiercer,Diglossa carbonaria
@@ -4084,8 +4268,9 @@ Grey-capped flycatcher,Myiozetetes granadensis
 Grey-capped greenfinch,Chloris sinica
 Grey-capped hemispingus,Kleinothraupis reyi
 Grey-capped pygmy woodpecker,Yungipicus canicapillus
-Grey-capped social weaver,P. arnaudi
 Grey-capped social weaver,Pseudonigrita arnaudi
+Grey-capped social weaver,Ploceus weynsi
+Grey-capped social weaver,P. arnaudi
 Grey-capped tyrannulet,Phyllomyias griseocapilla
 Grey-capped warbler,Eminia lepida
 Grey-cheeked bulbul,Alophoixus tephrogenys
@@ -4108,10 +4293,12 @@ Grey-cowled wood rail,Aramides cajaneus
 Grey-crested cacholote,Pseudoseisura unirufa
 Grey-crested finch,Lophospingus griseocristatus
 Grey-crested helmetshrike,Prionops poliolophus
+Grey-crested tit,Lophophanes dichrous
 Grey-crowned babbler,Pomatostomus temporalis
 Grey-crowned crocias,Laniellus langbianis
 Grey-crowned flatbill,Tolmomyias poliocephalus
 Grey-crowned mannikin,Lonchura nevermanni
+Grey-crowned palm-tanager,Phaenicophilus poliocephalus
 Grey-crowned prinia,Prinia cinereocapilla
 Grey-crowned tetraka,Xanthomixis cinereiceps
 Grey-crowned warbler,Phylloscopus tephrocephalus
@@ -4130,6 +4317,7 @@ Grey-fronted green pigeon,Treron affinis
 Grey-fronted honeyeater,Ptilotula plumula
 Grey-fronted quail-dove,Geotrygon caniceps
 Grey-green fruit dove,Ptilinopus purpuratus
+Grey-green scrubwren,Sericornis arfakianus
 Grey-green scrubwren,Aethomyias arfakianus
 Grey-headed albatross,Thalassarche chrysostoma
 Grey-headed antbird,Ampelornis griseiceps
@@ -4147,6 +4335,7 @@ Grey-headed cuckooshrike,Edolisoma schisticeps
 Grey-headed dove,Leptotila plumbeiceps
 Grey-headed fish eagle,Icthyophaga ichthyaetus
 Grey-headed fruit dove,"Ptilinopus hyogastrus, Ptilinopus hyogastra "
+Grey-headed fruit dove,Ptilinopus hyogastrus
 Grey-headed goshawk,Accipiter poliocephalus
 Grey-headed greenbul,Phyllastrephus poliocephalus
 Grey-headed gull,Chroicocephalus cirrocephalus
@@ -4168,12 +4357,14 @@ Grey-headed sunbird,Deleornis axillaris
 Grey-headed swamphen,Porphyrio poliocephalus
 Grey-headed tanager,Eucometis penicillata
 Grey-headed warbler,Myiothlypis griseiceps
+Grey-headed warbler,Basileuterus griseiceps
 Grey-headed woodpecker,Picus canus
 Grey-hooded attila,Attila rufus
 Grey-hooded bush tanager,Cnemoscopus rubrirostris
 Grey-hooded flycatcher,Mionectes rufiventris
 Grey-hooded fulvetta,Fulvetta cinereiceps
 Grey-hooded parakeet,Psilopsiagon aymara
+Grey-hooded parrotbill,Sinosuthora zappeyi
 Grey-hooded parrotbill,Suthora zappeyi
 Grey-hooded sierra finch,Phrygilus gayi
 Grey-hooded sunbird,Aethopyga primigenia
@@ -4226,9 +4417,11 @@ Groove-billed ani,Crotophaga sulcirostris
 Groove-billed toucanet,Aulacorhynchus sulcatus
 Grosbeak starling,Scissirostrum dubium
 Ground cuckooshrike,Coracina maxima
+Ground parrot,Pezoporus wallicus
 Ground tit,Pseudopodoces humilis
 Ground woodpecker,Geocolaptes olivaceus
 Groundscraper thrush,Turdus litsitsirupa
+Groundscraper thrush,Psophocichla litsitsirupa
 Growling riflebird,Ptiloris intercedens
 Guadalcanal dwarf kingfisher,Ceyx nigromaxilla
 Guadalcanal honeyeater,Guadalcanaria inexpectata
@@ -4317,8 +4510,10 @@ Hauxwell's thrush,Turdus hauxwelli
 Hawaiian coot,Fulica alai
 Hawaiian crow,Corvus hawaiiensis
 Hawaiian duck,Anas wyvilliana
+Hawaiian hawk,Buteo solitarius
 Hawaiian hawk,ʻio
 Hawaiian petrel,ʻuaʻu
+Hawaiian petrel,Pterodroma sandwichensis
 Hawaiʻi creeper,Loxops mana
 Hawaiʻi ʻakepa,Loxops coccineus
 Hawaiʻi ʻamakihi,Chlorodrepanis virens
@@ -4337,11 +4532,13 @@ Helmeted curassow,Pauxi pauxi
 Helmeted friarbird,Philemon buceroides
 Helmeted guineafowl,Numida meleagris
 Helmeted hornbill,Rhinoplax vigil
+Helmeted manakin,Antilophia galeata
 Helmeted manakin,Chiroxiphia galeata
 Helmeted myna,Basilornis galeatus
 Helmeted pygmy tyrant,Lophotriccus galeatus
 Helmeted woodpecker,Celeus galeatus
 Hemprich's hornbill,Lophoceros hemprichi
+Hemprich's hornbill,Lophoceros hemprichii
 Hen harrier,Circus cyaneus
 Henderson crake,Zapornia atra
 Henderson fruit dove,Ptilinopus insularis
@@ -4358,6 +4555,7 @@ Hermit thrush,Catharus guttatus
 Hermit warbler,Setophaga occidentalis
 Hermit wood wren,Henicorhina anachoreta
 Heuglin's bustard,Neotis heuglinii
+Heuglin's masked weaver,Ploceus weynsi
 Heuglin's masked weaver,P. heuglini
 Heuglin's masked weaver,Ploceus heuglini
 Heuglin's spurfowl,Pternistis icterorhynchus
@@ -4399,6 +4597,7 @@ Hinde's babbler,Turdoides hindei
 Hispaniolan amazon,Amazona ventralis
 Hispaniolan crossbill,Loxia megaplaga
 Hispaniolan emerald,Riccordia swainsonii
+Hispaniolan euphonia,Chlorophonia musica
 Hispaniolan lizard cuckoo,Coccyzus longirostris
 Hispaniolan mango,Anthracothorax dominicus
 Hispaniolan nightjar,Antrostomus ekmani
@@ -4423,6 +4622,7 @@ Hoffmanns's woodcreeper,Dendrocolaptes hoffmannsi
 Hofmann's sunbird,Cinnyris hofmanni
 Holub's golden weaver,Ploceus xanthops
 Holub's golden weaver,P. xanthops
+Holub's golden weaver,Ploceus weynsi
 Hombron's kingfisher,Actenoides hombroni
 Honduran emerald,Amazilia luciae
 Honeyguide greenbul,Baeopogon indicator
@@ -4444,6 +4644,7 @@ Hooded mountain toucan,Andigena cucullata
 Hooded oriole,Icterus cucullatus
 Hooded parrot,Psephotellus dissimilis
 Hooded pitohui,Pitohui dichrous
+Hooded plover,Thinornis cucullatus
 Hooded robin,Melanodryas cucullata
 Hooded siskin,Spinus magellanicus
 Hooded tanager,Nemosia pileata
@@ -4494,6 +4695,7 @@ Humblot's heron,Ardea humbloti
 Humblot's sunbird,Cinnyris humbloti
 Humboldt penguin,Spheniscus humboldti
 Humboldt's sapphire,Chrysuronia humboldtii
+Hume's boobook,Ninox obscura
 Hume's bush warbler,Horornis brunnescens
 Hume's leaf warbler,Phylloscopus humei
 Hume's short-toed lark,Calandrella acutirostris
@@ -4511,6 +4713,7 @@ Hyacinth macaw,Anodorhynchus hyacinthinus
 Hyacinth visorbearer,Augastes scutatus
 Hylocitrea,Hylocitrea bonensis
 Iago sparrow,Passer iagoensis
+Ibadan malimbe,Ploceus weynsi
 Ibadan malimbe,Malimbus ibadanensis
 Ibadan malimbe,M. ibadanensis
 Ibera seedeater,Sporophila iberaensis
@@ -4592,6 +4795,7 @@ Inland thornbill,Acanthiza apicalis
 Invisible rail,Habroptila wallacii
 Iphis monarch,Pomarea iphis
 Iquitos gnatcatcher,Polioptila clementsi
+Iranian ground jay,Podoces pleskei
 Iraq babbler,Argya altirostris
 Iringa akalat,Sheppardia lowei
 Iriomote tit,Sittiparus olivaceus
@@ -4612,6 +4816,7 @@ Islet kingfisher,Todiramphus colonus
 Isthmian wren,Cantorchilus elutus
 Italian sparrow,Passer italiae
 Itatiaia spinetail,Asthenes moreirae
+Itombwe owl,Phodilus prigoginei
 Ituri batis,Batis ituriensis
 Ivory gull,Pagophila eburnea
 Ivory-backed woodswallow,Artamus monachus
@@ -4628,6 +4833,7 @@ Jackson's hornbill,Tockus jacksoni
 Jackson's spurfowl,Pternistis jacksoni
 Jackson's widowbird,Euplectes jacksoni
 Jackson's widowbird,E. jacksoni
+Jackson's widowbird,Ploceus weynsi
 Jacky winter,Microeca fascinans
 Jacobin cuckoo,Clamator jacobinus
 Jalca tapaculo,Scytalopus frankeae
@@ -4677,6 +4883,8 @@ Java sparrow,Lonchura oryzivora
 Javan banded pitta,Hydrornis guajanus
 Javan black-capped babbler,Pellorneum capistratum
 Javan blue flycatcher,Cyornis banyumas
+Javan blue robin,Myiomela diana
+Javan blue-banded kingfisher,Alcedo euryzona
 Javan bulbul,Ixos virescens
 Javan bush warbler,Locustella montis
 Javan cochoa,Cochoa azurea
@@ -4688,14 +4896,18 @@ Javan green magpie,Cissa thalassina
 Javan hawk-eagle,Nisaetus bartelsi
 Javan kingfisher,Halcyon cyanoventris
 Javan lapwing,Vanellus macropterus
+Javan leafbird,Chloropsis cochinchinensis
 Javan munia,Lonchura leucogastroides
 Javan myna,Acridotheres javanicus
+Javan oriole,Oriolus cruentus
 Javan owlet,Glaucidium castanopterum
 Javan pied myna,Gracupica jalla
 Javan plover,Anarhynchus javanicus
+Javan plover,Charadrius javanicus
 Javan pond heron,Ardeola speciosa
 Javan scimitar babbler,Pomatorhinus montanus
 Javan scops owl,Otus angelinae
+Javan shortwing,Brachypteryx montana
 Javan sunbird,Aethopyga mystacalis
 Javan tesia,Tesia superciliaris
 Javan trogon,Apalharpactes reinwardtii
@@ -4726,8 +4938,9 @@ Joyful greenbul,Chlorocichla laetissima
 Juan Fernández firecrown,Sephanoides fernandensis
 Juan Fernández petrel,Pterodroma externa
 Juan Fernández tit-tyrant,Anairetes fernandezianus
-Juba weaver,Ploceus dichrocephalus
 Juba weaver,P. dichrocephalus
+Juba weaver,Ploceus dichrocephalus
+Juba weaver,Ploceus weynsi
 Jungle babbler,Argya striata
 Jungle bush quail,Perdicula asiatica
 Jungle myna,Acridotheres fuscus
@@ -4745,8 +4958,10 @@ Kaempfer's tody-tyrant,Hemitriccus kaempferi
 Kaempfer's woodpecker,Celeus obrieni
 Kagu,Rhynochetos jubatus
 Kai cicadabird,Edolisoma dispar
+Kai monarch,Symposiachrus leucurus
 Kakamega greenbul,Arizelocichla kakamegae
 Kalahari scrub robin,Cercotricha paena
+Kalahari scrub robin,Cercotrichas paena
 Kalij pheasant,Lophura leucomelanos
 Kalinowski's chat-tyrant,Silvicultrix spodionota
 Kalkadoon grasswren,Amytornis ballarae
@@ -4765,6 +4980,7 @@ Karthala scops owl,Otus pauliani
 Karthala white-eye,Zosterops mouroniensis
 Kashmir flycatcher,Ficedula subrubra
 Kashmir nuthatch,Sitta cashmirensis
+Katanga masked weaver,Ploceus weynsi
 Katanga masked weaver,Ploceus katangae
 Katanga masked weaver,P. katangae
 Kauaʻi nukupuʻu,Hemignathus hanapepe
@@ -4772,12 +4988,14 @@ Kauaʻi ʻamakihi,Chlorodrepanis stejnegeri
 Kauaʻi ʻelepaio,Chasiempis sclateri
 Kawall's amazon,Amazona kawalli
 Kea,KEE-ə
+Kea,Nestor notabilis
 Keel-billed motmot,Electron carinatum
 Keel-billed toucan,Ramphastos sulfuratus
 Kelp goose,Chloephaga hybrida
 Kelp gull,Larus dominicanus
 Kemp's longbill,Macrosphenus kempi
 Kenrick's starling,Poeoptera kenricki
+Kentish plover,Charadrius alexandrinus
 Kentish plover,Anarhynchus alexandrinus
 Kentucky warbler,Geothlypis formosa
 Kenya sparrow,Passer rufocinctus
@@ -4792,6 +5010,7 @@ Kikuyu white-eye,Zosterops kikuyuensis
 Killdeer,Charadrius vociferus
 Kilombero weaver,Ploceus burnieri
 Kilombero weaver,P. burnieri
+Kilombero weaver,Ploceus weynsi
 Kimberley honeyeater,Territornis fordiana
 King bird-of-paradise,Cicinnurus regius
 King eider,Somateria spectabilis
@@ -4806,6 +5025,7 @@ Kipengere seedeater,Crithagra melanochroa
 Kirk's white-eye,Zosterops kirki
 Kirtland's warbler,Setophaga kirtlandii
 Kittlitz's murrelet,Brachyramphus brevirostris
+Kittlitz's plover,Charadrius pecuarius
 Kittlitz's plover,Anarhynchus pecuarius
 Klaas's cuckoo,Chrysococcyx klaas
 Klages's antbird,Drymophila klagesi
@@ -4839,6 +5059,7 @@ Kungwe apalis,Apalis argentea
 Kurdish wheatear,Oenanthe xanthoprymna
 Kurrichane thrush,Turdus libonyana
 Kākāpō,kākāpō
+Kākāpō,Strigops habroptila
 La Sagra's flycatcher,Myiarchus sagrae
 La Selle thrush,Turdus swalesi
 Laced woodpecker,Picus vittatus
@@ -4911,6 +5132,7 @@ Layard's warbler,Curruca layardi
 Laysan albatross,Phoebastria immutabilis
 Laysan duck,Anas laysanensis
 Laysan finch,Telespiza cantans
+Laysan honeycreeper,Himatione fraithii
 Laysan rail,Zapornia palmeri
 Lazuli bunting,Passerina amoena
 Lazuli kingfisher,Todiramphus lazuli
@@ -4926,6 +5148,7 @@ Leaf lorikeet,Trichoglossus weberi
 Lear's macaw,Anodorhynchus leari
 Least auklet,Aethia pusilla
 Least bittern,Ixobrychus exilis
+Least boobook,Ninox sumbaensis
 Least flycatcher,Empidonax minimus
 Least grebe,Tachybaptus dominicus
 Least honeyguide,Indicator exilis
@@ -4983,6 +5206,7 @@ Lesser jacana,Microparra capensis
 Lesser kestrel,Falco naumanni
 Lesser kiskadee,Philohydor lictor
 Lesser masked weaver,Ploceus intermedius
+Lesser masked weaver,Ploceus weynsi
 Lesser masked weaver,P. intermedius
 Lesser melampitta,Melampitta lugubris
 Lesser moorhen,Paragallinula angulata
@@ -4990,6 +5214,7 @@ Lesser necklaced laughingthrush,Garrulax monileger
 Lesser nighthawk,Chordeiles acutipennis
 Lesser noddy,Anous tenuirostris
 Lesser nothura,Nothura minor
+Lesser prairie-chicken,Tympanuchus pallidicinctus
 Lesser racket-tailed drongo,Dicrurus remifer
 Lesser redpoll,Acanthis cabaret
 Lesser roadrunner,Geococcyx velox
@@ -5090,6 +5315,7 @@ Little lorikeet,Parvipsitta pusilla
 Little minivet,Pericrocotus lansbergei
 Little nightjar,Setopagis parvula
 Little owl,Athene noctua
+Little paradise-kingfisher,Tanysiptera hydrocharis
 Little penguin,Eudyptula minor
 Little pied cormorant,Microcarbo melanoleucos
 Little pied flycatcher,Ficedula westermanni
@@ -5102,14 +5328,16 @@ Little slaty flycatcher,Ficedula basilanica
 Little sparrowhawk,Accipiter minullus
 Little spiderhunter,Arachnothera longirostra
 Little spotted kiwi,Apteryx owenii
+Little spotted woodpecker,Campethera cailliautii
 Little stint,Calidris minuta
 Little swift,Apus affinis
 Little tern,Sternula albifrons
 Little thornbird,Phacellodomus sibilatrix
 Little tinamou,Crypturellus soui
 Little wattlebird,Anthochaera chrysoptera
-Little weaver,Ploceus luteolus
 Little weaver,P. luteolus
+Little weaver,Ploceus luteolus
+Little weaver,Ploceus weynsi
 Little wood rail,Aramides mangle
 Little woodpecker,Veniliornis passerinus
 Little woodstar,Chaetocercus bombus
@@ -5119,6 +5347,7 @@ Littoral rock thrush,Monticola imerina
 Livingstone's flycatcher,Erythrocercus livingstonei
 Livingstone's turaco,Tauraco livingstonii
 Lizard buzzard,Kaupifalco monogrammicus
+Loango weaver,Ploceus weynsi
 Loango weaver,P. subpersonatus
 Loango weaver,Ploceus subpersonatus
 Locust finch,Paludipasser locustella
@@ -5126,6 +5355,8 @@ Loggerhead kingbird,Tyrannus caudifasciatus
 Loggerhead shrike,Lanius ludovicianus
 Loja tyrannulet,Zimmerius flavidifrons
 Lompobattang flycatcher,Ficedula bonthaina
+Lompobattang leaf warbler,Phylloscopus sarasinorum
+Long-bearded honeyeater,Melidectes princeps
 Long-bearded honeyeater,Melionyx princeps
 Long-billed bernieria,Bernieria madagascariensis
 Long-billed bush warbler,Locustella major
@@ -5193,8 +5424,9 @@ Long-tailed thrush,Zoothera dixoni
 Long-tailed tit,Aegithalos caudatus
 Long-tailed triller,Lalage leucopyga
 Long-tailed tyrant,Colonia colonus
-Long-tailed widowbird,Euplectes progne
 Long-tailed widowbird,E. progne
+Long-tailed widowbird,Euplectes progne
+Long-tailed widowbird,Ploceus weynsi
 Long-tailed wood partridge,Dendrortyx macroura
 Long-tailed woodnymph,Thalurania watertonii
 Long-toed lapwing,Vanellus crassirostris
@@ -5235,9 +5467,12 @@ Ludwig's bustard,Neotis ludwigii
 Ludwig's double-collared sunbird,Cinnyris ludovicensis
 Lufira masked weaver,Ploceus ruweti
 Lufira masked weaver,P. ruweti
+Lufira masked weaver,Ploceus weynsi
 Lulu's tody-flycatcher,Poecilotriccus luluae
 Lunulated antbird,Oneillornis lunulatus
 Luzon bleeding-heart,Gallicolumba luzonica
+Luzon boobook,Ninox philippensis
+Luzon buttonquail,Turnix worcesteri
 Luzon flameback,Chrysocolaptes haematribon
 Luzon hornbill,Penelopides manillae
 Luzon scops owl,Otus longicornis
@@ -5259,9 +5494,43 @@ Mackinnon's shrike,Lanius mackinnoni
 Macleay's honeyeater,Xanthotis macleayanus
 Macquarie parakeet,Cyanoramphus erythrotis
 Macquarie shag,Leucocarbo purpurascens
+Madagascan yellowbrow,Crossleyia xanthophrys
+Madagascar blue pigeon,Alectroenas madagascariensis
 Madagascar blue vanga,Cyanolanius madagascarinus
+Madagascar buttonquail,Turnix nigricollis
 Madagascar buzzard,Buteo brachypterus
+Madagascar cisticola,Cisticola cherina
+Madagascar cuckoo,Cuculus rochii
 Madagascar cuckoo-hawk,Aviceda madagascariensis
+Madagascar cuckooshrike,Coracina cinerea
+Madagascar fish eagle,Haliaeetus vociferoides
+Madagascar flufftail,Sarothrura insularis
+Madagascar forest rail,Mentocrex kioloides
+Madagascar grebe,Tachybaptus pelzelnii
+Madagascar green pigeon,Treron australis
+Madagascar harrier-hawk,Polyboroides radiatus
+Madagascar ibis,Lophotibis cristata
+Madagascar jacana,Actophilornis albinucha
+Madagascar lark,Eremopterix hova
+Madagascar magpie-robin,Copsychus albospecularis
+Madagascar mannikin,Lepidopygia nana
+Madagascar nightjar,Caprimulgus madagascariensis
+Madagascar owl,Asio madagascariensis
+Madagascar partridge,Margaroperdix madagarensis
+Madagascar plover,Charadrius thoracicus
+Madagascar pochard,Aythya innotata
+Madagascar pratincole,Glareola ocularis
+Madagascar pygmy kingfisher,Corythornis madagascariensis
+Madagascar rail,Rallus madagascariensis
+Madagascar sandgrouse,Pterocles personatus
+Madagascar serpent eagle,Eutriorchis astur
+Madagascar snipe,Gallinago macrodactyla
+Madagascar sparrowhawk,Accipiter madagascariensis
+"Madagascar spinetail, madagascan spinetail ",Zoonavena grandidieri
+Madagascar starling,Hartlaubius auratus
+Madagascar swamp warbler,Acrocephalus newtoni
+Madagascar wagtail,Motacilla flaviventris
+Madanga,Madanga ruficollis
 Madanga,Anthus ruficollis
 Madarasz's tiger parrot,Psittacella madaraszi
 Madeira firecrest,Regulus madeirensis
@@ -5279,6 +5548,7 @@ Magenta-throated woodstar,Philodice bryantae
 Maghreb lark,Galerida macrorhyncha
 Maghreb magpie,Pica mauritanica
 Maghreb owl,Strix  mauritanica
+Magnificent bird-of-paradise,Cicinnurus magnificus
 Magnificent bird-of-paradise,Diphyllodes magnificus
 Magnificent frigatebird,Fregata magnificens
 Magnificent riflebird,Ptiloris magnificus
@@ -5331,19 +5601,26 @@ Malaita fantail,Rhipidura malaitae
 Malaita owl,Athene malaitae
 Malaita white-eye,Zosterops stresemanni
 Malayan banded pitta,Hydrornis irena
+Malayan black magpie,Platysmurus leucopterus
 Malayan black-capped babbler,Pellorneum nigrocapitatum
+Malayan crestless fireback,Lophura erythrophthalma
 Malayan laughingthrush,Trochalopteron peninsulae
 Malayan night heron,Gorsachius melanolophus
+Malayan partridge,Arborophila campbelli
 Malayan peacock-pheasant,Polyplectron malacense
+Malayan swamp babbler,Pellorneum rostratum
 Malayan whistling thrush,Myophonus robinsoni
 Malaysian blue flycatcher,Cyornis turcosus
 Malaysian eared nightjar,Lyncornis temminckii
 Malaysian hawk-cuckoo,Hierococcyx fugax
 Malaysian honeyguide,Indicator archipelagicus
 Malaysian pied fantail,Rhipidura javanica
+Malaysian plover,Charadrius peronii
 Malaysian plover,Anarhynchus peronii
 Maleo,Macrocephalon maleo
+Malherbe's parakeet,Cyanoramphus malherbi
 Mali firefinch,Lagonosticta virata
+Malia,Malia grata
 Malindi pipit,Anthus melindae
 Mallard,Anas platyrhynchos
 Mallee emu-wren,Stipiturus mallee
@@ -5367,6 +5644,7 @@ Mangrove kingfisher,Halcyon senegaloides
 Mangrove pitta,Pitta megarhyncha
 Mangrove rail,Rallus longirostris
 Mangrove robin,Peneothello pulverulenta
+Mangrove robin,Eopsaltria pulverulenta
 Mangrove sunbird,Anthreptes gabonicus
 Mangrove swallow,Tachycineta albilinea
 Mangrove vireo,Vireo pallens
@@ -5433,6 +5711,7 @@ Maroon-chested ground dove,Paraclaravis mondetoura
 Maroon-fronted parrot,Rhynchopsitta terrisi
 Maroon-naped sunbird,Aethopyga guimarasensis
 Maroon-tailed parakeet,Pyrrhura melanura
+Marquesan ground dove,Alopecoenas rubescens
 Marquesan ground dove,Pampusana rubescens
 Marquesan imperial pigeon,Ducula galeata
 Marquesan kingfisher,Todiramphus godeffroyi
@@ -5448,14 +5727,17 @@ Marsh tapaculo,Scytalopus iraiensis
 Marsh tchagra,Bocagia minuta
 Marsh tit,Poecile palustris
 Marsh warbler,Acrocephalus palustris
-Marsh widowbird,Euplectes hartlaubi
 Marsh widowbird,E. hartlaubi
+Marsh widowbird,Ploceus weynsi
+Marsh widowbird,Euplectes hartlaubi
 Marsh wren,Cistothorus palustris
 Marshall's iora,Aegithina nigrolutea
 Martens's warbler,Phylloscopus omeiensis
 Martial eagle,Polemaetus bellicosus
 Martinique oriole,Icterus bonana
+Marvelous spatuletail,Loddigesia mirabilis
 Masafuera rayadito,Aphrastura masafuerae
+Masatierra petrel,Pterodroma defilippiana
 Mascarene coot,Fulica newtonii
 Mascarene grey parakeet,Psittacula bensoni
 Mascarene martin,Phedina borbonica
@@ -5487,6 +5769,7 @@ Masked water tyrant,Fluvicola nengeta
 Masked woodswallow,Artamus personatus
 Masked yellowthroat,Geothlypis aequinoctialis
 Matinan blue flycatcher,Eumyias sanfordi
+Matinan blue flycatcher,Cyornis sanfordi
 Mato Grosso antbird,Cercomacra melanaria
 Matsudaira's storm petrel,Hydrobates matsudairae
 Maui nukupuʻu,Hemignathus affinis
@@ -5499,13 +5782,15 @@ Mauritius bulbul,Hypsipetes olivaceus
 Mauritius cuckooshrike,Lalage typica
 Mauritius fody,F. rubra
 Mauritius fody,Foudia rubra
+Mauritius fody,Ploceus weynsi
 Mauritius grey white-eye,Zosterops mauritianus
 Mauritius kestrel,Falco punctatus
 Mauritius night heron,Nycticorax mauritianus
 Mauritius olive white-eye,Zosterops chloronothos
 Mauritius sheldgoose,Alopochen mauritiana
-Maxwell's black weaver,Ploceus albinucha
 Maxwell's black weaver,P. albinucha
+Maxwell's black weaver,Ploceus weynsi
+Maxwell's black weaver,Ploceus albinucha
 Mayan antthrush,Formicarius moniliger
 Mayotte drongo,Dicrurus waldenii
 Mayotte scops owl,Otus mayottensis
@@ -5521,9 +5806,11 @@ McGregor's cuckooshrike,Malindangia mcgregori
 McKay's bunting,Plectrophenax hyperboreus
 Meadow bunting,Emberiza cioides
 Meadow pipit,Anthus pratensis
+Mealy amazon,Amazona farinosa
 Mediterranean flycatcher,Muscicapa tyrrhenica
 Mediterranean gull,Ichthyaetus melanocephalus
 Mediterranean short-toed lark,Alaudala rufescens
+Medium egret,Ardea intermedia
 Medium ground finch,Geospiza fortis
 Medium tree finch,Camarhynchus pauper
 Meek's lorikeet,Vini meeki
@@ -5578,9 +5865,11 @@ Military macaw,Ara militaris
 Milky stork,Mycteria cinerea
 Millerbird,Acrocephalus familiaris
 Mimic honeyeater,Microptilotis analogus
+Minahasa masked owl,Tyto inexspectata
 Minas Gerais tyrannulet,Phylloscartes roquettei
 Mindanao bleeding-heart,Gallicolumba crinigera
 Mindanao blue fantail,Rhipidura superciliaris
+Mindanao boobook,Ninox spilocephala
 Mindanao brown dove,Phapitreron brunneiceps
 Mindanao hornbill,Penelopides affinis
 Mindanao lorikeet,Saudareos johnstoniae
@@ -5591,6 +5880,7 @@ Mindanao scops owl,Otus mirus
 Mindanao serin,Chrysocorythus mindanensis
 Mindanao white-eye,Heleia goodfellowi
 Mindoro bleeding-heart,Gallicolumba platenae
+Mindoro boobook,Ninox mindorensis
 Mindoro bulbul,Hypsipetes mindorensis
 Mindoro hornbill,Penelopides mindorensis
 Mindoro imperial pigeon,Ducula mindorensis
@@ -5604,6 +5894,7 @@ Miombo scrub robin,Cercotrichas barbata
 Miombo tit,Melaniparus griseiventris
 Miombo wren-warbler,Calamonastes undosus
 Mishana tyrannulet,Zimmerius villarejoi
+Mishmi wren-babbler,Spelaeornis badeigularis
 Mississippi kite,Ictinia mississippiensis
 Mistle thrush,Turdus viscivorus
 Mistletoe tyrannulet,Zimmerius parvus
@@ -5619,6 +5910,7 @@ Moluccan cuckoo,Cacomantis aeruginosus
 Moluccan cuckooshrike,Coracina atriceps
 Moluccan drongo-cuckoo,Surniculus musschenbroeki
 Moluccan dwarf kingfisher,Ceyx lepidus
+Moluccan eclectus,Eclectus roratus
 Moluccan flycatcher,Myiagra galeata
 Moluccan goshawk,Accipiter henicogrammus
 Moluccan hanging parrot,Loriculus amabilis
@@ -5632,6 +5924,7 @@ Moluccan starling,Aplonis mysolensis
 Moluccan woodcock,Scolopax rochussenii
 Mombasa woodpecker,Campethera mombassica
 Mongolian finch,Bucanetes mongolicus
+Mongolian ground jay,Podoces hendersoni
 Mongolian lark,Melanocorypha mongolica
 Mongolian short-toed lark,Calandrella dukhunensis
 Monk parakeet,Myiopsitta monachus
@@ -5641,6 +5934,7 @@ Montane foliage-gleaner,Anabacerthia striaticollis
 Montane nightjar,Caprimulgus poliocephalus
 Montane racket-tail,Prioniturus montanus
 Montane tiny greenbul,Phyllastrephus albigula
+Montane widowbird,Ploceus weynsi
 Montane widowbird,E. psammacromius
 Montane widowbird,Euplectes psammacromius
 Montane woodcreeper,Lepidocolaptes lacrymiger
@@ -5659,6 +5953,7 @@ Morelet's seedeater,Sporophila morelleti
 Moreno's ground dove,Metriopelia morenoi
 Morepork,Ninox novaeseelandiae
 Morningbird,Pachycephala tenebrosa
+Morotai friarbird,Philemon fuscicapillus
 Morotai white-eye,Zosterops dehaani
 Mosque swallow,Cecropis senegalensis
 Moss-backed tanager,Bangsia edwardsi
@@ -5669,6 +5964,7 @@ Mottle-cheeked tyrannulet,Phylloscartes ventralis
 Mottled berryhunter,Rhagologus leucostigma
 Mottled duck,Anas fulvigula
 Mottled flowerpecker,Dicaeum tristrami
+Mottled mannikin,Lonchura hunsteini
 Mottled owl,Strix virgata
 Mottled petrel,Pterodroma inexpectata
 Mottled piculet,Picumnus nebulosus
@@ -5686,6 +5982,7 @@ Mountain blackeye,Zosterops emiliae
 Mountain bluebird,Sialia currucoides
 Mountain bulbul,Ixos mcclellandii
 Mountain buzzard,Buteo oreophilus
+Mountain cacique,Cacicus chrysonotus
 Mountain caracara,Phalcoboenus megalopterus
 Mountain chickadee,Poecile gambeli
 Mountain chiffchaff,Phylloscopus sindianus
@@ -5701,18 +5998,22 @@ Mountain kingfisher,Syma megarhyncha
 Mountain leaf warbler,Phylloscopus trivirgatus
 Mountain masked apalis,Apalis personata
 Mountain mouse-warbler,Origma robusta
+Mountain mouse-warbler,Crateroscelis robusta
 Mountain myzomela,Myzomela adolphinae
 Mountain oriole,Oriolus percivali
+Mountain owlet-nightjar,Aegotheles archboldi
 Mountain owlet-nightjar,Aegotheles albertisi
 Mountain parakeet,Psilopsiagon aurifrons
 Mountain peacock-pheasant,Polyplectron inopinatum
 Mountain peltops,Peltops montanus
 Mountain pipit,Anthus hoeschi
 Mountain plover,Anarhynchus montanus
+Mountain plover,Charadrius montanus
 Mountain pygmy owl,Glaucidium gnoma
 Mountain quail,Oreortyx pictus
 Mountain robin,Petroica bivittata
 Mountain robin-chat,Cossyphicula isabellae
+Mountain robin-chat,Cossypha isabellae
 Mountain saw-wing,Psalidoprocne fuliginosa
 Mountain scops owl,Otus spilocephalus
 Mountain serpent eagle,Spilornis kinabaluensis
@@ -5729,7 +6030,8 @@ Mountain wagtail,Motacilla clara
 Mountain wheatear,Myrmecocichla monticola
 Mountain wren,Troglodytes solstitialis
 Mountain wren-babbler,Gypsophila crassa
-Mountain yellow warbler,(Iduna Similis)
+Mountain yellow warbler,Iduna similis
+Mourning babbler,Pellorneum malaccense
 Mourning collared dove,Streptopelia decipiens
 Mourning dove,Zenaida macroura
 Mourning sierra finch,Rhopospina fruticeti
@@ -5769,6 +6071,7 @@ Musician wren,Cyphorhinus arada
 Musk duck,Biziura lobata
 Musk lorikeet,Glossopsitta concinna
 Mussau fantail,Rhipidura matthiae
+Mussau flycatcher,Myiagra hebetior
 Mussau monarch,Symposiachrus menckei
 Mussau triller,Lalage conjuncta
 Mute swan,Cygnus olor
@@ -5822,8 +6125,9 @@ Negros fruit dove,Ptilinopus arcanus
 Negros leaf warbler,Phylloscopus nigrorum
 Negros scops owl,Otus nigrorum
 Negros striped babbler,Zosterornis nigrorum
-Nelicourvi weaver,P. nelicourvi
 Nelicourvi weaver,Ploceus nelicourvi
+Nelicourvi weaver,P. nelicourvi
+Nelicourvi weaver,Ploceus weynsi
 Nelson's sparrow,Ammospiza nelsoni
 Nene,Branta sandvicensis
 Neotropic cormorant,Nannopterum brasilianum
@@ -5839,6 +6143,7 @@ New Britain friarbird,Philemon cockerelli
 New Britain goshawk,Accipiter princeps
 New Britain sparrowhawk,Accipiter brachyurus
 New Britain thicketbird,Cincloramphus grosvenori
+New Caledonia thicketbird,Megalurulus mariae
 New Caledonian crow,Corvus moneduloides
 New Caledonian cuckooshrike,Edolisoma anale
 New Caledonian friarbird,Philemon diemenensis
@@ -5873,7 +6178,13 @@ New Zealand pipit,Anthus novaeseelandiae
 New Zealand rock wren,Xenicus gilviventris
 New Zealand scaup,Aythya novaeseelandiae
 New Zealand storm petrel,Fregetta maoriana
+New caledonian streaked fantail,Rhipidura verreauxi
+New hanover mannikin,Lonchura nigerrima
+New zealand falcon,Falco novaeseelandiae
+New zealand kākā,Nestor meridionalis
+New zealand plover,Charadrius obscurus
 Newell's shearwater,ʻaʻo
+Newell's shearwater,Puffinus newelli
 Newton's sunbird,Anabathmis newtonii
 Niam-Niam parrot,Poicephalus crassus
 Nias hill myna,Gracula robusta
@@ -5892,6 +6203,7 @@ Nicobar scops owl,Otus alius
 Nicobar sparrowhawk,Accipiter butleri
 Night parrot,Pezoporus occidentalis
 Nightingale Island finch,Nesospiza questi
+Nightingale reed warbler,Acrocephalus luscinius
 Nihoa finch,Telespiza ultima
 Nile Valley sunbird,Hedydipna metallica
 Nilgiri blue robin,Sholicola major
@@ -5933,6 +6245,7 @@ Northern black korhaan,Afrotis afraoides
 Northern bobwhite,Colinus virginianus
 Northern boobook,Ninox japonica
 Northern brown-throated weaver,Ploceus castanops
+Northern brown-throated weaver,Ploceus weynsi
 Northern brown-throated weaver,P. castanops
 Northern brownbul,Phyllastrephus strepitans
 Northern cardinal,Cardinalis cardinalis
@@ -5952,11 +6265,14 @@ Northern giant petrel,Macronectes halli
 Northern grey-headed sparrow,Passer griseus
 Northern grosbeak-canary,Crithagra donaldsoni
 Northern harrier,Circus hudsonius
+"Northern hawk-cuckoo,",Hierococcyx hyperythrus
 Northern hawk-owl,Surnia ulula
 Northern jacana,Jacana spinosa
 Northern lapwing,Vanellus vanellus
-Northern masked weaver,Ploceus taeniopterus
+Northern long-tailed woodcreeper,Deconychura longicauda
 Northern masked weaver,P. taeniopterus
+Northern masked weaver,Ploceus taeniopterus
+Northern masked weaver,Ploceus weynsi
 Northern mealy amazon,Amazona farinosa guatemalae
 Northern mockingbird,Mimus polyglottos
 Northern nightingale-wren,Microcerculus philomela
@@ -5966,8 +6282,9 @@ Northern pintail,Anas acuta
 Northern potoo,Nyctibius jamaicensis
 Northern puffback,Dryoscopus gambensis
 Northern pygmy owl,Glaucidium californicum
-Northern red bishop,E. franciscanus
+Northern red bishop,Ploceus weynsi
 Northern red bishop,Euplectes franciscanus
+Northern red bishop,E. franciscanus
 Northern red-billed hornbill,Tockus erythrorhynchus
 Northern rockhopper penguin,Eudyptes moseleyi
 Northern rosella,Platycercus venustus
@@ -5982,6 +6299,7 @@ Northern shoveler,Spatula clypeata
 Northern shrike,Lanius borealis
 Northern silvery kingfisher,Ceyx flumenicola
 Northern slaty antshrike,Thamnophilus punctatus
+Northern sooty woodpecker,Mulleripicus funebris
 Northern tropical pewee,Contopus bogotensis
 Northern tufted flycatcher,Mitrephanes phaeocercus
 Northern variable pitohui,Pitohui kirhocephalus
@@ -6050,7 +6368,10 @@ Ochre-lored flatbill,Tolmomyias flaviventris
 Ochre-marked parakeet,Pyrrhura cruentata
 Ochre-naped ground tyrant,Muscisaxicola flavinucha
 Ochre-rumped antbird,Drymophila ochropyga
+Ochre-rumped bunting,Emberiza yessoensis
 Ochre-striped antpitta,Grallaria dignissima
+Ochre-throated foliage-gleaner,Automolus ochrolaemus
+Ogea monarch,Mayrornis versicolor
 Oilbird,Steatornis caripensis
 Okarito kiwi,Apteryx rowi
 Okinawa rail,Hypotaenidia okinawae
@@ -6092,6 +6413,7 @@ Olive-backed quail-dove,Leptotrygon veraguensis
 Olive-backed tailorbird,Orthotomus sepium
 Olive-backed tanager,Mitrospingus oleagineus
 Olive-backed woodcreeper,Xiphorhynchus triangularis
+Olive-backed woodpecker,Dinopium rafflesii
 Olive-backed woodpecker,Gecinulus rafflesii
 Olive-bellied sunbird,Cinnyris chloropygius
 Olive-breasted greenbul,Arizelocichla kikuyuensis
@@ -6103,6 +6425,7 @@ Olive-crowned crescentchest,Melanopareia maximiliani
 Olive-crowned flowerpecker,Dicaeum pectorale
 Olive-crowned yellowthroat,Geothlypis semiflava
 Olive-faced flatbill,Tolmomyias viridiceps
+Olive-flanked ground robin,Cossypha anomala
 Olive-flanked ground robin,Dessonornis anomalus
 Olive-green camaroptera,Camaroptera chloronota
 Olive-green tanager,Orthogonys chloricterus
@@ -6111,9 +6434,11 @@ Olive-grey saltator,Saltator olivascens
 Olive-headed greenbul,Arizelocichla olivaceiceps
 Olive-headed lorikeet,Trichoglossus euteles
 Olive-headed weaver,Ploceus olivaceiceps
+Olive-headed weaver,Ploceus weynsi
 Olive-headed weaver,P. olivaceiceps
 Olive-sided flycatcher,Contopus cooperi
 Olive-spotted hummingbird,Talaphorus chlorocercus
+Olive-streaked flycatcher,Mionectes olivaceus
 Olive-striped flycatcher,Mionectes galbinus
 Olive-throated parakeet,Eupsittula nana
 Olive-tree warbler,Hippolais olivetorum
@@ -6137,6 +6462,7 @@ Orange ground thrush,Geokichla gurneyi
 Orange minivet,Pericrocotus flammeus
 Orange oriole,Icterus auratus
 Orange weaver,Ploceus aurantius
+Orange weaver,Ploceus weynsi
 Orange weaver,P. aurantius
 Orange-backed troupial,Icterus croconotus
 Orange-backed woodpecker,Chrysocolaptes validus
@@ -6206,6 +6532,7 @@ Oriental magpie,Pica serica
 Oriental magpie-robin,Copsychus saularis
 Oriental pied hornbill,Anthracoceros albirostris
 Oriental plover,Anarhynchus veredus
+Oriental plover,Charadrius veredus
 Oriental pratincole,Glareola maldivarum
 Oriental reed warbler,Acrocephalus orientalis
 Oriental scops owl,Otus sunia
@@ -6225,10 +6552,12 @@ Ornate flycatcher,Myiotriccus ornatus
 Ornate fruit dove,Ptilinopus ornatus
 Ornate hawk-eagle,Spizaetus ornatus
 Ornate lorikeet,Saudareos ornata
+Ornate lorikeet,Saudareos ornatus
 Ornate melidectes,Melidectes torquatus
 Ornate stipplethroat,Epinecrophylla ornata
 Ornate tinamou,Nothoprocta ornata
 Ortolan bunting,Emberiza hortulana
+Osprey,Pandion haliaetus
 Otago shag,Leucocarbo chalconotus
 Oustalet's sunbird,Cinnyris oustaleti
 Oustalet's tyrannulet,Phylloscartes oustaleti
@@ -6237,6 +6566,7 @@ Ouvea parakeet,Eunymphicus uvaeensis
 Ovambo sparrowhawk,Accipiter ovampensis
 Ovenbird,Seiurus aurocapilla
 Owston's tit,Sittiparus owstoni
+Oʻahu nukupuʻu,Hemignathus lucidus
 Oʻahu ʻalauahio,Paroreomyza maculata
 Oʻahu ʻamakihi,Chlorodrepanis flava
 Oʻahu ʻelepaio,Chasiempis ibidis
@@ -6259,6 +6589,7 @@ Pacific parrotlet,Forpus coelestis
 Pacific pygmy owl,Glaucidium peruanum
 Pacific reef heron,Egretta sacra
 Pacific robin,Petroica pusilla
+Pacific screech owl,Megascops cooperi
 Pacific screech owl,Megascops cooper
 Pacific swallow,Hirundo tahitica
 Pacific swift,Apus pacificus
@@ -6277,6 +6608,7 @@ Painted honeyeater,Grantiella picta
 Painted manakin,Machaeropterus eckelberryi
 Painted parakeet,Pyrrhura picta
 Painted quail-thrush,Cinclosoma ajax
+Painted redstart,Myioborus pictus
 Painted sandgrouse,Pterocles indicus
 Painted spurfowl,Galloperdix lunulata
 Painted stork,Mycteria leucocephala
@@ -6288,8 +6620,10 @@ Palau cicadabird,Edolisoma monacha
 Palau fantail,Rhipidura lepida
 Palau flycatcher,Myiagra erythrops
 Palau fruit dove,Ptilinopus pelewensis
+Palau ground dove,Alopecoenas canifrons
 Palau ground dove,Pampusana canifrons
 Palau nightjar,Caprimulgus phalaena
+Palau scops owl,Pyrroglaux podargina
 Palau swiftlet,Aerodramus pelewensis
 Palawan blue flycatcher,Cyornis lemprieri
 Palawan bulbul,Alophoixus frater
@@ -6326,6 +6660,8 @@ Pale-bellied white-eye,Zosterops consobrinorum
 Pale-billed antpitta,Grallaria carrikeri
 Pale-billed flowerpecker,Dicaeum erythrorhynchos
 Pale-billed hornbill,Lophoceros pallidirostris
+Pale-billed parrotbill,Chleuasicus atrosuperciliaris
+Pale-billed scrubwren,Sericornis spilodera
 Pale-billed scrubwren,Aethomyias spilodera
 Pale-billed sicklebill,Drepanornis bruijnii
 Pale-billed woodpecker,Campephilus guatemalensis
@@ -6396,8 +6732,11 @@ Palmchat,Dulus dominicus
 Pampa finch,Embernagra platensis
 Pampas meadowlark,Leistes defilippii
 Pampas pipit,Anthus chacoensis
+Panama flycatcher,Myiarchus panamensis
+Panama tyrannulet,Phylloscartes flavovirens
 Panay striped babbler,Zosterornis latistriatus
 Pangani longclaw,Macronyx aurantiigula
+Pantanal snipe,Gallinago paraguaiae
 Pantepui thrush,Turdus murinus
 Paperbark flycatcher,Myiagra nana
 Papuan babbler,Garritornis isidorei
@@ -6416,8 +6755,10 @@ Papuan nightjar,Eurostopodus papuensis
 Papuan parrotfinch,Erythrura papuana
 Papuan pitta,Erythropitta macklotii
 Papuan scrub robin,Drymodes beccarii
+Papuan scrubwren,Sericornis papuensis
 Papuan scrubwren,Aethomyias papuensis
 Papuan sittella,Daphoenositta papuensis
+Papuan spinetail,Mearnsia novaeguineae
 Papuan treecreeper,Cormobates placens
 Papuan whipbird,Androphobus viridis
 Papuan white-eye,Zosterops novaeguineae
@@ -6515,6 +6856,7 @@ Peruvian sheartail,Thaumastura cora
 Peruvian sierra finch,Phrygilus punensis
 Peruvian tern,Sternula lorata
 Peruvian thick-knee,Hesperoburhinus superciliaris
+Peruvian thick-knee,Burhinus superciliaris
 Peruvian treehunter,Thripadectes scrutator
 Peruvian tyrannulet,Zimmerius viridiflavus
 Peruvian warbling antbird,Hypocnemis peruviana
@@ -6539,6 +6881,7 @@ Philippine drongo-cuckoo,Surniculus velutinus
 Philippine duck,Anas luzonica
 Philippine dwarf kingfisher,Ceyx melanurus
 Philippine eagle,Pithecophaga jefferyi
+Philippine eagle-owl,Bubo philippensis
 Philippine eagle-owl,Ketupa philippensis
 Philippine fairy-bluebird,Irena cyanogastra
 Philippine falconet,Microhierax erythrogenys
@@ -6560,6 +6903,7 @@ Philippine pitta,Erythropitta erythrogaster
 Philippine pygmy woodpecker,Yungipicus maculatus
 Philippine scops owl,Otus megalotis
 Philippine serpent eagle,Spilornis holospilus
+Philippine spinetail,Mearnsia picina
 Philippine swamphen,Porphyrio pulverulentus
 Philippine swiftlet,Aerodramus mearnsi
 Philippine tailorbird,Orthotomus castaneiceps
@@ -6615,6 +6959,7 @@ Pine flycatcher,Empidonax affinis
 Pine grosbeak,Pinicola enucleator
 Pine siskin,Spinus pinus
 Pine warbler,Setophaga pinus
+Pink cockatoo,Lophochroa leadbeateri
 Pink pigeon,Nesoenas mayeri
 Pink robin,Petroica rodinogaster
 Pink-backed pelican,Pelecanus rufescens
@@ -6649,7 +6994,9 @@ Piping crow,Corvus typicus
 Piping hornbill,Bycanistes fistulator
 Piping plover,Charadrius melodus
 Pipipi,pīpipi
+Pipipi,Mohoua novaeseelandiae
 Piratic flycatcher,Legatus leucophaius
+Pirre chlorospingus,Chlorospingus inornatus
 Pirre hummingbird,Goldmania bella
 Pirre warbler,Basileuterus ignotus
 Pitcairn reed warbler,Acrocephalus vaughani
@@ -6747,6 +7094,7 @@ Pohnpei lorikeet,Trichoglossus rubiginosus
 Pohnpei starling,Aplonis pelzelni
 Point-tailed palmcreeper,Berlepschia rikeri
 Pollen's vanga,Xenopirostris polleni
+Polynesian ground dove,Alopecoenas erythropterus
 Polynesian ground dove,Pampusana erythroptera
 Polynesian imperial pigeon,Ducula aurorae
 Polynesian starling,Aplonis tabuensis
@@ -6757,11 +7105,13 @@ Pomarine jaeger,Stercorarius pomarinus
 Pompadour cotinga,Xipholena punicea
 Powerful owl,Ninox strenua
 Powerful woodpecker,Campephilus pollens
+Poʻo-uli,Melamprosops phaeosoma
 Prairie falcon,Falco mexicanus
 Prairie warbler,Setophaga discolor
 Predicted antwren,Herpsilochmus praedictus
 Preuss's cliff swallow,Petrochelidon preussi
 Preuss's weaver,Ploceus preussi
+Preuss's weaver,Ploceus weynsi
 Preuss's weaver,P. preussi
 Prevost's ground sparrow,Melozone biarcuata
 Prigogine's double-collared sunbird,Cinnyris prigoginei
@@ -6779,12 +7129,14 @@ Providencia vireo,Vireo approximans
 Przevalski's finch,Urocynchramus pylzowi
 Przevalski's nuthatch,Sitta przewalskii
 Przevalski's parrotbill,Suthora przewalskii
+Przevalski's parrotbill,Sinosuthora przewalskii
 Przevalski's partridge,Alectoris magna
 Przevalski's redstart,Phoenicurus alaschanicus
 Príncipe seedeater,Crithagra rufobrunnea
 Príncipe speirops,Zosterops leucophaeus
 Príncipe sunbird,Anabathmis hartlaubii
 Príncipe thrush,Turdus xanthorhynchus
+Príncipe weaver,Ploceus weynsi
 Príncipe weaver,Ploceus princeps
 Príncipe white-eye,Zosterops ficedulinus
 Puaiohi,Myadestes palmeri
@@ -6812,6 +7164,7 @@ Puna ground tyrant,Muscisaxicola juninensis
 Puna ibis,Plegadis ridgwayi
 Puna miner,Geositta punensis
 Puna pipit,Anthus brevirostris
+Puna plover,Charadrius alticola
 Puna plover,Anarhynchus alticola
 Puna snipe,Gallinago andina
 Puna tapaculo,Scytalopus simonsi
@@ -6852,6 +7205,7 @@ Purple-crowned plovercrest,Stephanoxis loddigesii
 Purple-gaped honeyeater,Lichenostomus cratitius
 Purple-headed starling,Hylopsar purpureiceps
 Purple-naped lory,Lorius domicella
+Purple-naped spiderhunter,Kurochkinegramma hypogrammicum
 Purple-rumped sunbird,Leptocoma zeylonica
 Purple-tailed imperial pigeon,Ducula rufigaster
 Purple-throated carib,Eulampis jugularis
@@ -6876,6 +7230,7 @@ Pycroft's petrel,Pterodroma pycrofti
 Pygmy antwren,Myrmotherula brachyura
 Pygmy batis,Batis perkeo
 Pygmy bushtit,Aegithalos exilis
+Pygmy bushtit,Psaltria exilis
 Pygmy cormorant,Microcarbo pygmaeus
 Pygmy cuckooshrike,Celebesica abbotti
 Pygmy cupwing,Pnoepyga pusilla
@@ -6901,6 +7256,7 @@ Quailfinch indigobird,Vidua nigeriae
 Quebracho crested tinamou,Eudromia formosa
 Rachel's malimbe,M. racheliae
 Rachel's malimbe,Malimbus racheliae
+Rachel's malimbe,Ploceus weynsi
 Racket-tailed coquette,Discosura longicaudus
 Racket-tailed roller,Coracias spatulatus
 Racket-tailed treepie,Crypsirina temia
@@ -6938,6 +7294,7 @@ Red avadavat,Amandava amandava
 Red bird-of-paradise,Paradisaea rubra
 Red collared dove,Streptopelia tranquebarica
 Red crossbill,Loxia curvirostra
+Red fody,Ploceus weynsi
 Red fody,F. madagascariensis
 Red fody,Foudia madagascariensis
 Red fox sparrow,Passerella
@@ -6980,8 +7337,9 @@ Red-bearded bee-eater,Nyctyornis amictus
 Red-bellied fruit dove,Ptilinopus greyi
 Red-bellied grackle,Hypopyrrhus pyrohypogaster
 Red-bellied macaw,Orthopsittaca manilatus
-Red-bellied malimbe,Malimbus erythrogaster
+Red-bellied malimbe,Ploceus weynsi
 Red-bellied malimbe,M. erythrogaster
+Red-bellied malimbe,Malimbus erythrogaster
 Red-bellied paradise flycatcher,Terpsiphone rufiventer
 Red-bellied parrot,Poicephalus rufiventris
 Red-bellied woodpecker,Melanerpes carolinus
@@ -6989,6 +7347,8 @@ Red-billed blue magpie,Urocissa erythroryncha
 Red-billed brushturkey,Talegalla cuvieri
 Red-billed buffalo weaver,B. niger
 Red-billed buffalo weaver,Bubalornis niger
+Red-billed buffalo weaver,Ploceus weynsi
+Red-billed chough,Pyrrhocorax pyrrhocorax
 Red-billed chough,CHUF
 Red-billed curassow,Crax blumenbachii
 Red-billed dwarf hornbill,Lophoceros camurus
@@ -7005,6 +7365,7 @@ Red-billed pied tanager,Lamprospiza melanoleuca
 Red-billed pigeon,Patagioenas flavirostris
 Red-billed pytilia,Pytilia lineata
 Red-billed quelea,Q. quelea
+Red-billed quelea,Ploceus weynsi
 Red-billed quelea,Quelea quelea
 Red-billed scimitar babbler,Pomatorhinus ochraceiceps
 Red-billed scythebill,Campylorhamphus trochilirostris
@@ -7028,6 +7389,7 @@ Red-breasted partridge,Arborophila hyperythra
 Red-breasted pygmy parrot,Micropsitta bruijnii
 Red-breasted sapsucker,Sphyrapicus ruber
 Red-breasted swallow,Cecropis semirufa
+Red-breasted toucan,Ramphastos dicolorus
 Red-browed amazon,Amazona rhodocorytha
 Red-browed finch,Neochmia temporalis
 Red-browed pardalote,Pardalotus rubricatus
@@ -7041,6 +7403,7 @@ Red-capped lark,Calandrella cinerea
 Red-capped manakin,Ceratopipra mentalis
 Red-capped myzomela,Myzomela lafargei
 Red-capped parrot,Purpureicephalus spurius
+Red-capped plover,Charadrius ruficapillus
 Red-capped plover,Anarhynchus ruficapillus
 Red-capped robin,Petroica goodenovii
 Red-capped robin-chat,Cossypha natalensis
@@ -7049,6 +7412,7 @@ Red-cheeked parrot,Geoffroyus geoffroyi
 Red-cheeked wattle-eye,Platysteira blissetti
 Red-chested buttonquail,Turnix pyrrhothorax
 Red-chested cuckoo,Cuculus solitarius
+Red-chested flowerpecker,Dicaeum maugei
 Red-chested flufftail,Sarothrura rufa
 Red-chested goshawk,Accipiter toussenelii
 Red-chested owlet,Glaucidium tephronotum
@@ -7059,8 +7423,9 @@ Red-cockaded woodpecker,Leuconotopicus borealis
 Red-collared babbler,Turdoides rufocinctus
 Red-collared lorikeet,Trichoglossus rubritorquis
 Red-collared myzomela,Myzomela rosenbergii
-Red-collared widowbird,Euplectes ardens
+Red-collared widowbird,Ploceus weynsi
 Red-collared widowbird,E. ardens
+Red-collared widowbird,Euplectes ardens
 Red-collared woodpecker,Picus rabieri
 Red-cowled cardinal,Paroaria dominicana
 Red-crested cardinal,Paroaria coronata
@@ -7072,8 +7437,9 @@ Red-crowned amazon,Amazona viridigenalis
 Red-crowned ant tanager,Habia rubica
 Red-crowned barbet,Psilopogon rafflesii
 Red-crowned crane,Grus japonensis
-Red-crowned malimbe,Malimbus coronatus
+Red-crowned malimbe,Ploceus weynsi
 Red-crowned malimbe,M. coronatus
+Red-crowned malimbe,Malimbus coronatus
 Red-crowned parakeet,Cyanoramphus novaezelandiae
 Red-crowned woodpecker,Melanerpes rubricapillus
 Red-eared firetail,Stagonopleura oculata
@@ -7120,18 +7486,21 @@ Red-headed bunting,Emberiza bruniceps
 Red-headed finch,Amadina erythrocephala
 Red-headed flameback,Chrysocolaptes erythrocephalus
 Red-headed lovebird,Agapornis pullarius
+Red-headed malimbe,Ploceus weynsi
 Red-headed malimbe,Malimbus rubricollis
 Red-headed malimbe,M. rubricollis
 Red-headed manakin,Ceratopipra rubrocapilla
 Red-headed myzomela,Myzomela erythrocephala
 Red-headed parrotfinch,Erythrura cyaneovirens
 Red-headed quelea,Q. erythrops
+Red-headed quelea,Ploceus weynsi
 Red-headed quelea,Quelea erythrops
 Red-headed tanager,Piranga erythrocephala
 Red-headed trogon,Harpactes erythrocephalus
 Red-headed vulture,Sarcogyps calvus
-Red-headed weaver,Anaplectes rubriceps
+Red-headed weaver,Ploceus weynsi
 Red-headed weaver,A. rubriceps
+Red-headed weaver,Anaplectes rubriceps
 Red-headed woodpecker,Melanerpes erythrocephalus
 Red-hooded tanager,Piranga rubriceps
 Red-keeled flowerpecker,Dicaeum australe
@@ -7223,8 +7592,9 @@ Red-throated wryneck,Jynx ruficollis
 Red-vented barbet,Psilopogon lagrandieri
 Red-vented bulbul,Pycnonotus cafer
 Red-vented cockatoo,Cacatua haematuropygia
-Red-vented malimbe,M. scutatus
+Red-vented malimbe,Ploceus weynsi
 Red-vented malimbe,Malimbus scutatus
+Red-vented malimbe,M. scutatus
 Red-vested myzomela,Myzomela malaitae
 Red-wattled lapwing,Vanellus indicus
 Red-whiskered bulbul,Pycnonotus jocosus
@@ -7289,6 +7659,7 @@ Ring-necked francolin,Scleroptila streptophora
 Ring-tailed pigeon,Patagioenas caribaea
 Ringed antpipit,Corythopis torquatus
 Ringed kingfisher,Megaceryle torquata
+Ringed storm petrel,Hydrobates hornbyi
 Ringed teal,Callonetta leucophrys
 Ringed warbling finch,Microspingus torquatus
 Ringed woodpecker,Celeus torquatus
@@ -7332,10 +7703,12 @@ Rock wren,Salpinctes obsoletus
 Rockefeller's sunbird,Cinnyris rockefelleri
 Rockrunner,Achaetops pycnopygius
 Rockwarbler,Origma solitaria
+Rodrigues fody,Ploceus weynsi
 Rodrigues fody,Foudia flavicans
 Rodrigues fody,F. flavicans
 Rodrigues warbler,Acrocephalus rodericanus
 Roll's partridge,Arborophila rolli
+Romblon boobook,Ninox spilonotus
 Rondonia warbling antbird,Hypocnemis ochrogyna
 Rondônia bushbird,Clytoctantes atrogularis
 Rook,Corvus frugilegus
@@ -7362,6 +7735,7 @@ Roseate tern,Sterna dougallii
 Ross's goose,Anser rossii
 Ross's gull,Rhodostethia rosea
 Ross's turaco,Tauraco rossae
+Ross's turaco,Musophaga rossae
 Rosy bee-eater,Merops malimbicus
 Rosy minivet,Pericrocotus roseus
 Rosy pipit,Anthus roseatus
@@ -7471,6 +7845,7 @@ Rufous wren,Cinnycerthia unirufa
 Rufous-and-white wren,Thryophilus rufalbus
 Rufous-backed Inca finch,Incaspiza personata
 Rufous-backed antvireo,Dysithamnus xanthopterus
+Rufous-backed dwarf kingfisher,Ceyx rufidorsa
 Rufous-backed fantail,Rhipidura rufidorsa
 Rufous-backed honeyeater,Ptiloprora guisei
 Rufous-backed sibia,Leioptila annectens
@@ -7533,6 +7908,7 @@ Rufous-capped warbler,Basileuterus rufifrons
 Rufous-cheeked laughingthrush,Garrulax castanotis
 Rufous-cheeked nightjar,Caprimulgus rufigena
 Rufous-cheeked tanager,Tangara rufigenis
+Rufous-chested dotterel,Charadrius modestus
 Rufous-chested flycatcher,Ficedula dumetoria
 Rufous-chested tanager,Thlypopsis ornata
 Rufous-chinned laughingthrush,Ianthocincla rufogularis
@@ -7599,6 +7975,7 @@ Rufous-sided broadbill,Smithornis rufolateralis
 Rufous-sided crake,Laterallus melanophaius
 Rufous-sided gerygone,Gerygone dorsalis
 Rufous-sided honeyeater,Ptiloprora erythropleura
+Rufous-sided scrub tyrant,Euscarthmus rufomarginatus
 Rufous-sided warbling finch,Poospizopsis hypocondria
 Rufous-tailed antbird,Drymophila genei
 Rufous-tailed antthrush,Chamaeza ruficauda
@@ -7620,6 +7997,7 @@ Rufous-tailed shama,Copsychus pyrropygus
 Rufous-tailed stipplethroat,Epinecrophylla erythrura
 Rufous-tailed tailorbird,Orthotomus sericeus
 Rufous-tailed tyrant,Knipolegus poecilurus
+Rufous-tailed weaver,Ploceus weynsi
 Rufous-tailed weaver,Histurgops ruficauda
 Rufous-tailed weaver,H. ruficauda
 Rufous-tailed xenops,Microxenops milleri
@@ -7662,6 +8040,7 @@ Rufous-winged tyrannulet,Mecocerculus calopterus
 Rufous-winged woodpecker,Piculus simplex
 Running coua,Coua cursor
 Ruspoli's turaco,Menelikornis ruspolii
+Ruspoli's turaco,Tauraco ruspolii
 Russet antshrike,Thamnistes anabatinus
 Russet bush warbler,Locustella mandelli
 Russet nightingale-thrush,Catharus occidentalis
@@ -7685,6 +8064,7 @@ Rusty blackbird,Euphagus carolinus
 Rusty bush lark,Mirafra rufa
 Rusty flowerpiercer,Diglossa sittoides
 Rusty laughingthrush,Pterorhinus poecilorhynchus
+Rusty mouse-warbler,Crateroscelis murina
 Rusty mouse-warbler,Origma murina
 Rusty pitohui,Pseudorectes ferrugineus
 Rusty sparrow,Aimophila rufescens
@@ -7728,6 +8108,7 @@ Rusty-vented canastero,Asthenes dorbignyi
 Rusty-winged antwren,Herpsilochmus frater
 Rusty-winged barbtail,Premnornis guttuliger
 Rusty-winged starling,Aplonis zelandica
+Ruvu weaver,Ploceus weynsi
 Ruvu weaver,P. holoxanthus
 Rwenzori apalis,Oreolais ruwenzorii
 Rwenzori batis,Batis diops
@@ -7756,8 +8137,12 @@ Rüppell's vulture,Gyps rueppelli
 Rüppell's warbler,Curruca ruppeli
 Rüppell's weaver,P. galbula
 Rüppell's weaver,Ploceus galbula
+Rüppell's weaver,Ploceus weynsi
 Sabine's gull,SAY-bin
+Sabine's gull,Xema sabini
+Sabine's puffback,Dryoscopus sabini
 Sabine's puffback,SAY-bin
+Sabine's spinetail,Rhaphidura sabini
 Sabine's spinetail,SAY-bin
 Sabota lark,Calendulauda sabota
 Sacred kingfisher,Todiramphus sanctus
@@ -7768,6 +8153,7 @@ Saffron siskin,Spinus siemiradzkii
 Saffron toucanet,Pteroglossus bailloni
 Saffron-billed sparrow,Arremon flavirostris
 Saffron-cowled blackbird,Xanthopsar flavus
+Saffron-crested tyrant-manakin,Neopelma chrysocephalum
 Saffron-crowned tanager,Tangara xanthocephala
 Saffron-headed parrot,Pyrilia pyrilia
 Sage thrasher,Oreoscoptes montanus
@@ -7780,10 +8166,12 @@ Saint Lucia black finch,Melanospiza richardsoni
 Saint Lucia oriole,Icterus laudabilis
 Saint Lucia warbler,Setophaga delicata
 Saint Vincent amazon,Amazona guildingii
+Saint helena plover,Charadrius sanctaehelenae
 Saipan reed warbler,Acrocephalus hiwae
 Sakalava rail,Zapornia olivieri
-Sakalava weaver,Ploceus sakalava
 Sakalava weaver,P. sakalava
+Sakalava weaver,Ploceus weynsi
+Sakalava weaver,Ploceus sakalava
 Saker falcon,Falco cherrug
 Sakhalin grasshopper warbler,Helopsaltes amnicola
 Sakhalin leaf warbler,Phylloscopus borealoides
@@ -7823,10 +8211,12 @@ Sandwich tern,Thalasseus sandvicensis
 Sandy gallito,Teledromas fuscus
 Sandy scops owl,Otus icterorhynchus
 Sanford's sea eagle,Icthyophaga sanfordi
+Sanford's sea eagle,Haliaeetus sanfordi
 Sanford's white-eye,Zosterops lacertosus
 Sangihe golden bulbul,Hypsipetes platenae
 Sangihe hanging parrot,Loriculus catamene
 Sangihe scops owl,Otus collari
+Sangihe whistler,Coracornis sanghirensis
 Sangihe white-eye,Zosterops nehrkorni
 Sangkar white-eye,Zosterops melanurus
 Santa Cruz ground dove,Pampusana sanctaecrucis
@@ -7846,7 +8236,9 @@ Santa Marta tapaculo,Scytalopus sanctaemartae
 Santa Marta warbler,Myiothlypis basilica
 Santa Marta woodstar,Chaetocercus astreans
 Santa Marta wren,Troglodytes monticola
+Santa cruz ground dove,Alopecoenas sanctaecrucis
 Santarem parakeet,Pyrrhura amazonum
+Santo thicketbird,Cincloramphus whitneyi
 Sapayoa,Sapayoa aenigma
 Sapphire flycatcher,Ficedula sapphira
 Sapphire quail-dove,Geotrygon saphirina
@@ -7902,6 +8294,7 @@ Scaly laughingthrush,Trochalopteron subunicolor
 Scaly spurfowl,Pternistis squamatus
 Scaly thrush,Zoothera dauma
 Scaly-bellied woodpecker,Picus squamatus
+Scaly-breasted bulbul,Rubigula squamata
 Scaly-breasted bulbul,Ixodia squamata
 Scaly-breasted cupwing,Pnoepyga albiventer
 Scaly-breasted honeyeater,Lichmera squamata
@@ -7914,7 +8307,9 @@ Scaly-breasted thrasher,Allenia fusca
 Scaly-breasted woodpecker,Celeus undatus grammicus
 Scaly-crowned babbler,Malacopteron cinereum
 Scaly-crowned honeyeater,Sugomel lombokium
+Scaly-crowned honeyeater,Lichmera lombokia
 Scaly-feathered weaver,Sporopipes squamifrons
+Scaly-feathered weaver,Ploceus weynsi
 Scaly-feathered weaver,S. squamifrons
 Scaly-headed parrot,Pionus maximiliani
 Scaly-naped amazon,Amazona mercenarius
@@ -8000,6 +8395,7 @@ Sedge wren,Cistothorus stellaris
 See-see partridge,Ammoperdix griseogularis
 Selva cacique,Cacicus koepckeae
 Semicollared flycatcher,Ficedula semitorquata
+Semicollared hawk,Accipiter collaris
 Semicollared hawk,Microspizias collaris
 Semicollared puffbird,Malacoptila semicincta
 Semipalmated plover,Charadrius semipalmatus
@@ -8031,11 +8427,13 @@ Seram white-eye,Zosterops stalkeri
 Serendib scops owl,Otus thilohoffmanni
 Serra antwren,Formicivora serrana
 Serra do Mar tyrant-manakin,Neopelma chrysolophum
+Serra do mar bristle tyrant,Phylloscartes difficilis
 Serra finch,Embernagra longicauda
 Seven-colored tanager,Tangara fastuosa
 Seychelles black parrot,Coracopsis barklyi
 Seychelles blue pigeon,Alectroenas pulcherrimus
 Seychelles bulbul,Hypsipetes crassirostris
+Seychelles fody,Ploceus weynsi
 Seychelles fody,Foudia sechellarum
 Seychelles fody,F. sechellarum
 Seychelles kestrel,Falco araeus
@@ -8070,6 +8468,7 @@ Sharpe's starling,Pholia sharpii
 Shear-tailed grey tyrant,Muscipipra vetula
 Shelley's crimsonwing,Cryptospiza shelleyi
 Shelley's eagle-owl,Ketupa shelleyi
+Shelley's eagle-owl,Bubo shelleyi
 Shelley's francolin,Scleroptila shelleyi
 Shelley's greenbul,Arizelocichla masukuensis
 Shelley's oliveback,Nesocharis shelleyi
@@ -8088,8 +8487,10 @@ Shining-green hummingbird,Chrysuronia goudoti
 Shiny cowbird,Molothrus bonariensis
 Shiny whistling thrush,Myophonus melanurus
 Shoebill,Balaeniceps rex
+Shore plover,Thinornis novaeseelandiae
 Shore plover,tūturuatu
 Short-bearded honeyeater,Melionyx nouhuysi
+Short-bearded honeyeater,Melidectes nouhuysi
 Short-billed canastero,Asthenes baeri
 Short-billed dowitcher,Limnodromus griseus
 Short-billed honeycreeper,Cyanerpes nitidus
@@ -8115,6 +8516,7 @@ Short-tailed nighthawk,Lurocalis semitorquatus
 Short-tailed paradigalla,Paradigalla brevicauda
 Short-tailed parrot,Graydidascalus brachyurus
 Short-tailed parrotbill,Suthora davidiana
+Short-tailed parrotbill,Neosuthora davidiana
 Short-tailed pipit,Anthus brachyurus
 Short-tailed pygmy tyrant,Myiornis ecaudatus
 Short-tailed scimitar babbler,Napothera danjoui
@@ -8128,6 +8530,7 @@ Short-toed snake eagle,Circaetus gallicus
 Short-toed treecreeper,Certhia brachydactyla
 Short-winged cisticola,Cisticola brachypterus
 Shovel-billed kookaburra,Dacelo rex
+Shovel-billed kookaburra,Clytoceyx rex
 Shrike-like tanager,Neothraupis fasciata
 Shy albatross,Thalassarche cauta
 Shy heathwren,Hylacola cauta
@@ -8140,8 +8543,10 @@ Siberian blue robin,Larvivora cyane
 Siberian crane,Leucogeranus leucogeranus
 Siberian grouse,Falcipennis falcipennis
 Siberian jay,Perisoreus infaustus
+Siberian long-tailed rosefinch,Carpodacus sibiricus
 Siberian nuthatch,Sitta arctica
 Siberian rubythroat,Calliope calliope
+Siberian sand plover,Charadrius mongolus
 Siberian stonechat,Saxicola maurus
 Siberian thrush,Geokichla sibirica
 Sibilant sirystes,Sirystes sibilator
@@ -8165,6 +8570,7 @@ Sierran elaenia,Elaenia pallatangae
 Sikkim treecreeper,Certhia discolor
 Sikkim wedge-billed babbler,Stachyris humei
 Silky-tailed nightjar,Antrostomus sericocaudatus
+Sillem's rosefinch,Carpodacus sillemi
 Silver gull,Chroicocephalus novaehollandiae
 Silver oriole,Oriolus mellianus
 Silver pheasant,Lophura nycthemera
@@ -8189,6 +8595,7 @@ Silvereye,Zosterops lateralis
 Silvery grebe,Podiceps occipitalis
 Silvery pigeon,Columba argentina
 Silvery-cheeked antshrike,Sakesphoroides cristatus
+Silvery-cheeked antshrike,Sakesphorus cristatus
 Silvery-cheeked hornbill,Bycanistes brevis
 Silvery-flanked antwren,Myrmotherula luctuosa
 Silvery-fronted tapaculo,Scytalopus argentifrons
@@ -8287,6 +8694,7 @@ Slender-billed starling,Onychognathus tenuirostris
 Slender-billed thornbill,Acanthiza iredalei
 Slender-billed vulture,Gyps tenuirostris
 Slender-billed weaver,P. pelzelni
+Slender-billed weaver,Ploceus weynsi
 Slender-billed weaver,Ploceus pelzelni
 Slender-billed white-eye,Zosterops tenuirostris
 Slender-billed xenops,Xenops tenuirostris
@@ -8326,9 +8734,11 @@ Snow petrel,Pagodroma nivea
 Snow pigeon,Columba leuconota
 Snow-capped manakin,Lepidothrix nattereri
 Snowcap,Microchera albocoronata
+Snowy albatross,Diomedea exulans
 Snowy cotinga,Carpodectes nitidus
 Snowy egret,Egretta thula
 Snowy owl,Bubo scandiacus
+Snowy plover,Charadrius nivosus
 Snowy plover,Anarhynchus nivosus
 Snowy sheathbill,Chionis albus
 Snowy-bellied hummingbird,Saucerottia edward
@@ -8340,6 +8750,7 @@ Snowy-throated babbler,Stachyris oglei
 Snowy-throated kingbird,Tyrannus niveigularis
 Sociable lapwing,Vanellus gregarius
 Sociable weaver,P. socius
+Sociable weaver,Ploceus weynsi
 Sociable weaver,Philetairus socius
 Social flycatcher,Myiozetetes similis
 Society kingfisher,Todiramphus veneratus
@@ -8415,6 +8826,7 @@ Sooty fox sparrow,Passerella (iliaca) unalaschcensis
 Sooty grassquit,Asemospiza fuliginosa
 Sooty grouse,Dendragapus fuliginosus
 Sooty gull,Ichthyaetus hemprichii
+Sooty honeyeater,Melidectes fuscus
 Sooty honeyeater,Melionyx fuscus
 Sooty myzomela,Myzomela tristrami
 Sooty oystercatcher,Haematopus fuliginosus
@@ -8426,6 +8838,7 @@ Sooty thicket fantail,Rhipidura threnothorax
 Sooty thrush,Turdus nigrescens
 Sooty tyrannulet,Serpophaga nigricans
 Sooty-capped babbler,Malacopteron affine
+Sooty-capped chlorospingus,Chlorospingus pileatus
 Sooty-capped hermit,Phaethornis augusti
 Sooty-capped puffbird,Bucco noanamae
 Sooty-crowned flycatcher,Myiarchus phaeocephalus
@@ -8451,6 +8864,7 @@ South Island snipe,Coenocorypha iredalei
 South Melanesian cuckooshrike,Coracina caledonica
 South Moluccan pitta,Erythropitta rubrinucha
 South Pare white-eye,Zosterops winifredae
+South island takahē,Porphyrio hochstetteri
 South polar skua,Stercorarius maccormicki
 Southern Marquesan reed warbler,Acrocephalus mendanae
 Southern antpipit,Corythopis delalandi
@@ -8466,6 +8880,7 @@ Southern bristle tyrant,Pogonotriccus eximius
 Southern brown kiwi,Apteryx australis
 Southern brown-throated weaver,Ploceus xanthopterus
 Southern brown-throated weaver,P. xanthopterus
+Southern brown-throated weaver,Ploceus weynsi
 Southern carmine bee-eater,Merops nubicoides
 Southern cassowary,Casuarius casuarius
 Southern chestnut-tailed antbird,Sciaphylax hemimelaena
@@ -8475,6 +8890,7 @@ Southern double-collared sunbird,Cinnyris chalybeus
 Southern emu-wren,Stipiturus malachurus
 Southern fiscal,Lanius collaris
 Southern fulmar,Fulmarus glacialoides
+Southern giant hummingbird,Patagona gigas
 Southern giant petrel,Macronectes giganteus
 Southern grey-headed sparrow,Passer diffusus
 Southern grosbeak-canary,Crithagra buchanani
@@ -8483,14 +8899,17 @@ Southern hill myna,Gracula indica
 Southern hyliota,Hyliota australis
 Southern lapwing,Vanellus chilensis
 Southern martin,Progne elegans
+Southern masked weaver,Ploceus weynsi
 Southern masked weaver,Ploceus velatus
 Southern masked weaver,P. velatus
 Southern mealy amazon,Amazona farinosa farinosa
+Southern mouse-colored tyrannulet,Phaeomyias murina
 Southern nightingale-wren,Microcerculus marginatus
 Southern pied babbler,Turdoides bicolor
 Southern pochard,Netta erythrophthalma
 Southern red bishop,Euplectes orix
 Southern red bishop,E. orix
+Southern red bishop,Ploceus weynsi
 Southern red-billed hornbill,Tockus rufirostris
 Southern rockhopper penguin,Eudyptes chrysocome
 Southern rough-winged swallow,Stelgidopteryx ruficollis
@@ -8500,7 +8919,9 @@ Southern scrub flycatcher,Sublegatus modestus
 Southern scrub robin,Drymodes brunneopygia
 Southern shrikebill,Clytorhynchus pachycephaloides
 Southern silvery kingfisher,Ceyx argentatus
+Southern sooty woodpecker,Mulleripicus fuliginosus
 Southern tchagra,Tchagra tchagra
+Southern tropical pewee,Contopus cinereus
 Southern tropical pewee,	Contopus cinereus
 Southern variable pitohui,Pitohui uropygialis
 Southern white-crowned shrike,Eurocephalus anguitimens
@@ -8525,8 +8946,9 @@ Speckle-breasted antpitta,Cryptopezus nattereri
 Speckle-breasted woodpecker,Dendropicos poecilolaemus
 Speckle-breasted wren,Pheugopedius sclateri
 Speckle-chested piculet,Picumnus steindachneri
-Speckle-fronted weaver,S. frontalis
 Speckle-fronted weaver,Sporopipes frontalis
+Speckle-fronted weaver,Ploceus weynsi
+Speckle-fronted weaver,S. frontalis
 Speckle-throated woodpecker,Campethera scriptoricauda
 Speckled antshrike,Xenornis setifrons
 Speckled boobook,Ninox punctulata
@@ -8534,6 +8956,7 @@ Speckled chachalaca,Ortalis guttata
 Speckled hummingbird,Adelomyia melanogenys
 Speckled mourner,Laniocera rufescens
 Speckled mousebird,Colius striatus
+Speckled nightingale-thrush,Catharus maculatus
 Speckled piculet,Picumnus innominatus
 Speckled pigeon,Columba guinea
 Speckled rail,Coturnicops notatus
@@ -8546,15 +8969,18 @@ Speckled wood pigeon,Columba hodgsonii
 Spectacled barwing,Actinodura ramsayi
 Spectacled bristle tyrant,Pogonotriccus orbitalis
 Spectacled bulbul,Ixodia erythropthalmos
+Spectacled bulbul,Rubigula erythropthalmos
 Spectacled eider,Somateria fischeri
 Spectacled finch,Callacanthis burtoni
 Spectacled flowerpecker,Dicaeum dayakorum
 Spectacled fulvetta,Fulvetta ruficapilla
 Spectacled guillemot,Cepphus carbo
 Spectacled imperial pigeon,Ducula perspicillata
+Spectacled longbill,Oedistoma iliolophus
 Spectacled monarch,Symposiachrus trivirgatus
 Spectacled owl,Pulsatrix perspicillata
 Spectacled parrotbill,Suthora conspicillata
+Spectacled parrotbill,Sinosuthora conspicillata
 Spectacled parrotlet,Forpus conspicillatus
 Spectacled petrel,Procellaria conspicillata
 Spectacled prickletail,Siptornis striaticollis
@@ -8565,10 +8991,12 @@ Spectacled thrush,Turdus nudigenis
 Spectacled tyrannulet,Zimmerius improbus
 Spectacled tyrant,Hymenops perspicillatus
 Spectacled warbler,Curruca conspicillata
+Spectacled weaver,Ploceus weynsi
 Spectacled weaver,Ploceus ocularis
 Spectacled weaver,P. ocularis
 Spectacled whitestart,Myioborus melanocephalus
 Speke's weaver,P. spekei
+Speke's weaver,Ploceus weynsi
 Speke's weaver,Ploceus spekei
 Spice imperial pigeon,Ducula myristicivora
 Spike-heeled lark,Chersomanes albofasciata
@@ -8592,6 +9020,7 @@ Spot-backed antshrike,Hypoedaleus guttatus
 Spot-backed antwren,Herpsilochmus dorsimaculatus
 Spot-bellied bobwhite,Colinus leucopogon
 Spot-bellied eagle-owl,Ketupa nipalensis
+Spot-bellied eagle-owl,Bubo nipalensis
 Spot-billed ground tyrant,Muscisaxicola maculirostris
 Spot-billed pelican,Pelecanus philippensis
 Spot-billed toucanet,Selenidera maculirostris
@@ -8648,6 +9077,7 @@ Spotted catbird,Ailuroedus maculosus
 Spotted crake,Porzana porzana
 Spotted crocias,Laniellus albonotatus
 Spotted dove,Spilopelia chinensis
+Spotted dove,Streptopelia chinensis
 Spotted eagle-owl,Bubo africanus
 Spotted elachura,Elachura formosa
 Spotted fantail,Rhipidura perlata
@@ -8697,6 +9127,7 @@ Spur-winged lapwing,Vanellus spinosus
 Squacco heron,Ardeola ralloides
 Squamate antbird,Myrmoderus squamosus
 Square-tailed bulbul,Hypsipetes ganeesa
+Square-tailed drongo,Dicrurus ludwigii
 Square-tailed drongo-cuckoo,Surniculus lugubris
 Square-tailed kite,Lophoictinia isura
 Square-tailed nightjar,Caprimulgus fossii
@@ -8763,6 +9194,7 @@ Straight-billed reedhaunter,Limnoctites rectirostris
 Straight-billed woodcreeper,Dendroplex picus
 Straneck's tyrannulet,Serpophaga griseicapilla
 Strange weaver,Ploceus alienus
+Strange weaver,Ploceus weynsi
 Strange weaver,P. alienus
 Strange-tailed tyrant,Alectrurus risora
 Straw-backed tanager,Stilpnia argyrofenges
@@ -8810,6 +9242,7 @@ Streaked scrub warbler,Scotocerca inquieta
 Streaked shearwater,Calonectris leucomelas
 Streaked spiderhunter,Arachnothera magna
 Streaked tuftedcheek,Pseudocolaptes boissonneautii
+Streaked weaver,Ploceus weynsi
 Streaked weaver,P. manyar
 Streaked weaver,Ploceus manyar
 Streaked wren-babbler,Gypsophila brevicaudata
@@ -8928,16 +9361,20 @@ Sulawesi ground dove,Gallicolumba tristigmata
 Sulawesi hawk-eagle,Nisaetus lanceolatus
 Sulawesi hornbill,Rhabdotorrhinus exarhatus
 Sulawesi leaf warbler,Phylloscopus nesophilus
+Sulawesi lilac kingfisher,Cittura cyanotis
 Sulawesi masked owl,Tyto rosenbergii
 Sulawesi myna,Basilornis celebensis
 Sulawesi myzomela,Myzomela chloroptera
 Sulawesi nightjar,Caprimulgus celebensis
+Sulawesi pitta,Erythropitta caeruleitorques
+Sulawesi pitta,Erythropitta palliceps
 Sulawesi pitta,Erythropitta celebensis
 Sulawesi pygmy woodpecker,Yungipicus temminckii
 Sulawesi scops owl,Otus manadensis
 Sulawesi serpent eagle,Spilornis rufipectus
 Sulawesi streaked flycatcher,Muscicapa sodhii
 Sulawesi swiftlet,Aerodramus sororum
+Sulawesi thrush,Cataponera turdoides
 Sulawesi thrush,Turdus turdoides
 Sulawesi woodcock,Scolopax celebensis
 Sulphur-bearded reedhaunter,Limnoctites sulphuriferus
@@ -8960,6 +9397,7 @@ Sulphury flycatcher,Tyrannopsis sulphurea
 Sultan tit,Melanochlora sultanea
 Sultan's cuckoo-dove,Macropygia doreya
 Sulu bleeding-heart,Gallicolumba menagei
+Sulu boobook,Ninox reyi
 Sulu hornbill,Anthracoceros montani
 Sulu jungle flycatcher,Cyornis ocularis
 Sulu pygmy woodpecker,Yungipicus ramsayi
@@ -8987,6 +9425,7 @@ Sumba jungle flycatcher,Cyornis stresemanni
 Sumba myzomela,Myzomela dammermani
 Sumichrast's wren,Hylorchilus sumichrasti
 Summer tanager,Piranga rubra
+Sun conure,Aratinga solstitialis
 Sun lark,Galerida modesta
 Sunbittern,Eurypyga helias
 Sunda blue flycatcher,Cyornis caerulatus
@@ -9005,6 +9444,7 @@ Sunda scops owl,Otus lempiji
 Sunda teal,Anas gibberifrons
 Sunda thrush,Zoothera andromedae
 Sunda warbler,Phylloscopus grammiceps
+Sunda zebra finch,Taeniopygia guttata
 Sungrebe,Heliornis fulica
 Sunset lorikeet,Trichoglossus forsteni
 Superb fairywren,Malurus cyaneus
@@ -9076,8 +9516,12 @@ São Tomé thrush,Turdus olivaceofuscus
 São Tomé weaver,P. sanctithomae
 São Tomé weaver,Ploceus sanctithomae
 São Tomé white-eye,Zosterops feae
+São francisco black tyrant,Knipolegus franciscanus
+São paulo bristle tyrant,Phylloscartes paulista
+São tomé weaver,Ploceus weynsi
 Tablas drongo,Dicrurus menagei
 Tablas fantail,Rhipidura sauli
+Tacarcuna chlorospingus,Chlorospingus tacarcunae
 Tacarcuna tapaculo,Scytalopus panamensis
 Tacarcuna warbler,Basileuterus tacarcunae
 Tacarcuna wood quail,Odontophorus dialeucos
@@ -9090,7 +9534,7 @@ Tagula shrikethrush,Colluricincla discolor
 Tagula white-eye,Zosterops meeki
 Tahiti crake,Zapornia nigra
 Tahiti monarch,Pomarea nigra
-Tahiti petrel,Pseudobulweria rostrata)
+Tahiti petrel,Pseudobulweria rostrata
 Tahiti rail,Hypotaenidia pacifica
 Tahiti reed warbler,Acrocephalus caffer
 Tahiti sandpiper,Prosobonia leucoptera
@@ -9102,6 +9546,7 @@ Taita falcon,Falco fasciinucha
 Taita fiscal,Lanius dorsalis
 Taita thrush,Turdus helleri
 Taita white-eye,Zosterops silvanus
+Taiwan,Niltava vivida
 Taiwan bamboo partridge,Bambusicola sonorivox
 Taiwan barbet,Psilopogon nuchalis
 Taiwan barwing,Actinodura morrisoniana
@@ -9121,6 +9566,7 @@ Talamanca hummingbird,Eugenes spectabilis
 Talaud bush-hen,Amaurornis magnirostris
 Talaud kingfisher,Todiramphus enigma
 Talaud rail,Gymnocrex talaudensis
+Taliabu bush warbler,Locustella portenta
 Taliabu fantail,Rhipidura sulaensis
 Taliabu leaf warbler,Phylloscopus emilsalimi
 Taliabu masked owl,Tyto nigrobrunnea
@@ -9132,6 +9578,7 @@ Tambourine dove,Turtur tympanistria
 Tan-capped catbird,Ailuroedus geislerorum
 Tana River cisticola,Cisticola restrictus
 Tanager finch,Oreothraupis arremonops
+Tanahjampea monarch,Symposiachrus everetti
 Tanimbar boobook,Ninox forbesi
 Tanimbar bush warbler,Horornis carolinae
 Tanimbar corella,Cacatua goffiniana
@@ -9139,11 +9586,13 @@ Tanimbar cuckoo-dove,Macropygia timorlaoensis
 Tanimbar flycatcher,Ficedula riedeli
 Tanimbar friarbird,Philemon plumigenis
 Tanimbar megapode,Megapodius tenimberensis
+Tanimbar monarch,Carterornis castus
 Tanimbar oriole,Oriolus decipiens
 Tanimbar starling,Aplonis crassa
 Tanna fruit dove,Ptilinopus tannensis
 Tanna ground dove,Pampusana ferruginea
 Tanzanian masked weaver,P. reichardi
+Tanzanian masked weaver,Ploceus weynsi
 Tanzanian masked weaver,Ploceus reichardi
 Tanzanian red-billed hornbill,Tockus ruahae
 Tapajos antpitta,Myrmothera subcanescens
@@ -9156,6 +9605,7 @@ Tasmanian thornbill,Acanthiza ewingii
 Tatama tapaculo,Scytalopus alvarezlopezi
 Tataupa tinamou,Crypturellus tataupa
 Taveta weaver,Ploceus castaneiceps
+Taveta weaver,Ploceus weynsi
 Taveta weaver,P. castaneiceps
 Taveuni silktail,Lamprolia victoriae
 Tawitawi brown dove,Phapitreron cinereiceps
@@ -9225,6 +9675,7 @@ Terrestrial brownbul,Phyllastrephus terrestris
 Tessmann's flycatcher,Fraseria tessmanni
 Thamnornis,Thamnornis chloropetoides
 Thekla's lark,Galerida theklae
+Thick-billed berrypecker,Melanocharis crassirostris
 Thick-billed cuckoo,Pachycoccyx audeberti
 Thick-billed euphonia,Euphonia laniirostris
 Thick-billed flowerpecker,Dicaeum agile
@@ -9248,8 +9699,9 @@ Thick-billed siskin,Spinus crassirostris
 Thick-billed spiderhunter,Arachnothera crassirostris
 Thick-billed vireo,Vireo crassirostris
 Thick-billed warbler,Arundinax aedon
-Thick-billed weaver,A. albifrons
 Thick-billed weaver,Amblyospiza albifrons
+Thick-billed weaver,Ploceus weynsi
+Thick-billed weaver,A. albifrons
 Thicket antpitta,Myrmothera dives
 Thicket tinamou,Crypturellus cinnamomeus
 Thorn-tailed rayadito,Aphrastura spinicauda
@@ -9289,6 +9741,7 @@ Tiger shrike,Lanius tigrinus
 Timberline wren,Thryorchilus browni
 Timneh parrot,Psittacus timneh
 Timor blue flycatcher,Eumyias hyacinthinus
+Timor blue flycatcher,Cyornis hyacinthinus
 Timor boobook,Ninox fusca
 Timor cuckoo-dove,Macropygia magna
 Timor friarbird,Philemon inornatus
@@ -9301,6 +9754,7 @@ Timor stubtail,Urosphena subulata
 Tinian monarch,Monarcha takatsukasae
 Tinkling cisticola,Cisticola rufilatus
 Tiny cisticola,Cisticola nana
+Tiny hawk,Accipiter superciliosus
 Tiny hawk,Microspizias superciliosus
 Tiny sunbird,Cinnyris minullus
 Tiny tyrant-manakin,Tyranneutes virescens
@@ -9308,6 +9762,7 @@ Tit berrypecker,Oreocharis arfaki
 Tit hylia,Pholidornis rushiae
 Tit-like dacnis,Xenodacnis parina
 Titicaca grebe,Rollandia microptera
+Tityras,Tityra leucura
 Toco toucan,Ramphastos toco
 Tocuyo sparrow,Arremonops tocuyensis
 Todd's antwren,Herpsilochmus stictocephalus
@@ -9322,6 +9777,7 @@ Tolima blossomcrown,Anthocephala berlepschi
 Tolima dove,Leptotila conoveri
 Tomtit,Petroica macrocephala
 Tongan ground dove,Pampusana stairi
+Tongan ground dove,Alopecoenas stairi
 Tongan megapode,Megapodius pritchardii
 Tongan whistler,Pachycephala jacquinoti
 Tooth-billed bowerbird,Scenopoeetes dentirostris
@@ -9372,6 +9828,7 @@ Tristan thrush,Turdus eremita
 Tristram's bunting,Emberiza tristrami
 Tristram's starling,Onychognathus tristramii
 Tristram's storm petrel,ʻakihikeʻehiʻale
+Tristram's storm petrel,Hydrobates tristrami
 Tristram's warbler,Curruca deserticola
 Trocaz pigeon,Columba trocaz
 Tropeiro seedeater,Sporophila beltoni
@@ -9380,6 +9837,7 @@ Tropical gnatcatcher,Polioptila plumbea
 Tropical kingbird,Tyrannus melancholicus
 Tropical mockingbird,Mimus gilvus
 Tropical parula,Setophaga pitiayumi
+Tropical royal flycatcher,Onychorhynchus coronatus
 Tropical screech owl,Megascops choliba
 Tropical scrubwren,Sericornis beccarii
 Tropical shearwater,Puffinus bailloni
@@ -9391,6 +9849,7 @@ Tsavo sunbird,Cinnyris tsavoensis
 Tschudi's nightjar,Systellura decussata
 Tschudi's tapaculo,Scytalopus acutirostris
 Tschudi's woodcreeper,Xiphorhynchus ocellatus chunchotambo
+Tsingy forest rail,Mentocrex beankaensis
 Tuamotu reed warbler,Acrocephalus atyphus
 Tuamotu sandpiper,Prosobonia parvirostris
 Tucumán amazon,Amazona tucumana
@@ -9414,6 +9873,7 @@ Tumbesian tyrannulet,Nesotriccus tumbezanus
 Tundra bean goose,Anser serrirostris
 Tundra swan,Cygnus columbianus
 Turati's boubou,Laniarius turatii
+Turkestan ground jay,Podoces panderi
 Turkestan short-toed lark,Alaudala heinei
 Turkey vulture,Cathartes aura
 Turner's eremomela,Eremomela turneri
@@ -9431,6 +9891,7 @@ Tuxtla quail-dove,Zentrygon carrikeri
 Twelve-wired bird-of-paradise,Seleucidis melanoleucus
 Twite,Linaria flavirostris
 Two-banded plover,Anarhynchus falklandicus
+Two-banded plover,Charadrius falklandicus
 Two-banded puffbird,Hypnelus bicinctus
 Two-banded warbler,Myiothlypis bivittata
 Two-barred crossbill,Loxia leucoptera
@@ -9481,10 +9942,12 @@ Ursula's sunbird,Cinnyris ursulae
 Usambara akalat,Sheppardia montana
 Usambara double-collared sunbird,Cinnyris usambaricus
 Usambara eagle-owl,Ketupa poensis vosseleri
+Usambara eagle-owl,Bubo vosseleri
 Usambara hyliota,Hyliota usambara
 Usambara thrush,Turdus roehli
-Usambara weaver,Ploceus nicolli
 Usambara weaver,P. nicolli
+Usambara weaver,Ploceus nicolli
+Usambara weaver,Ploceus weynsi
 Ussher's flycatcher,Bradornis ussheri
 Vampire ground finch,Geospiza septentrionalis
 Van Dam's vanga,Xenopirostris damii
@@ -9560,6 +10023,7 @@ Vernal hanging parrot,Loriculus vernalis
 Verreaux's coua,Coua verreauxi
 Verreaux's eagle,Aquila verreauxii
 Verreaux's eagle-owl,Ketupa lactea
+Verreaux's eagle-owl,Bubo lacteus
 Verreaux's monal-partridge,Tetraophasis obscurus
 Versicolored barbet,Eubucco versicolor
 Versicolored emerald,Chrysuronia versicolor
@@ -9569,8 +10033,9 @@ Victoria crowned pigeon,Goura victoria
 Victoria's riflebird,Ptiloris victoriae
 Victorin's warbler,Cryptillas victorini
 Vieillot's barbet,Lybius vieilloti
-Vieillot's black weaver,Ploceus nigerrimus
 Vieillot's black weaver,P. nigerrimus
+Vieillot's black weaver,Ploceus nigerrimus
+Vieillot's black weaver,Ploceus weynsi
 Vietnamese crested argus,Rheinardia ocellata
 Vietnamese cutia,Cutia legalleni
 Vietnamese greenfinch,Chloris monguilloti
@@ -9579,12 +10044,14 @@ Vilcabamba brushfinch,Atlapetes terborghi
 Vilcabamba tapaculo,Scytalopus urubambae
 Vilcabamba thistletail,Asthenes vilcabambae
 Village indigobird,Vidua chalybeata
-Village weaver,Ploceus cucullatus
 Village weaver,P. cucullatus
+Village weaver,Ploceus cucullatus
+Village weaver,Ploceus weynsi
 Vinaceous dove,Streptopelia vinacea
 Vinaceous rosefinch,Carpodacus vinaceus
 Vinaceous-breasted amazon,Amazona vinacea
 Vinous-breasted sparrowhawk,Accipiter rhodogaster
+Vinous-throated parrotbill,Sinosuthora webbiana
 Vinous-throated parrotbill,Suthora webbiana
 Violaceous coucal,Centropus violaceus
 Violaceous euphonia,Euphonia violacea
@@ -9593,6 +10060,7 @@ Violaceous quail-dove,Geotrygon violacea
 Violet crow,Corvus violaceus
 Violet cuckoo,Chrysococcyx xanthorhynchus
 Violet sabrewing,Campylopterus hemileucurus
+Violet turaco,Musophaga violacea
 Violet turaco,Tauraco violaceus
 Violet wood hoopoe,Phoeniculus damarensis
 Violet-backed hyliota,Hyliota violacea
@@ -9603,6 +10071,7 @@ Violet-capped hummingbird,Goldmania violiceps
 Violet-capped woodnymph,Thalurania glaucopis
 Violet-chested hummingbird,Sternoclyta cyanopectus
 Violet-crowned hummingbird,Ramosomyia violiceps
+Violet-crowned hummingbird,Leucolia violiceps
 Violet-eared waxbill,Granatina granatina
 Violet-fronted brilliant,Heliodoxa leadbeateri
 Violet-green swallow,Tachycineta thalassina
@@ -9617,6 +10086,7 @@ Virginia's warbler,Leiothlypis virginiae
 Viridian dacnis,Dacnis viguieri
 Viridian metaltail,Metallura williami
 Visayan babbler,Sterrhoptilus nigrocapitatus	
+Visayan babbler,Sterrhoptilus nigrocapitatus
 Visayan blue fantail,Rhipidura samarensis
 Visayan broadbill,Sarcophanops samarensis
 Visayan bulbul,Hypsipetes guimarasensis
@@ -9624,12 +10094,14 @@ Visayan fantail,Rhipidura albiventris
 Visayan hornbill,Penelopides panini
 Visayan miniature babbler,Micromacronus leytensis
 Visayan pygmy babbler,Dasycrotapha pygmaea
-Vitelline masked weaver,Ploceus vitellinus
 Vitelline masked weaver,P. vitellinus
+Vitelline masked weaver,Ploceus vitellinus
+Vitelline masked weaver,Ploceus weynsi
 Vitelline warbler,Setophaga vitellina
 Vogelkop bowerbird,Amblyornis inornata
 Vogelkop melidectes,Melidectes leucostephes
 Vogelkop owlet-nightjar,Aegotheles affinis
+Vogelkop scrubwren,Sericornis rufescens
 Vogelkop scrubwren,Aethomyias rufescens
 Vogelkop whistler,Pachycephala meyeri
 Volcano hummingbird,Selasphorus flammula
@@ -9676,6 +10148,7 @@ Watercock,Gallicrex cinerea
 Watkins's antpitta,Grallaria watkinsi
 Wattled broadbill,Sarcophanops steerii
 Wattled brushturkey,Aepypodius arfakianus
+Wattled crane,Bugeranus carunculatus
 Wattled crane,Grus carunculata
 Wattled curassow,Crax globulosa
 Wattled guan,Aburria aburri
@@ -9699,6 +10172,7 @@ Wedge-tailed shearwater,Ardenna pacifica
 Weebill,Smicrornis brevirostris
 Weka,Gallirallus australis
 Welcome swallow,Hirundo neoxena
+West,Ninox jacquinoti
 West African batis,Batis occulta
 West African crested tern,Thalasseus albididorsalis
 West African seedeater,Crithagra canicapilla
@@ -9711,6 +10185,7 @@ West Mexican chachalaca,Ortalis poliocephala
 West Peruvian dove,Zenaida meloda
 West Peruvian screech owl,Megascops roboratus
 West Solomons owl,Athene jacquinoti
+West papuan lorikeet,Charmosyna papou
 Western Bonelli's warbler,Phylloscopus bonelli
 Western Miombo sunbird,Cinnyris gertrudis
 Western Orphean warbler,Curruca hortensis
@@ -9732,17 +10207,24 @@ Western citril,Crithagra frontalis
 Western corella,Cacatua pastinator
 Western crowned pigeon,Goura cristata
 Western crowned warbler,Phylloscopus occipitalis
+Western dwarf hornbill,Horizocerus hartlaubi
 Western emerald,Chlorostilbon melanorhynchus
 Western fieldwren,Calamanthus montanellus
 Western fire-eye,Pyriglena maura
+Western flycatcher,Empidonax occidentalis
+Western flycatcher,Empidonax difficilis
 Western gerygone,Gerygone fusca
 Western grasswren,Amytornis textilis
 Western grebe,Aechmophorus occidentalis
 Western greenbul,Arizelocichla tephrolaema
 Western gull,Larus occidentalis
 Western hemispingus,Sphenopsis ochracea
+Western hooded pitta,Pitta sordida
+Western house martin,Delichon urbicum
+Western jackdaw,Corvus monedula
 Western jackdaw,Coloeus monedula
 Western kingbird,Tyrannus verticalis
+Western long-tailed hornbill,Horizocerus albocristatus
 Western marsh harrier,Circus aeruginosus
 Western meadowlark,Sturnella neglecta
 Western nicator,Nicator chloris
@@ -9778,6 +10260,8 @@ Western yellow wagtail,Motacilla flava
 Westland petrel,Procellaria westlandica
 Wetar figbird,Sphecotheres hypoleucus
 Wetar ground dove,Pampusana hoedtii
+Wetar ground dove,Alopecoenas hoedtii
+Wetar myzomela,Myzomela kuehni
 Wetar oriole,Oriolus finschi
 Whenua Hou diving petrel,Pelecanoides georgicus whenuahouensis
 Whinchat,Saxicola rubetra
@@ -9813,6 +10297,7 @@ White-backed mousebird,Colius colius
 White-backed night heron,Calherodius leuconotus
 White-backed stilt,Himantopus melanurus
 White-backed swallow,Cheramoeca leucosterna
+White-backed thrush,Turdus kessleri
 White-backed vulture,Gyps africanus
 White-backed woodpecker,Dendrocopos leucotos
 White-backed woodswallow,Artamus insignis
@@ -9842,11 +10327,13 @@ White-bellied drongo,Dicrurus caerulescens
 White-bellied emerald,Chlorestes candida
 White-bellied erpornis,Erpornis zantholeuca
 White-bellied fantail,Rhipidura euryura
+White-bellied go-away-bird,Corythaixoides leucogaster
 White-bellied go-away-bird,Crinifer leucogaster
 White-bellied goshawk,Accipiter haplochrous
 White-bellied green pigeon,Treron sieboldii
 White-bellied heron,Ardea insignis
 White-bellied honeyeater,Glycifohia notabilis
+White-bellied honeyeater,Gliciphila notabilis
 White-bellied hummingbird,Elliotomyia chionogaster
 White-bellied imperial pigeon,Ducula forsteni
 White-bellied kingfisher,Corythornis leucogaster
@@ -9861,6 +10348,7 @@ White-bellied pygmy tyrant,Myiornis albiventris
 White-bellied redstart,Luscinia phaenicuroides
 White-bellied robin-chat,Cossyphicula roberti
 White-bellied sea eagle,Icthyophaga leucogaster
+White-bellied sea eagle,Haliaeetus leucogaster
 White-bellied seedeater,Sporophila leucoptera
 White-bellied seedsnipe,Attagis malouinus
 White-bellied spinetail,Mazaria propinqua
@@ -9880,7 +10368,9 @@ White-bibbed babbler,Stachyris thoracica
 White-bibbed fruit dove,Ptilinopus rivoli
 White-bibbed manakin,Corapipo leucorrhoa
 White-bibbed swallow,Hirundo nigrita
+White-billed buffalo weaver,Bubalornis albirostris
 White-billed buffalo weaver,B. albirostris
+White-billed buffalo weaver,Ploceus weynsi
 White-billed crow,Corvus woodfordi
 White-billed starling,Onychognathus albirostris
 White-booted racket-tail,Ocreatus underwoodii
@@ -9889,6 +10379,7 @@ White-breasted babbler,Stachyris grammiceps
 White-breasted cormorant,Phalacrocorax lucidus
 White-breasted cuckooshrike,Ceblepyris pectoralis
 White-breasted ground dove,Pampusana jobiensis
+White-breasted ground dove,Alopecoenas jobiensis
 White-breasted guineafowl,Agelastes meleagrides
 White-breasted hawk,Accipiter chionogaster
 White-breasted mesite,Mesitornis variegatus
@@ -9938,6 +10429,8 @@ White-browed scimitar babbler,Pomatorhinus schisticeps
 White-browed scrub robin,Cercotrichas leucophrys
 White-browed scrubwren,Sericornis frontalis
 White-browed shama,Copsychus luzoniensis
+White-browed sparrow-weaver,Ploceus weynsi
+White-browed sparrow-weaver,Plocepasser mahali
 White-browed sparrow-weaver,P. mahali
 White-browed spinetail,Hellmayrea gularis
 White-browed tapaculo,Scytalopus superciliaris
@@ -9969,11 +10462,13 @@ White-cheeked pintail,Anas bahamensis
 White-cheeked starling,Spodiopsar cineraceus
 White-cheeked tern,Sterna repressa
 White-cheeked tody-flycatcher,Poecilotriccus albifacies
+White-cheeked turaco,Tauraco leucotis
 White-cheeked turaco,Menelikornis leucotis
 White-chested alethe,Chamaetylas fuelleborni
 White-chested emerald,Chrysuronia brevirostris
 White-chested puffbird,Malacoptila fusca
 White-chested swift,Cypseloides lemosi
+White-chested white-eye,Zosterops albogularis
 White-chinned jacamar,Galbula tombacea
 White-chinned myzomela,Myzomela albigula
 White-chinned petrel,Procellaria aequinoctialis
@@ -10016,6 +10511,7 @@ White-crowned robin-chat,Cossypha albicapillus
 White-crowned shama,Copsychus stricklandii
 White-crowned sparrow,Zonotrichia leucophrys
 White-crowned starling,Lamprotornis albicapillus
+White-crowned tapaculo,Scytalopus atratus
 White-crowned wheatear,Oenanthe leucopyga
 White-eared barbet,Stactolaema leucotis
 White-eared bronze cuckoo,Chrysococcyx meyerii
@@ -10049,10 +10545,12 @@ White-eyed stipplethroat,Epinecrophylla leucophthalma
 White-eyed thrush,Turdus jamaicensis
 White-eyed tody-tyrant,Hemitriccus zosterops
 White-eyed vireo,Vireo griseus
+White-faced barbet,Lybius minor
 White-faced cuckoo-dove,Turacoena manadensis
 White-faced heron,Egretta novaehollandiae
 White-faced ibis,Plegadis chihi
 White-faced nunbird,Hapaloptila castanea
+White-faced plover,Charadrius dealbatus
 White-faced plover,Anarhynchus dealbatus
 White-faced quail-dove,Zentrygon albifacies
 White-faced robin,Tregellasia leucops
@@ -10067,6 +10565,7 @@ White-fronted bee-eater,Merops bullockoides
 White-fronted black chat,Oenanthe albifrons
 White-fronted chat,Epthianura albifrons
 White-fronted falconet,Microhierax latifrons
+White-fronted ground dove,Alopecoenas kubaryi
 White-fronted ground dove,Pampusana kubaryi
 White-fronted ground tyrant,Muscisaxicola albifrons
 White-fronted honeyeater,Purnella albifrons
@@ -10087,7 +10586,9 @@ White-gorgeted flycatcher,Anthipes monileger
 White-headed babbler,Turdoides leucocephala
 White-headed barbet,Lybius leucocephalus
 White-headed brushfinch,Atlapetes albiceps
+White-headed buffalo weaver,Ploceus weynsi
 White-headed buffalo weaver,D. dinemelli
+White-headed buffalo weaver,Dinemellia dinemelli
 White-headed bulbul,Hypsipetes thompsoni
 White-headed duck,Oxyura leucocephala
 White-headed fruit dove,Ptilinopus eugeniae
@@ -10130,6 +10631,7 @@ White-naped swift,Streptoprocne semicollaris
 White-naped tit,Machlolophus nuchalis
 White-naped woodpecker,Chrysocolaptes festivus
 White-naped xenopsaris,needs  IPA
+White-naped xenopsaris,Xenopsaris albinucha
 White-naped yuhina,Yuhina bakeri
 White-necked babbler,Stachyris leucotis
 White-necked coucal,Centropus ateralbus
@@ -10154,8 +10656,10 @@ White-ringed flycatcher,Conopias albovittatus
 White-ruffed manakin,Corapipo altera
 White-rumped babbler,Turdoides leucopygia
 White-rumped cuckooshrike,Coracina leucopygia
+White-rumped falcon,Polihierax insignis
 White-rumped falcon,Neohierax insignis
 White-rumped hawk,Parabuteo leucorrhous
+White-rumped kingfisher,Caridonax fulgidus
 White-rumped monjita,Xolmis velatus
 White-rumped munia,Lonchura striata
 White-rumped robin,Peneothello bimaculata
@@ -10204,6 +10708,7 @@ White-tailed cotinga,Xipholena lamellipennis
 White-tailed crested flycatcher,Elminia albonotata
 White-tailed eagle,Haliaeetus albicilla
 White-tailed emerald,Microchera chionura
+White-tailed flycatcher,Cyornis concretus
 White-tailed flycatcher,Leucoptilon concretum
 White-tailed goldenthroat,Polytmus guainumbi
 White-tailed hawk,Geranoaetus albicaudatus
@@ -10250,6 +10755,7 @@ White-throated gerygone,Gerygone olivacea
 White-throated grasswren,Amytornis woodwardi
 White-throated greenbul,Phyllastrephus albigularis
 White-throated ground dove,Pampusana xanthonura
+White-throated ground dove,Alopecoenas xanthonurus
 White-throated hawk,Buteo albigula
 White-throated honeyeater,Melithreptus albogularis
 White-throated hummingbird,Leucochloris albicollis
@@ -10293,6 +10799,7 @@ White-throated tyrannulet,Mecocerculus leucophrys
 White-throated woodcreeper,Xiphocolaptes albicollis
 White-throated woodpecker,Piculus leucolaemus
 White-throated wren-babbler,Napothera pasquieri
+White-throated xenops,Xenops minutus
 White-tipped dove,Leptotila verreauxi
 White-tipped plantcutter,Phytotoma rutila
 White-tipped quetzal,Pharomachrus fulgidus
@@ -10325,6 +10832,7 @@ White-winged cuckooshrike,Edolisoma ostentum
 White-winged dove,Zenaida asiatica
 White-winged duck,Asarcornis scutulata
 White-winged fairywren,Malurus leucopterus
+White-winged fantail,Rhipidura cockerelli
 White-winged flufftail,Sarothrura ayresi
 White-winged grosbeak,Mycerobas carnipes
 White-winged guan,Penelope albipennis
@@ -10345,6 +10853,8 @@ White-winged tern,Chlidonias leucopterus
 White-winged triller,Lalage tricolor
 White-winged warbler,Xenoligea montana
 White-winged widowbird,E. albonotatus
+White-winged widowbird,Ploceus weynsi
+White-winged widowbird,Euplectes albonotatus
 White-winged woodpecker,Dendrocopos leucopterus
 Whitehead,Mohoua albicilla
 Whitehead's broadbill,Calyptomena whiteheadi
@@ -10371,9 +10881,11 @@ Willow ptarmigan,Lagopus lagopus
 Willow tit,Poecile montanus
 Willow warbler,Phylloscopus trochilus
 Wilson's bird-of-paradise,Diphyllodes respublica
+Wilson's bird-of-paradise,Cicinnurus respublica
 Wilson's indigobird,Vidua wilsoni
 Wilson's phalarope,Phalaropus tricolor
 Wilson's plover,Anarhynchus wilsonia
+Wilson's plover,Charadrius wilsonia
 Wilson's snipe,Gallinago delicata
 Wilson's storm petrel,Oceanites oceanicus
 Wilson's warbler,Cardellina pusilla
@@ -10383,6 +10895,7 @@ Wine-throated hummingbird,Selasphorus ellioti
 Wing-banded antbird,Myrmornis torquata
 Wing-banded wren,Microcerculus bambla
 Wing-barred piprites,Piprites chloris
+Wing-barred seedeater,Sporophila murallae
 Wing-barred seedeater,Sporophila americana
 Wing-snapping cisticola,Cisticola ayresii
 Winifred's warbler,Scepomycter winifredae
@@ -10401,11 +10914,13 @@ Wood thrush,Hylocichla mustelina
 Wood warbler,Phylloscopus sibilatrix
 Woodchat shrike,Lanius senator
 Woodford's rail,Hypotaenidia woodfordi
+Woodford's rail,Gallirallus woodfordi
 Woodhouse's antpecker,Parmoptila woodhousei
 Woodhouse's scrub jay,Aphelocoma
 Woodland kingfisher,Halcyon senegalensis
 Woodlark,Lullula arborea
 Woodpecker finch,Camarhynchus pallidus
+Woodwards's batis,Batis fratrum
 Worm-eating warbler,Helmitheros vermivorum
 Worthen's sparrow,Spizella wortheni
 Wreathed hornbill,Rhyticeros undulatus
@@ -10418,10 +10933,13 @@ Wrybill,Anarhynchus frontalis
 Xantus's hummingbird,Basilinna xantusii
 Xavier's greenbul,Phyllastrephus xavieri
 Xingu scale-backed antbird,Willisornis vidua
+Xinjiang ground jay,Podoces biddulphi
 Yap cicadabird,Edolisoma nesiotis
 Yap monarch,Monarcha godeffroyi
 Yapacana antbird,Aprositornis disjuncta
 Yelkouan shearwater,Puffinus yelkouan
+Yellow bishop,Ploceus weynsi
+Yellow bishop,Euplectes capensis
 Yellow bishop,E. capensis
 Yellow bittern,Ixobrychus sinensis
 Yellow bunting,Emberiza sulphurata
@@ -10436,7 +10954,9 @@ Yellow penduline tit,Anthoscopus parvulus
 Yellow rail,Coturnicops noveboracensis
 Yellow thornbill,Acanthiza nana
 Yellow tit,Machlolophus holsti
+Yellow tufted pipit,Anthus crenatus
 Yellow tyrannulet,Capsiempis flaveola
+Yellow warbler,Setophaga petechia
 Yellow wattlebird,Anthochaera paradoxa
 Yellow-backed oriole,Icterus chrysater
 Yellow-backed tanager,Hemithraupis flavicollis
@@ -10533,6 +11053,8 @@ Yellow-browed tyrant,Satrapa icterophrys
 Yellow-browed warbler,Phylloscopus inornatus
 Yellow-browed woodpecker,Piculus aurulentus
 Yellow-capped pygmy parrot,Micropsitta keiensis
+Yellow-capped weaver,Ploceus dorsomaculatus
+Yellow-capped weaver,Ploceus weynsi
 Yellow-capped weaver,P. dorsomaculatus
 Yellow-casqued hornbill,Ceratogymna elata
 Yellow-cheeked becard,Pachyramphus xanthogenys
@@ -10540,6 +11062,7 @@ Yellow-cheeked lorikeet,Saudareos meyeri
 Yellow-cheeked tit,Machlolophus spilonotus
 Yellow-chevroned parakeet,Brotogeris chiriri
 Yellow-chinned spinetail,Certhiaxis cinnamomeus
+Yellow-chinned sunbird,Anthreptes rectirostris
 Yellow-collared chlorophonia,Chlorophonia flavirostris
 Yellow-collared lovebird,Agapornis personatus
 Yellow-crested cockatoo,Cacatua sulphurea
@@ -10549,10 +11072,13 @@ Yellow-crested tanager,Loriotus rufiventer
 Yellow-crested woodpecker,Chloropicus xantholophus
 Yellow-crowned amazon,Amazona ochrocephala
 Yellow-crowned barbet,Psilopogon henricii
+Yellow-crowned bishop,Ploceus weynsi
+Yellow-crowned bishop,Euplectes afer
 Yellow-crowned bishop,E. afer
 Yellow-crowned canary,Serinus flavivertex
 Yellow-crowned elaenia,Myiopagis flavivertex
 Yellow-crowned euphonia,Euphonia luteicapilla
+Yellow-crowned flowerpecker,Dicaeum anthonyi
 Yellow-crowned gonolek,Laniarius barbarus
 Yellow-crowned night heron,Nyctanassa violacea
 Yellow-crowned parakeet,Cyanoramphus auriceps
@@ -10597,6 +11123,7 @@ Yellow-headed amazon,Amazona oratrix
 Yellow-headed blackbird,Xanthocephalus xanthocephalus
 Yellow-headed brushfinch,Atlapetes flaviceps
 Yellow-headed caracara,Daptrius chimachima
+Yellow-headed caracara,Milvago chimachima
 Yellow-headed manakin,Chloropipo flavicapilla
 Yellow-headed warbler,Teretistris fernandinae
 Yellow-hooded blackbird,Chrysomus icterocephalus
@@ -10608,11 +11135,17 @@ Yellow-legged pigeon,Columba pallidiceps
 Yellow-legged thrush,Turdus flavipes
 Yellow-legged tinamou,Crypturellus noctivagus
 Yellow-legged weaver,P. flavipes
+Yellow-legged weaver,Ploceus flavipes
+Yellow-legged weaver,Ploceus weynsi
 Yellow-lored bristlebill,Bleda notatus
 Yellow-lored tanager,Chlorothraupis frenata
 Yellow-lored tody-flycatcher,Todirostrum poliocephalum
+Yellow-mantled weaver,Ploceus tricolor
 Yellow-mantled weaver,P. tricolor
+Yellow-mantled weaver,Ploceus weynsi
 Yellow-mantled widowbird,E. macroura
+Yellow-mantled widowbird,Ploceus weynsi
+Yellow-mantled widowbird,Euplectes macroura
 Yellow-margined flatbill,Tolmomyias assimilis
 Yellow-naped amazon,Amazona auropalliata
 Yellow-necked spurfowl,Pternistis leucoscepus
@@ -10641,6 +11174,7 @@ Yellow-spotted barbet,Buccanodon duchaillui
 Yellow-spotted bush sparrow,Gymnoris pyrgita
 Yellow-spotted honeyeater,Meliphaga notata
 Yellow-streaked greenbul,Phyllastrephus flavostriatus
+Yellow-streaked lory,Chalcopsitta scintillata
 Yellow-streaked warbler,Phylloscopus armandii
 Yellow-striped brushfinch,Atlapetes citrinellus
 Yellow-tailed black cockatoo,Zanda funerea
@@ -10652,6 +11186,7 @@ Yellow-throated apalis,Apalis flavigularis
 Yellow-throated bulbul,Pycnonotus xantholaemus
 Yellow-throated bunting,Emberiza elegans
 Yellow-throated bush sparrow,Gymnoris superciliaris
+Yellow-throated chlorospingus,Chlorospingus flavigularis
 Yellow-throated cuckoo,Chrysococcyx flavigularis
 Yellow-throated euphonia,Euphonia hirundinacea
 Yellow-throated flycatcher,Conopias parvus
@@ -10665,8 +11200,10 @@ Yellow-throated leaflove,Atimastillas flavicollis
 Yellow-throated longclaw,Macronyx croceus
 Yellow-throated miner,Manorina flavigula
 Yellow-throated nicator,Nicator vireo
+Yellow-throated nightingale-thrush,Catharus dryas
 Yellow-throated sandgrouse,Pterocles gutturalis
 Yellow-throated scrubwren,Neosericornis citreogularis
+Yellow-throated scrubwren,Sericornis citreogularis
 Yellow-throated seedeater,Crithagra flavigula
 Yellow-throated spadebill,Platyrinchus flavigularis
 Yellow-throated sparrow,Gymnoris xanthocollis
@@ -10691,6 +11228,7 @@ Yellow-vented warbler,Phylloscopus cantator
 Yellow-vented woodpecker,Veniliornis dignus
 Yellow-wattled bulbul,Poliolophus urostictus
 Yellow-wattled lapwing,Vanellus malabaricus
+Yellow-whiskered chlorospingus,Chlorospingus parvirostris
 Yellow-whiskered greenbul,Eurillas latirostris
 Yellow-winged blackbird,Agelasticus thilius
 Yellow-winged pytilia,Pytilia hypogrammica
@@ -10702,6 +11240,7 @@ Yellowish bulbul,Hypsipetes everetti
 Yellowish flycatcher,Empidonax flavescens
 Yellowish imperial pigeon,Ducula subflavescens
 Yellowish pipit,Anthus chii
+Yellowish pipit,Anthus lutescens
 Yellowish white-eye,Zosterops nigrorum
 Yellowish-streaked honeyeater,Ptiloprora meekiana
 Yemen linnet,Linaria yemenensis
@@ -10733,13 +11272,16 @@ Yunnan nuthatch,Sitta yunnanensis
 Zambezi indigobird,Vidua codringtoni
 Zamboanga bulbul,Hypsipetes rufigularis
 Zanzibar red bishop,E. nigroventris
+Zanzibar red bishop,Euplectes nigroventris
+Zanzibar red bishop,Ploceus weynsi
+Zapata rail,Cyanolimnas cerverai
 Zapata rail,Mustelirallus cerverai
 Zapata sparrow,Torreornis inexpectata
 Zapata wren,Ferminia cerverai
 Zappey's flycatcher,Cyanoptila cumatilis
 Zarudny's sparrow,Passer zarudnyi
 Zebra dove,Geopelia striata
-Zebra finch,Taeniopygia
+Zebra woodpecker,Meiglyptes tristis
 Zeledon's antbird,Hafferia zeledoni
 Zenaida dove,Zenaida aurita
 Zenker's honeyguide,Melignomon zenkeri
@@ -10751,12 +11293,14 @@ Zino's petrel,Pterodroma madeira
 Zitting cisticola,Cisticola juncidis
 Zoe's imperial pigeon,Ducula zoeae
 Zone-tailed hawk,Buteo albonotatus
-brown-headed parrot,Poicephalus cryptoxanthus
 ʻAkekeʻe,Loxops caeruleirostris
 ʻAkiapolaʻau,Hemignathus wilsoni
 ʻAkikiki,Oreomystis bairdi
 ʻAkohekohe,Palmeria dolei
 ʻAnianiau,Magumma parva
-ʻApapane,AH-pah-PAH-nay
-ʻIʻiwi,ee-EE-vee
+ʻApapane,Himatione sanguinea
+ʻIʻiwi,Drepanis coccinea
+ʻapapane,Himatione sanguinea
+ʻiʻiwi,Drepanis coccinea
 ʻŌmaʻo,Myadestes obscurus
+ʻōʻū,Psittirostra psittacea
