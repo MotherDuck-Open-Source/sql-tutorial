@@ -178,7 +178,7 @@ Create a new table called `birds` using the `AVONET.csv` file linked in the Data
 ```
 
 ```{admonition} Exercise
-Select only the Species_Common_Name, Beak_Width and Beak_Depth columns from the birds table.
+Select only the `Species_Common_Name`, `Beak_Width` and `Beak_Depth` columns from the birds table.
 ```
 
 ```{admonition} Exercise
