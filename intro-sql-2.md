@@ -8,6 +8,8 @@ Let's start with two tables:
 
 #### Table 1: Students
 
+{Download}`student_ids.csv<./data/student_ids.csv>`
+
 | StudentID | Name |
 | --------- | ---- |
 | 1 | Alice |
@@ -17,6 +19,8 @@ Let's start with two tables:
 
 #### Table 2: Grades
 
+{Download}`grades.csv<./data/grades.csv>`
+
 | StudentID | Course | Grade |
 | --------- | ------ | ----- |
 | 1 | Math | 85 |
@@ -25,40 +29,47 @@ Let's start with two tables:
 | 3 | Math | 92 |
 | 3 | Science | 88 |
 
+To create the tables in your database, run:
+
+```SQL
+create table Students as select * from read_csv('student_ids.csv');
+create table Grades as select * from read_csv('grades.csv');
+```
+
 ### Performing a SQL Join
 
 We want to combine these tables to find the average grade for each student. To do this, we'll use a SQL Join operation. Specifically, we'll use an INNER JOIN, which combines rows from both tables only when there is a match in the StudentID column.
 
-SQL Query
-Here's the SQL code to join the tables and calculate the average grade per student:
-
-
 ```SQL
-SELECT Students.Name, AVG(Grades.Grade) AS AverageGrade
-FROM Students
-INNER JOIN Grades ON Students.StudentID = Grades.StudentID
-GROUP BY Students.Name;
+SELECT Students.Name, Grades.Course, Grades.Grade
+  FROM Students
+  INNER JOIN Grades ON Students.StudentID = Grades.StudentID
+  ORDER BY Students.Name;
 ```
+
+This combines the two columns so we can conveniently see the student name next to their grades.
 
 ### Step-by-Step Explanation
 Let's break down the SQL query step by step:
 
-`SELECT Students.Name, AVG(Grades.Grade) AS AverageGrade`: We're selecting the student's name and the average of their grades. The result will be labeled as "AverageGrade".
+`SELECT Students.Name, Grades.Course, Grades.Grade`: We're selecting the student's name and their grade per course.
 
 `FROM Students`: We're starting with the Students table.
 
 `INNER JOIN Grades ON Students.StudentID = Grades.StudentID`: We're joining the Grades table to the Students table where the StudentID matches in both tables.
 
-`GROUP BY Students.Name`: We're grouping the results by the student's name to calculate the average grade for each student.
+`ORDER BY Students.Name`: We're sorting the results by the student's name.
 
 ### Result
 After running the SQL query, the result will look like this:
 
-| Name | AverageGrade |
-| ---- | ------------ |
-| Alice | 87.5 |
-| Bob | 78 |
-| Charlie | 90 |
+| Name | Course | Grade |
+| --- | --- | --- |
+| Alice   | Math    |    85 |
+| Alice   | Science |    90 |
+| Bob     | Math    |    78 |
+| Charlie | Math    |    92 |
+| Charlie | Science |    88 |
 
 ### Conclusion
 
@@ -88,9 +99,9 @@ Let's dive into some examples to understand how subqueries work in DuckDB.
 Suppose we want to find the students who scored above the average score. We can use a subquery to calculate the average score first, and then use that result in our main query:
 
 ```SQL
-SELECT name, score
-FROM students
-WHERE score > (SELECT AVG(score) FROM students);
+SELECT Name, Grade
+FROM Students
+WHERE score > (SELECT AVG(Grade) FROM Students);
 ```
 
 In this example, the subquery (`SELECT AVG(score) FROM students`) calculates the average score of all students. The main query then selects the names and scores of students who scored above this average.
