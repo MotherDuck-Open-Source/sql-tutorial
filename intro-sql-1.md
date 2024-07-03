@@ -175,10 +175,10 @@ That's it for the first section of the tutorial! You've learned how to load data
 
 _Dataset_
 
-- {Download}`AVONET.csv<./data/AVONET.csv>` {cite}`tobias-2022`
+- {Download}`birds.csv<./data/birds.csv>` {cite}`tobias-2022`
 
 ```{admonition} Exercise
-Create a new table called `birds` using the `AVONET.csv` file linked in the Datasets section.
+Create a new table called `birds` using the `birds.csv` file linked in the Datasets section.
 ```
 
 ```{admonition} Exercise

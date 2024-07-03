@@ -141,11 +141,11 @@ In this example, the `WITH` clause creates a temporary result set called `avg_sc
 
 ### Datasets
 
-- {Download}`AVONET.csv<./data/AVONET.csv>` {cite}`tobias-2022`
-- {Download}`COL.csv<./data/COL.csv>` {cite}`col-2024`
+- {Download}`birds.csv<./data/birds.csv>` {cite}`tobias-2022`
+- {Download}`ducks.csv<./data/ducks.csv>` {cite}`col-2024`
 
 ```{admonition} Exercise
-Create a new table `ducks` by using the Catalogue of Life file `COL.csv`, which contains species names and common names of ducks.
+Create a new table `ducks` by using the file `ducks.csv`, which contains species names and common names of ducks.
 ```
 
 ```{admonition} Exercise
