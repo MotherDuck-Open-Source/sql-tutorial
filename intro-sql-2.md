@@ -32,7 +32,7 @@ Let's start with two tables:
 To create the tables in your database, run:
 
 ```SQL
-create table Students as select * from read_csv('student_ids.csv');
+create table Student_info as select * from read_csv('student_ids.csv');
 create table Grades as select * from read_csv('grades.csv');
 ```
 
@@ -41,10 +41,10 @@ create table Grades as select * from read_csv('grades.csv');
 We want to combine these tables to find the average grade for each student. To do this, we'll use a SQL Join operation. Specifically, we'll use an INNER JOIN, which combines rows from both tables only when there is a match in the StudentID column.
 
 ```SQL
-SELECT Students.Name, Grades.Course, Grades.Grade
-  FROM Students
-  INNER JOIN Grades ON Students.StudentID = Grades.StudentID
-  ORDER BY Students.Name;
+SELECT Student_info.Name, Grades.Course, Grades.Grade
+  FROM Student_info
+  INNER JOIN Grades ON Student_info.StudentID = Grades.StudentID
+  ORDER BY Student_info.Name;
 ```
 
 This combines the two columns so we can conveniently see the student name next to their grades.
@@ -52,13 +52,13 @@ This combines the two columns so we can conveniently see the student name next t
 ### Step-by-Step Explanation
 Let's break down the SQL query step by step:
 
-`SELECT Students.Name, Grades.Course, Grades.Grade`: We're selecting the student's name and their grade per course.
+`SELECT Student_info.Name, Grades.Course, Grades.Grade`: We're selecting the student's name and their grade per course.
 
-`FROM Students`: We're starting with the Students table.
+`FROM Student_info`: We're starting with the Student_info table.
 
-`INNER JOIN Grades ON Students.StudentID = Grades.StudentID`: We're joining the Grades table to the Students table where the StudentID matches in both tables.
+`INNER JOIN Grades ON Student_info.StudentID = Grades.StudentID`: We're joining the Grades table to the Student_info table where the StudentID matches in both tables.
 
-`ORDER BY Students.Name`: We're sorting the results by the student's name.
+`ORDER BY Student_info.Name`: We're sorting the results by the student's name.
 
 ### Result
 After running the SQL query, the result will look like this:
@@ -85,7 +85,6 @@ A subquery, also known as an inner query or nested query, is a query within anot
 
 Let's start by looking at our example table, `students.csv`. This table contains the following columns:
 
-- student_id: A unique identifier for each student.
 - name: The name of the student.
 - age: The age of the student.
 - grade: The grade the student is in.
