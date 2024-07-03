@@ -30,6 +30,8 @@ WHERE temperature_obs > 25 AND precipitation < 10;
 
 This SQL query can work on datasets of any size, is often more efficient, and can be run close to where the data lives, reducing data transfer.
 
+For more thoughts on why SQL is a great language to learn as a Python developer, read the [Python and SQL: Better Together](https://alex-monahan.github.io/2021/08/22/Python_and_SQL_Better_Together.html) blog post by [Alex Monahan](https://github.com/Alex-Monahan).
+
 Throughout this tutorial, we'll explore how SQL can complement your Python skills, enabling you to:
 
 - Load data and perform basic operations such as filtering, sorting, grouping and adding a calculated column.
