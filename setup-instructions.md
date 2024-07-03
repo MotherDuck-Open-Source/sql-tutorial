@@ -3,8 +3,11 @@
 ## Installation
 
 1. Log into <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> or start a local <a href="https://jupyter.org/install" target="_blank">Jupyter Notebook</a>.
-1. Install the latest version of `duckdb` and `magic_duckdb` by running `!pip install --upgrade duckdb magic-duckdb`.
-1. <a href="https://app.motherduck.com/?auth_flow=signup" target="_blank">Sign up for MotherDuck</a>
+2. Install the latest version of `duckdb` and `magic_duckdb` by running:
+    ```bash
+    !pip install --upgrade duckdb magic-duckdb
+    ```
+3. (For section 5) <a href="https://app.motherduck.com/?auth_flow=signup" target="_blank">Sign up for MotherDuck</a>
 
 
 ## How to run SQL queries

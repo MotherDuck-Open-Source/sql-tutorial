@@ -14,13 +14,15 @@ kernelspec:
 
 # 1. Learn to quack SQL with DuckDB: The Basics
 
-Today, we'll cover some basic operations using data from a file named `students.csv`. DuckDB is a high-performance analytical database system designed for easy integration with data science workflows. It is particularly well-suited for in-memory processing and can handle complex queries efficiently. Learning SQL is a great skill because it allows you to manage and analyze large datasets quickly and effectively. Let's dive in and learn how to load data, grab a whole table, pick specific columns, add a calculated column, and filter rows using the `WHERE` clause.
+Today, we'll cover some basic operations in DuckDB SQL. DuckDB is a high-performance analytical database system designed for easy integration with data science workflows. It is particularly well-suited for in-memory processing and can handle complex queries efficiently. Learning SQL is a great skill because it allows you to manage and analyze large datasets quickly and effectively.
+
+Let's dive in and learn how to load data, grab a whole table, pick specific columns, add a calculated column, and filter rows using the `WHERE` clause.
 
 ## Basic operations
 
 ### Load Data
 
-First, we need to load the data from our students.csv file into DuckDB. Here's how you do it:
+First, we need to load some example data into DuckDB:
 
 ```SQL
 CREATE TABLE students (
@@ -38,7 +40,13 @@ INSERT INTO students VALUES
 
 This command creates a new table called `students` and inserts some example rows.
 
-You can now run describe the table:
+If you have data in a CSV file {Download}`students.csv<./data/students.csv>`, you can load it into DuckDB as well:
+
+```SQL
+CREATE TABLE students AS SELECT * FROM read_csv('students.csv');
+```
+
+You can now describe the table:
 
 ```SQL
 DESCRIBE students;
@@ -52,9 +60,9 @@ This returns a table that shows you details about the columns, such as the name 
 │    varchar    │   varchar   │ varchar │ varchar │ varchar │ varchar │
 ├───────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
 │ name          │ VARCHAR     │ YES     │         │         │         │
-│ age           │ INTEGER     │ YES     │         │         │         │
-│ english_score │ INTEGER     │ YES     │         │         │         │
-│ history_score │ INTEGER     │ YES     │         │         │         │
+│ age           │ BIGINT      │ YES     │         │         │         │
+│ english_score │ BIGINT      │ YES     │         │         │         │
+│ history_score │ BIGINT      │ YES     │         │         │         │
 └───────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
 ```
 
@@ -142,7 +150,7 @@ This command sorts the rows by the `average_score` column in descending order.
 | Bob        | 78            | 89            | 83.5           |
 
 ### Group Rows (GROUP BY Clause)
-To group the rows based on a specific column and perform aggregate functions, you can use the `GROUP BY` clause. For example, if you want to group the students by their age and calculate the average `english_score` for each group, you can use this command:
+To group the rows based on a specific column and perform <a href="https://duckdb.org/docs/sql/aggregates.html" target="_blank">aggregate functions</a>, you can use the `GROUP BY` clause. For example, if you want to group the students by their age and calculate the average `english_score` for each group, you can use this command:
 
 ```SQL
 SELECT age, AVG(english_score) AS avg_english_score
@@ -174,7 +182,7 @@ Select only the Species_Common_Name, Beak_Width and Beak_Depth columns from the 
 ```
 
 ```{admonition} Exercise
-Add a new calculated column called `Beak_Size` that gets the sum of the Beak_Width and Beak_Depth.
+Add a new calculated column called `Beak_Size` that gets the sum of the `Beak_Width` and `Beak_Depth`.
 ```
 
 ```{admonition} Exercise
