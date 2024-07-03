@@ -22,32 +22,14 @@ NOTE: If you are in Google Collab or a Jupyter notebook, remember to put the mag
 
 ## Basic operations
 
-### Load Data into your database
-
-First, we need to load some example data into DuckDB:
-
-```SQL
-CREATE TABLE students (
-    name VARCHAR,
-    age INTEGER,
-    english_score INTEGER,
-    history_score INTEGER
-);
-
-INSERT INTO students VALUES
-('Alice', 15, 92, 85),
-('Bob', 16, 78, 89),
-('Charlie', 15, 85, 90);
-```
-
-This command creates a new table called `students` and inserts some example rows.
+Let's get started with inspecting some data! We'll use the {Download}`washington_weather.csv<./data/washington_weather.csv>` dataset.
 
 ## Load data from a CSV file
 
-If you have data in a CSV file {Download}`students.csv<./data/students.csv>`, you can load it into DuckDB as well:
+DuckDB makes it very easy to load data from a CSV file. To create a new table from a file, run:
 
 ```SQL
-CREATE TABLE students AS SELECT * FROM read_csv('students.csv');
+CREATE TABLE weather AS SELECT * FROM read_csv('washington_weather.csv');
 ```
 
 ## Describe the table
@@ -55,164 +37,94 @@ CREATE TABLE students AS SELECT * FROM read_csv('students.csv');
 You can now describe the table to learn its structure:
 
 ```SQL
-DESCRIBE students;
+DESCRIBE weather;
 ```
 
 This returns a table that shows you details about the columns, such as the column name and its type.
 
-```bash
-┌───────────────┬─────────────┬─────────┬─────────┬─────────┬─────────┐
-│  column_name  │ column_type │  null   │   key   │ default │  extra  │
-│    varchar    │   varchar   │ varchar │ varchar │ varchar │ varchar │
-├───────────────┼─────────────┼─────────┼─────────┼─────────┼─────────┤
-│ name          │ VARCHAR     │ YES     │         │         │         │
-│ age           │ BIGINT      │ YES     │         │         │         │
-│ english_score │ BIGINT      │ YES     │         │         │         │
-│ history_score │ BIGINT      │ YES     │         │         │         │
-└───────────────┴─────────────┴─────────┴─────────┴─────────┴─────────┘
-```
-
 ### Grab the Whole Table
 
-To see all the data in the students table, you can use the following SQL command:
+To see all the data in the `weather` table, you can use the following SQL query:
 
 ```SQL
-SELECT * FROM students;
+SELECT * FROM weather;
 ```
 
-This command selects all columns and rows from the students table.
-
-
-| name | age | english_score | history_score |
-|------|-----|---------------|----------------|
-| Alice| 15  | 92            | 85             |
-| Bob  | 16  | 78            | 89             |
-| Charlie| 15 | 85            | 90             |
+This query selects all columns and rows from the `weather` table.
 
 ### Pick the Columns that You Want
 
-Sometimes, you may only want to see specific columns. For example, if you only want to see the `name` and `age` columns, you can use this command:
+Sometimes, you may only want to see specific columns. For example, if you only want to see the `temperature_max` and `temperature_min` columns, you can run this query:
 
 ```SQL
-SELECT name, age FROM students;
+SELECT staton_name, date, temperature_max, temperature_min FROM weather;
 ```
 
-This command selects only the `name` and `age` columns from the students table.
+This command selects only the `name`, `date`, `temperature_max` and `temperature_min` columns from the `weather` table.
 
-| name | age |
-|------|-----|
-| Alice| 15  |
-| Bob  | 16  |
-| Charlie| 15 |
+### Add a calculated Column
 
-### Add a Calculated Column
-
-You can also add a calculated column to your results. For example, if you want to calculate the average of two columns, `english_score` and `history_score`, you can do this:
+You can also add a calculated column to your results. For example, if you want to calculate the average of two columns, `temperature_max` and `temperature_min`, you can do this:
 
 ```SQL
-SELECT name, english_score, history_score, 
-       (english_score + history_score) / 2 AS average_score 
-FROM students;
+SELECT staton_name, date, temperature_max, temperature_min, 
+    (temperature_max + temperature_min) / 2 AS median_temperature 
+FROM weather;
 ```
 
-This command adds a new column called `average_score` that contains the average of `english_score` and `history_score`.
-
-| name       | english_score | history_score | average_score |
-|------------|---------------|---------------|----------------|
-| Alice      | 92            | 85            | 88.5           |
-| Bob        | 78            | 89            | 83.5           |
-| Charlie    | 85            | 90            | 87.5           |
+This command adds a new column called `median_temperature` that contains the average of `temperature_min` and `temperature_max`.
 
 ### Filter Rows (WHERE Clause)
-To filter rows based on certain conditions, you can use the `WHERE` clause. For example, if you only want to see students who scored above 90 in English, you can use this command:
+To filter rows based on certain conditions, you can use the `WHERE` clause. For example, if you only want to see the dates where a temperature higher than 75 was observed, you can run this query:
 
 ```SQL
-SELECT * FROM students WHERE english_score > 90;
+SELECT * FROM weather WHERE temperature_obs > 75;
 ```
 
-This command selects all columns from the students table but only includes rows where the english_score is greater than 90.
-
-| name   | age | english_score | history_score |
-|--------|-----|---------------|----------------|
-| Alice  | 15  | 92            | 85             |
+This command selects all columns from the weather table, but only includes rows where the observed temperature is greater than 75.
 
 
 ### Order Rows (ORDER BY Clause)
-To sort the rows based on a specific column, you can use the ORDER BY clause. For example, if you want to order the students by their average_score in descending order, you can use this command:
+To sort the rows based on a specific column, you can use the ORDER BY clause. For example, if you want to order the students by their average_score in descending order, you can run this query:
 
 ```SQL
-SELECT name, english_score, history_score, 
-       (english_score + history_score) / 2 AS average_score 
-FROM students
-ORDER BY average_score DESC;
+SELECT name, date, temperature_max, temperature_min, 
+       (temperature_max + temperature_min) / 2 AS median_temperature 
+FROM weather
+ORDER BY median_temperature DESC;
 ```
 
-This command sorts the rows by the `average_score` column in descending order.
+This command sorts the rows by the `median_temperature` column in descending order.
 
-| name       | english_score | history_score | average_score |
-|------------|---------------|---------------|----------------|
-| Alice      | 92            | 85            | 88.5           |
-| Charlie    | 85            | 90            | 87.5           |
-| Bob        | 78            | 89            | 83.5           |
-
-### Group Rows (GROUP BY Clause)
-To group the rows based on a specific column and perform <a href="https://duckdb.org/docs/sql/aggregates.html" target="_blank">aggregate functions</a>, you can use the `GROUP BY` clause. For example, if you want to group the students by their age and calculate the average `english_score` for each group, you can use this command:
-
-```SQL
-SELECT age, AVG(english_score) AS avg_english_score
-FROM students
-GROUP BY age;
-```
-
-This command groups the rows by the age column and calculates the average english_score for each age group.
-
-| age          | avg_english_score |
-|--------------|-------------------|
-| 15           | 88.5              |
-| 16           | 78                |
-
-That's it for the first section of the tutorial! You've learned how to load data, grab a whole table, pick specific columns, add a calculated column, filter rows using the `WHERE` clause, order rows using the `ORDER BY` clause, and group rows using the `GROUP BY` clause in DuckDB. Practice these commands to get comfortable with SQL basics in DuckDB.
 
 ## Exercises
 
-_Dataset_
-
-- {Download}`birds.csv<./data/birds.csv>` {cite}`tobias-2022`
-
 ```{admonition} Exercise
-Create a new table called `birds` using the `birds.csv` file linked in the Datasets section.
+Create a new table called `weather` using the {Download}`washington_weather.csv<./data/washington_weather.csv>` file.
 ```
 
 ```{admonition} Exercise
-Select only the `Species_Common_Name`, `Beak_Width` and `Beak_Depth` columns from the birds table.
+Select only the `name`, `date`, `elevation`, `precipitation` and `temperature_obs` columns from the `weather` table.
 ```
 
 ```{admonition} Exercise
-Add a new calculated column called `Beak_Size` that gets the sum of the `Beak_Width` and `Beak_Depth`.
+Add a new calculated column called `temperature_range` that gets the difference between `temperature_max` and `temperature_min` columns.
 ```
 
 ```{admonition} Exercise
-Filter rows where the `Beak_Size` is greater than 100.
+Filter rows where the station name is `'SEATTLE TACOMA AIRPORT, WA US'`.
 ```
 
 ```{admonition} Exercise
-Order the rows by `Beak_Size` in descending order.
-```
-
-```{admonition} Exercise
-Group the rows by location and calculate the average `Beak_Size` for each group.
+Order the rows by `precipitation` in descending order.
 ```
 
 ### Bonus exercises
 
-_Dataset_
-
-- {Download}`bees.csv<./data/bees.csv>` {cite}`bees-2020`
-
 ```{admonition} Exercise
-Inspect the `bees.csv` file. Find out which plant families or species are most popular with different bee species.
+Create a new calculated column, `temperature_obs_celcius`, that converts the observed temperature to °C using the equation: `(32°F − 32) × 5/9 = 0°C`.
 ```
 
 ```{admonition} Exercise
-Find out if there is any overlap in plant species favored by native bees versus non-native bees.
+Find the station name and date when the lowest temperature of 21°F was reported.
 ```

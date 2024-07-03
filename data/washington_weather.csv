@@ -1,4 +1,4 @@
-"STATION","NAME","LATITUDE","LONGITUDE","ELEVATION","DATE","AWND","PRCP","TAVG","TMAX","TMIN","TOBS"
+"station","name","latitude","longitude","elevation","date","awnd","precipitation","temperature_avg","temperature_max","temperature_min","temperature_obs"
 "US1WAKP0068","PORT ORCHARD 6.3 ESE, WA US","47.493611","-122.517","65.8","2023-01-01",,"0.02",,,,
 "US1WAKP0068","PORT ORCHARD 6.3 ESE, WA US","47.493611","-122.517","65.8","2023-01-02",,"0.02",,,,
 "US1WAKP0068","PORT ORCHARD 6.3 ESE, WA US","47.493611","-122.517","65.8","2023-01-03",,"0.07",,,,
