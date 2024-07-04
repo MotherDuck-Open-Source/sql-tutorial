@@ -9,8 +9,8 @@ Let's start with two datasets:
 To create the tables in your database, run:
 
 ```SQL
-create table birds as select * from read_csv('birds.csv');
-create table ducks as select * from read_csv('ducks.csv');
+CREATE TABLE birds AS SELECT * FROM read_csv('birds.csv');
+CREATE TABLE ducks AS SELECT * FROM read_csv('ducks.csv');
 ```
 
 Inspect the names of the columns by describing the tables:
