@@ -11,6 +11,8 @@ copyright: 2024
 execute:
   execute_notebooks: force
 
+exclude_patterns: [notebooks/*.ipynb]
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:

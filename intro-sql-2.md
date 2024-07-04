@@ -20,6 +20,13 @@ Let's start with two datasets:
 - {Download}`birds.csv<./data/birds.csv>`: a list of measurements of individuals of different bird species
 - {Download}`ducks.csv<./data/ducks.csv>`: a list of scientific names of bird species that are ducks
 
+To download the datasets directly from GitHub, run:
+
+```{code-cell}
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/birds.csv
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/ducks.csv
+```
+
 To create the tables in your database, run:
 
 ```SQL

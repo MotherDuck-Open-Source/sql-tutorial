@@ -22,9 +22,17 @@ Let's dive in and learn how to load data, grab a whole table, pick specific colu
 If you are in Google Collab or a Jupyter notebook, remember to put the magic `%%dql` directive in the beginning of each SQL cell.
 ```
 
++++ {"cell_type": "markdown"}
+
 ## Basic operations
 
 Let's get started with inspecting some data! We'll use the {Download}`washington_weather.csv<./data/washington_weather.csv>` dataset.
+
+To download the dataset directly from GitHub, run:
+
+```{code-cell}
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/washington_weather.csv
+```
 
 ## Create a new table from a CSV file
 
