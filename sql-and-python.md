@@ -77,16 +77,16 @@ This will fetch all the rows from the employees table and print them out.
 One of the powerful features of Ibis is that you can combine SQL queries with DataFrame operations. For example, let's filter employees with a salary greater than 60000 and then sort them by name:
 
 ```python
-high_earners = employees[employees.salary > 60000].sort_by('name')
+high_earners = employees[employees.salary >= 60000].order_by('name')
 result = high_earners.execute()
 print(result)
 ```
-This will return a DataFrame with employees who earn more than 60000, sorted by their names.
+This will return a DataFrame with employees who earn at least 60000, sorted by their names.
 
 Finally, let's see how we can perform more complex operations using only Ibis. Suppose we want to calculate the average salary by department:
 
 ```python
-avg_salary_by_dept = employees.groupby('department').aggregate(
+avg_salary_by_dept = employees.group_by('department').aggregate(
     avg_salary=employees.salary.mean()
 )
 result = avg_salary_by_dept.execute()
