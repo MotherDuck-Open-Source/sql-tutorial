@@ -26,9 +26,9 @@ SELECT
     Beak_Width,
     Beak_Depth,
     Beak_Length_Culmen
-  FROM birds
-  INNER JOIN ducks ON name = Species_Common_Name
-  ORDER BY Species_Common_Name;
+FROM birds
+INNER JOIN ducks ON name = Species_Common_Name
+ORDER BY Species_Common_Name;
 ```
 
 ### Step-by-Step Explanation
@@ -53,9 +53,9 @@ SELECT
     Beak_Width,
     Beak_Depth,
     Beak_Length_Culmen
-  FROM birds
-  INNER JOIN ducks ON name = Species_Common_Name
-  ORDER BY Species_Common_Name;
+FROM birds
+INNER JOIN ducks ON name = Species_Common_Name
+ORDER BY Species_Common_Name;
 ```
 
 ## 2. Subqueries
@@ -79,8 +79,8 @@ SELECT
     Beak_Length_Culmen
 FROM duck_beaks
 WHERE Beak_Length_Culmen > (
-        SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Beak_Length_Culmen) from duck_beaks
-    )
+    SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Beak_Length_Culmen) from duck_beaks
+)
 ORDER BY Beak_Length_Culmen DESC;
 ```
 
