@@ -65,7 +65,7 @@ This query selects all columns and rows from the `weather` table.
 Sometimes, you may only want to see specific columns. For example, if you only want to see the `temperature_max` and `temperature_min` columns, you can run this query:
 
 ```SQL
-SELECT staton_name, date, temperature_max, temperature_min FROM weather;
+SELECT name, date, temperature_max, temperature_min FROM weather;
 ```
 
 This command selects only the `name`, `date`, `temperature_max` and `temperature_min` columns from the `weather` table.
@@ -79,7 +79,7 @@ Run a `DESCRIBE` query on the `weather` table to inspect the column names, and t
 You can also add a calculated column to your results. For example, if you want to calculate the average of two columns, `temperature_max` and `temperature_min`, you can do this:
 
 ```SQL
-SELECT staton_name, date, temperature_max, temperature_min, 
+SELECT name, date, temperature_max, temperature_min, 
     (temperature_max + temperature_min) / 2 AS median_temperature 
 FROM weather;
 ```

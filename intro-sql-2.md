@@ -27,11 +27,19 @@ CREATE TABLE birds AS SELECT * FROM read_csv('birds.csv');
 CREATE TABLE ducks AS SELECT * FROM read_csv('ducks.csv');
 ```
 
-Inspect the names of the columns by describing the tables:
+To inspect the names of the columns by describing the tables, you can run:
 
 ```SQL
 DESCRIBE birds;
 DESCRIBE ducks;
+```
+
+```{admonition} Exercise
+Create a new table `birds` from the file `birds.csv`, which contains the names and measurements of individuals from over 10k bird species.
+```
+
+```{admonition} Exercise
+Create a new table `ducks` from the file `ducks.csv`, which contains species names and common names of ducks.
 ```
 
 ## 1. Group Rows (GROUP BY Clause)
@@ -50,11 +58,32 @@ GROUP BY Species_Common_Name;
 
 This command groups the rows by the `Species_Common_Name` column and calculates the average `Beak_Width`, `Beak_Depth` and `Beak_Length_Culmen` for the individuals in each bird species group.
 
+```{admonition} Exercise
+Run a query that gets the average `Beak_Length_Culmen`, `Wing_Length` and `Tail_Length` for all birds.
+```
+
+### Getting the 95<sup>th</sup> percentile of a column value
+
+We've used `GROUP BY` to group by a certain column, and used an aggregate function to combine other columns in our query, for instance, by taking the average. But, what if we want to get the 95<sup>th</sup> percentile of a column value? For that, we can also use something called an <a href="https://duckdb.org/docs/sql/aggregates.html#ordered-set-aggregate-functions" target="_blank">ordered set aggregate function</a>. For instance, to get the 95<sup>th</sup> percentile value of the `Beak_Length_Culmen` of all birds, run:
+
+```SQL
+SELECT PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY Beak_Length_Culmen) from birds;
+```
+
+```{admonition} Exercise
+Run a query that gets the 95<sup>th</sup> percentile and 99<sup>th</sup> percentile of `Beak_Length_Culmen` for all birds.
+```
+
+```{admonition} Exercise
+Run a query that gets the 99<sup>th</sup> percentile of `Wing_Length` for all birds.
+```
+
+
 ## 2. Understanding SQL Joins
 
 In SQL, a Join operation allows you to combine rows from two or more tables based on a related column between them. This is incredibly useful when you need to pull together related information that is stored in different tables.
 
-Let's combine the `birds` and `ducks` tables to find the beak sizes of all birds that are ducks. To do this, we'll use a SQL Join operation. Specifically, we'll use an `INNER JOIN`, which combines rows from both tables only when there is a match in the `Species_Common_Name` column.
+Let's combine the `birds` and `ducks` tables to find the `Beak_Length_Culmen` of all birds that are ducks. To do this, we'll use a SQL Join operation. Specifically, we'll use an `INNER JOIN`, which combines rows from both tables only when there is a match in the `Species_Common_Name` column.
 
 ```SQL
 SELECT
@@ -66,6 +95,10 @@ FROM birds
 INNER JOIN ducks ON name = Species_Common_Name
 ORDER BY Species_Common_Name;
 ```
+
+```{admonition} Exercise
+Join the `birds` and `ducks` tables and run a query that gets the name, `Beak_Length_Culmen`, `Wing_Length` and `Tail_Length` of birds that are ducks.
+``` 
 
 ### Step-by-Step Explanation
 Let's break down the SQL query step by step:
@@ -88,22 +121,9 @@ A subquery, also known as an inner query or nested query, is a query within anot
 
 Let's start by looking at our previously example query to understand how subqueries work in DuckDB.
 
-This query gets the beak measurements for all birds that are ducks:
+#### Finding the top `Beak_Length_Culmen`
 
-```SQL
-SELECT
-    Species_Common_Name,
-    Beak_Width,
-    Beak_Depth,
-    Beak_Length_Culmen
-FROM birds
-INNER JOIN ducks ON name = Species_Common_Name
-ORDER BY Species_Common_Name;
-```
-
-#### Finding the top beak sizes
-
-Suppose we want to find the ducks with the largest beak sizes. We can use a subquery to calculate the 95th percentile of beak sizes first, and then use that result in our main query:
+Suppose we want to find the ducks with the largest `Beak_Length_Culmen`. We can use a subquery to calculate the 95<sup>th</sup> percentile of `Beak_Length_Culmen` first, and then use that result in our main query:
 
 ```SQL
 SELECT
@@ -119,7 +139,11 @@ WHERE Beak_Length_Culmen > (
 ORDER BY Beak_Length_Culmen DESC;
 ```
 
-In this example, the subquery (`SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Beak_Length_Culmen) from birds INNER JOIN ducks ON name = Species_Common_Name`) calculates the 99th percentile of beak length for all birds that are ducks. The main query then selects the names and beak measurements of ducks who have a beak length above this value.
+In this example, the subquery (`SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Beak_Length_Culmen) from birds INNER JOIN ducks ON name = Species_Common_Name`) calculates the 99<sup>th</sup> percentile of beak length for all birds that are ducks. The main query then selects the names and beak measurements of ducks who have a beak length above this value.
+
+```{admonition} Exercise
+Use a subquery to get the ducks that have a `Wing_Length` larger than the 99<sup>th</sup> percentile of all ducks.
+```
 
 #### Using the WITH Clause
 
@@ -151,31 +175,12 @@ WHERE Beak_Length_Culmen > pc99_beak_len.Top_Beak_Length
 ORDER BY Beak_Length_Culmen DESC;
 ```
 
-In this example, the `WITH` clause creates two temporary result sets called `duck_beaks` and `pc99_beak_len`. The main query then selects the names and beak measurements of ducks with beak lengths above the top 99th percentile beak length.
-
-## Exercises
-
-### Datasets
-
-- {Download}`birds.csv<./data/birds.csv>` {cite}`tobias-2022`
-- {Download}`ducks.csv<./data/ducks.csv>` {cite}`col-2024`
+In this example, the `WITH` clause creates two temporary result sets called `duck_beaks` and `pc99_beak_len`. The main query then selects the names and beak measurements of ducks with `Beak_Length_Culmen` above the top 99<sup>th</sup> percentile beak length.
 
 ```{admonition} Exercise
-Create a new table `ducks` from the file `ducks.csv`, which contains species names and common names of ducks.
+Use a subquery to get the ducks that have a `Wing_Length` larger than the 99<sup>th</sup> percentile of all ducks.
 ```
 
 ```{admonition} Exercise
-Create a new table `birds` from the file `birds.csv`, which contains the names and measurements of individuals from over 10k bird species.
-```
-
-```{admonition} Exercise
-Join the `birds` and `ducks` tables and create a table `duck_beaks` with the name and beak size of birds that are ducks.
-``` 
-
-```{admonition} Exercise
-Run a query that gets the 99th percentile of beak lengths for all birds.
-```
-
-```{admonition} Exercise
-Use the previous query as a subquery to get the *ducks* that have a beak size larger than the 99th percentile of all *birds*.
+Use a subquery to get the *birds* that have a `Beak_Length_Culmen` larger than the 99<sup>th</sup> percentile of all *ducks*.
 ```
