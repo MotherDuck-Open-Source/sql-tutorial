@@ -20,7 +20,7 @@ DESCRIBE birds;
 DESCRIBE ducks;
 ```
 
-## Group Rows (GROUP BY Clause)
+## 1. Group Rows (GROUP BY Clause)
 
 To group the rows based on a specific column and perform <a href="https://duckdb.org/docs/sql/aggregates.html" target="_blank">aggregate functions</a>, you can use the `GROUP BY` clause. For example, if you want to group the birds by their species name and calculate the average `Beak_Length_Culmen` for each group, you can run this query:
 
@@ -36,7 +36,7 @@ GROUP BY Species_Common_Name;
 
 This command groups the rows by the `Species_Common_Name` column and calculates the average `Beak_Width`, `Beak_Depth` and `Beak_Length_Culmen` for the individuals in each bird species group.
 
-## Understanding SQL Joins
+## 2. Understanding SQL Joins
 
 In SQL, a Join operation allows you to combine rows from two or more tables based on a related column between them. This is incredibly useful when you need to pull together related information that is stored in different tables.
 
@@ -64,7 +64,7 @@ Let's break down the SQL query step by step:
 
 `ORDER BY Species_Common_Name`: We're sorting the results by the duck's name.
 
-## 2. Subqueries
+## 3. Subqueries
 
 ### What is a Subquery?
 
