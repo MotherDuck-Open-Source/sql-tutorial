@@ -2,8 +2,6 @@ name,genus,author,year,extinct
 Mandarin duck,Aix galericulata,Linnaeus,1758,0
 Wood duck,Aix sponsa,Linnaeus,1758,0
 Egyptian goose,Alopochen aegyptiaca,Linnaeus,1766,0
-Réunion sheldgoose,Alopochen kervazoi,Cowles,1994,1
-Mauritius sheldgoose,Alopochen mauritiana,E. Newton & Gadow,1893,1
 Brazilian teal,Amazonetta brasiliensis,J. F. Gmelin,1789,0
 Northern pintail,Anas acuta,Linnaeus,1758,0
 Andaman teal,Anas albogularis,Hume,1873,0
@@ -37,17 +35,6 @@ Mascarene teal,Anas theodori,E. Newton & Gadow,1893,1
 Yellow-billed duck,Anas undulata,C. F. Dubois,1838,0
 Hawaiian duck,Anas wyvilliana,P. L. Sclater,1878,0
 Eastern spot-billed duck,Anas zonorhyncha,Swinhoe,1866,0
-Greater white-fronted goose,Anser albifrons,Scopoli,1769,0
-Greylag goose,Anser anser,Linnaeus,1758,0
-Pink-footed goose,Anser brachyrhynchus,Baillon,1834,0
-Snow goose,Anser caerulescens,Linnaeus,1758,0
-Emperor goose,Anser canagicus,Sevastianov,1802,0
-Swan goose,Anser cygnoides,Linnaeus,1758,0
-Lesser white-fronted goose,Anser erythropus,Linnaeus,1758,0
-Taiga bean goose,Anser fabalis,Latham,1787,0
-Bar-headed goose,Anser indicus,Latham,1790,0
-Ross's goose,Anser rossii,Cassin,1861,0
-Tundra bean goose,Anser serrirostris,Gould,1852,0
 White-winged duck,Asarcornis scutulata,S. Müller,1842,0
 Lesser scaup,Aythya affinis,Eyton,1838,0
 Redhead,Aythya americana,Eyton,1838,0
@@ -63,10 +50,6 @@ Ferruginous duck,Aythya nyroca,Güldenstädt,1770,0
 Canvasback,Aythya valisineria,A. Wilson,1814,0
 Musk duck,Biziura lobata,Shaw,1796,0
 Brant,Branta bernicla,Linnaeus,1758,0
-Canada goose,Branta canadensis,Linnaeus,1758,0
-Cackling goose,Branta hutchinsii,Richardson,1832,0
-Barnacle goose,Branta leucopsis,Bechstein,1803,0
-Red-breasted goose,Branta ruficollis,Pallas,1769,0
 Nene,Branta sandvicensis,Vigors,1834,0
 Bufflehead,Bucephala albeola,Linnaeus,1758,0
 Common goldeneye,Bucephala clangula,Linnaeus,1758,0
@@ -74,23 +57,9 @@ Barrow's goldeneye,Bucephala islandica,J. F. Gmelin,1789,0
 Muscovy duck,Cairina moschata,Linnaeus,1758,0
 Ringed teal,Callonetta leucophrys,Vieillot,1816,0
 Labrador duck,Camptorhynchus labradorius,J. F. Gmelin,1789,1
-Cape Barren goose,Cereopsis novaehollandiae,Latham,1801,0
 Finsch's duck,Chenonetta finschi,Van Beneden,1875,1
 Australian wood duck,Chenonetta jubata,Latham,1801,0
-Kelp goose,Chloephaga hybrida,Molina,1782,0
-Andean goose,Chloephaga melanoptera,Eyton,1838,0
-Upland goose,Chloephaga picta,J. F. Gmelin,1789,0
-Ashy-headed goose,Chloephaga poliocephala,P. L. Sclater,1857,0
-Ruddy-headed goose,Chloephaga rubidiceps,P. L. Sclater,1861,0
 Long-tailed duck,Clangula hyemalis,Linnaeus,1758,0
-Coscoroba swan,Coscoroba coscoroba,Molina,1782,0
-Blue-winged goose,Cyanochen cyanoptera,Rüppell,1845,0
-Black swan,Cygnus atratus,Latham,1790,0
-Trumpeter swan,Cygnus buccinator,Richardson,1831,0
-Tundra swan,Cygnus columbianus,Ord,1815,0
-Whooper swan,Cygnus cygnus,Linnaeus,1758,0
-Black-necked swan,Cygnus melancoryphus,Molina,1782,0
-Mute swan,Cygnus olor,J. F. Gmelin,1789,0
 West Indian whistling duck,Dendrocygna arborea,Linnaeus,1758,0
 Wandering whistling duck,Dendrocygna arcuata,Horsfield,1824,0
 Black-bellied whistling duck,Dendrocygna autumnalis,Linnaeus,1758,0
@@ -125,13 +94,9 @@ Common merganser,Mergus merganser,Linnaeus,1758,0
 Brazilian merganser,Mergus octosetaceus,Vieillot,1817,0
 Red-breasted merganser,Mergus serrator,Linnaeus,1758,0
 Scaly-sided merganser,Mergus squamatus,Gould,1864,0
-Orinoco goose,Neochen jubata,Spix,1825,0
 Southern pochard,Netta erythrophthalma,Wied-Neuwied,1833,0
 Rosy-billed pochard,Netta peposaca,Vieillot,1816,0
 Red-crested pochard,Netta rufina,Pallas,1773,0
-African pygmy goose,Nettapus auritus,Boddaert,1783,0
-Cotton pygmy goose,Nettapus coromandelianus,J. F. Gmelin,1789,0
-Green pygmy goose,Nettapus pulchellus,Gould,1842,0
 Masked duck,Nomonyx dominicus,Linnaeus,1766,0
 Blue-billed duck,Oxyura australis,Gould,1837,0
 Andean duck,Oxyura ferruginea,Eyton,1838,0
@@ -139,7 +104,6 @@ Ruddy duck,Oxyura jamaicensis,J. F. Gmelin,1789,0
 White-headed duck,Oxyura leucocephala,Scopoli,1769,0
 Maccoa duck,Oxyura maccoa,Eyton,1838,0
 Lake duck,Oxyura vittata,Philippi,1860,0
-Spur-winged goose,Plectropterus gambensis,Linnaeus,1766,0
 Steller's eider,Polysticta stelleri,Pallas,1769,0
 Hartlaub's duck,Pteronetta hartlaubii,Cassin,1860,0
 Radjah shelduck,Radjah radjah,Garnot & R. Lesson,1828,0
