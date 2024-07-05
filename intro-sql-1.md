@@ -37,9 +37,9 @@ Let's get started with inspecting some data! We'll use the {Download}`washington
 
 To download the dataset directly from GitHub, run:
 
-```{code-cell}
+<!-- ```{code-cell}
 !wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/washington_weather.csv -q
-```
+``` -->
 
 ## Create a new table from a CSV file
 
@@ -84,23 +84,16 @@ To filter rows based on certain conditions, you can use the `WHERE` clause. For 
 
 ```{code-cell}
 %%dql
-SELECT * FROM weather WHERE temperature_obs > 75;
+SELECT * FROM weather WHERE temperature_obs > 82;
 ```
 
-This command selects all columns from the weather table, but only includes rows where the observed temperature is greater than 75.
-
-You can also filter out the rows where a certain value is empty. For example, to get all the rows where the observed temperature field is not empty, run:
-
-```{code-cell}
-%%dql
-SELECT * FROM weather WHERE temperature_obs IS NOT NULL;
-```
+This command selects all columns from the weather table, but only includes rows where the observed temperature is greater than 82°F.
 
 To combine filters for two or more different columns, you can use `AND` or `OR`:
 
 ```{code-cell}
 %%dql
-SELECT * FROM weather WHERE (precipitation > 2.5 OR elevation > 600) AND temperature_obs IS NOT NULL;
+SELECT * FROM weather WHERE precipitation > 2.5 OR elevation > 600;
 ```
 
 ```{note}
@@ -108,7 +101,7 @@ In DuckDB, strings are indicated with single quotes, like so: `'my string value'
 ```
 
 ```{admonition} Exercise
-Filter rows where the station name is `'SEATTLE TACOMA AIRPORT, WA US'`.
+Filter rows where the station name is `'TACOMA NUMBER 1, WA US'`.
 ```
 
 
@@ -118,17 +111,15 @@ Sometimes, you may only want to see specific columns. For example, if you only w
 
 ```{code-cell}
 %%dql
-SELECT name, date, precipitation FROM weather;
-```
-
-This command selects only the `name`, `date` and `precipitation` columns from the `weather` table.
-
-```{admonition} Exercise
-Run a `DESCRIBE` query on the `weather` table to inspect the column names, and try selecting a few different ones! For example, select the `name`, `date`, `elevation`, `temperature_max`, `temperature_min` and `temperature_obs` columns.
+SELECT name, date, temperature_min, temperature_max FROM weather;
 ```
 
 ```{admonition} Exercise
-Select the `temperature_max` and `temperature_min` columns, and filter down to only see the rows where both of those columns are not empty.
+Run a `DESCRIBE` query on the `weather` table to inspect the column names, and try selecting a few different ones! For example, select the `name`, `date`, `elevation`, `precipitation`, and/or `temperature_obs` columns.
+```
+
+```{admonition} Exercise
+Select the `temperature_max` and `temperature_min` columns, and filter down to only see the rows where both of those values are under 60 and above 50.
 ```
 
 ### Add a calculated Column
@@ -138,14 +129,17 @@ You can also add a calculated column to your results. For example, if you want t
 ```{code-cell}
 %%dql
 SELECT name, date, (temperature_max + temperature_min) / 2 AS median_temperature 
-FROM weather
-WHERE temperature_min IS NOT NULL AND temperature_max IS NOT NULL;
+FROM weather;
 ```
 
 This command creates a new column called `median_temperature` that contains the average of `temperature_min` and `temperature_max`.
 
 ```{admonition} Exercise
 Add a new calculated column called `temperature_range` that gets the difference between `temperature_max` and `temperature_min` columns.
+```
+
+```{admonition} Exercise
+Create a new calculated column, `temperature_obs_celcius`, that converts the observed temperature to °C using the equation: `(32°F − 32) × 5/9 = 0°C`.
 ```
 
 ### Order Rows (ORDER BY Clause)
@@ -155,22 +149,15 @@ To sort the rows based on a specific column, you can use the ORDER BY clause. Fo
 %%dql
 SELECT name, date, precipitation, (temperature_max + temperature_min) / 2 AS median_temperature 
 FROM weather
-WHERE temperature_min IS NOT NULL AND temperature_max IS NOT NULL AND precipitation is not NULL
 ORDER BY precipitation DESC;
 ```
 
 This command sorts the rows by the `precipitation` column in descending order.
 
 ```{admonition} Exercise
-Use the query you created in the previous exercise and order the rows by `precipitation` in descending order.
-```
-
-## Bonus exercises
-
-```{admonition} Exercise
-Create a new calculated column, `temperature_obs_celcius`, that converts the observed temperature to °C using the equation: `(32°F − 32) × 5/9 = 0°C`.
+Use the query you created in the previous exercise and order the rows by `precipitation` in ascending order.
 ```
 
 ```{admonition} Exercise
-Find the station name and date when the lowest temperature of 21°F was reported.
+Get the station `name`, `date`, `temperature_obs` and `precipitation`, and sort the table such that the row with the lowest temperature observed is at the top of the result table.
 ```
