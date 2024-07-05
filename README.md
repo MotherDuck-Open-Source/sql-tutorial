@@ -12,6 +12,10 @@ kernelspec:
   name: python3
 ---
 
+<a target="_blank" href="https://colab.research.google.com/github/MotherDuck-Open-Source/sql-tutorial">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # Learn SQL the Quacky way!
 
 You're likely familiar with NumPy or DataFrame tools like Pandas, Polars or PyArrow for data manipulation and analysis. These are powerful tools, but as your datasets grow and your analyses become more complex, you may find yourself pushing against its limits. This is where SQL comes in.
