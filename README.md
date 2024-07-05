@@ -46,6 +46,8 @@ This SQL query can work on datasets of any size, is often more efficient, and ca
 
 For more thoughts on why SQL is a great language to learn as a Python developer, read the [Python and SQL: Better Together](https://alex-monahan.github.io/2021/08/22/Python_and_SQL_Better_Together.html) blog post by [Alex Monahan](https://github.com/Alex-Monahan).
 
+## Tutorial overview
+
 Throughout this tutorial, we'll explore how SQL can complement your Python skills, enabling you to:
 
 - Load data and perform basic operations such as filtering, sorting, grouping and adding a calculated column.
@@ -55,3 +57,5 @@ Throughout this tutorial, we'll explore how SQL can complement your Python skill
 - Share your data with your collaborators and efficiently access large amounts of data
 
 By the end of this tutorial, you'll have a solid understanding of SQL basics, how to integrate SQL with your Python workflows, and when to choose SQL over DataFrame tools (and vice versa).
+
+To get started, review the [Setup instructions](https://motherduck-open-source.github.io/sql-tutorial/setup-instructions.html). Happy querying!
