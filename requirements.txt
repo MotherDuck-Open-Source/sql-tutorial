@@ -1,3 +1,2 @@
+jupyter
 jupyter-book
-matplotlib
-numpy

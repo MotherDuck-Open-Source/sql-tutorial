@@ -14,9 +14,9 @@ echo "Created temporary directory: $TEMP_DIR"
 
 # List of files to process
 FILES_TO_PROCESS=(
-    "intro-sql-1.md"
-    "intro-sql-2.md"
-    "sql-and-python.md"
+    "1_intro-sql-1.md"
+    "2_intro-sql-2.md"
+    "3_sql-and-python.md"
 )
 
 # Copy specified files from parent directory to temp directory
@@ -39,11 +39,11 @@ for file in "${FILES_TO_PROCESS[@]}"; do
 done
 
 # Convert all *.md files to .ipynb and move them to current directory
-echo "Converting *.md files to .ipynb and moving them to current directory..."
+echo "Converting *.md files to .ipynb and moving them to the /notebooks directory..."
 for file in "$TEMP_DIR"/*.md; do
     if [ -f "$file" ]; then
         jupytext "$file" --to ipynb
-        mv "${file%.md}.ipynb" .
+        mv "${file%.md}.ipynb" ../notebooks/
     fi
 done
 

@@ -12,6 +12,10 @@ kernelspec:
   name: python3
 ---
 
+<a target="_blank" href="https://colab.research.google.com/github/MotherDuck-Open-Source/sql-tutorial">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # 2. Learn to quack SQL with DuckDB: Group by, Joins and Subqueries
 
 To start off, install the latest version of `duckdb` and `magic-duckdb` to run this notebook.
@@ -206,65 +210,6 @@ In this example, the `WITH` clause creates two temporary result sets called `duc
 Find the duck species that have an average `Wing_Length` larger than the 99<sup>th</sup> percentile of all duck species.
 ```
 
-```{code-cell}
-:tags: [hide-cell]
-%%dql
-WITH
-    duck_wings AS (
-        SELECT
-            Species_Common_Name,
-            AVG(Wing_Length) AS Wing_Length_avg
-        FROM birds
-        INNER JOIN ducks ON name = Species_Common_Name
-        GROUP BY Species_Common_Name
-    ),
-
-    pc99_wing_length AS (
-        SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Wing_Length_avg) AS Top_Wing_Length_avg from duck_wings
-    )
-
-SELECT
-    Species_Common_Name,
-    Wing_Length_avg
-FROM duck_wings, pc99_wing_length
-WHERE Wing_Length_avg > Top_Wing_Length_avg
-ORDER BY Wing_Length_avg DESC;
-```
-
 ```{admonition} Exercise
 What about the duck species that have both a `Wing_Length` _or_ `Beak_Length_Culmen` larger than the 99<sup>th</sup> percentile of all duck species?
-```
-
-```{code-cell}
-:tags: [hide-cell]
-%%dql
-WITH
-    duck_beaks_and_wings AS (
-        SELECT
-            Species_Common_Name,
-            AVG(Wing_Length) AS Wing_Length_avg,
-            AVG(Beak_Length_Culmen) AS Beak_Length_Culmen_avg
-        FROM birds
-        INNER JOIN ducks ON name = Species_Common_Name
-        GROUP BY Species_Common_Name
-    ),
-
-    pc99_beak_len AS (
-        SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Beak_Length_Culmen_avg) AS Top_Beak_Length_avg from duck_beaks_and_wings
-    ),
-
-    pc99_wing_len AS (
-        SELECT PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY Wing_Length_avg) AS Top_Wing_Length_avg from duck_beaks_and_wings
-    )
-
-SELECT
-    Species_Common_Name,
-    Top_Beak_Length_avg,
-    Beak_Length_Culmen_avg,
-    Top_Wing_Length_avg,
-    Wing_Length_avg
-FROM duck_beaks_and_wings, pc99_beak_len, pc99_wing_len
-WHERE Beak_Length_Culmen_avg > Top_Beak_Length_avg
-OR Wing_Length_avg > Top_Wing_Length_avg
-ORDER BY Beak_Length_Culmen_avg DESC;
 ```

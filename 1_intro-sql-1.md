@@ -12,6 +12,10 @@ kernelspec:
   name: python3
 ---
 
+<a target="_blank" href="https://colab.research.google.com/github/MotherDuck-Open-Source/sql-tutorial">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # 1. Learn to quack SQL with DuckDB: The Basics
 
 Today, we'll cover some basic operations in DuckDB SQL. DuckDB is a high-performance analytical database system designed for easy integration with data science workflows. It is particularly well-suited for in-memory processing and can handle complex queries efficiently. Learning SQL is a great skill because it allows you to manage and analyze large datasets quickly and effectively.

@@ -12,7 +12,11 @@ kernelspec:
   name: python3
 ---
 
-# 3. Combining SQL and Python
+<a target="_blank" href="https://colab.research.google.com/github/MotherDuck-Open-Source/sql-tutorial">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+# 3. SQL ❤️ Python
 
 ## A. Using `duckdb` from Python
 

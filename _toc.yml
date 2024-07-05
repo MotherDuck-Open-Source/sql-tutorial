@@ -5,8 +5,8 @@ format: jb-book
 root: README
 chapters:
 - file: setup-instructions
-- file: intro-sql-1
-- file: intro-sql-2
-- file: sql-and-python
-- file: data-in-the-cloud
+- file: 1_intro-sql-1
+- file: 2_intro-sql-2
+- file: 3_sql-and-python
+- file: 4_data-in-the-cloud
 - file: datasets
