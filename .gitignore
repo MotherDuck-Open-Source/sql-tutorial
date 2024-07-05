@@ -4,3 +4,4 @@ scripts/
 .idea
 .DS_Store
 notebooks/*.md
+/sql_tutorial_venv
