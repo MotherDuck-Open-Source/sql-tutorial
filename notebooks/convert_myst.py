@@ -5,36 +5,12 @@ def convert_myst_markdown(input_file, output_file):
     with open(input_file, 'r') as file:
         content = file.read()
 
-    # 1. Add code cells after jupytext header
-    jupytext_pattern = r'(---\njupytext:.*?\n---\n)'
-    additional_cells = (
-        "\n```{code-cell}\n"
-        "!pip install --upgrade duckdb magic-duckdb --quiet\n"
-        "```\n\n"
-        "```{code-cell}\n"
-        "%load_ext magic_duckdb\n"
-        "```\n"
-    )
-    content = re.sub(jupytext_pattern, r'\1' + additional_cells, content, flags=re.DOTALL)
-
-    # 2. Replace SQL code blocks
-    content = content.replace("```SQL", "```{code-cell}\n%%dql")
-
-    # 3. Replace Python and Bash code blocks
-    content = content.replace("```python", "```{code-cell}")
-    content = content.replace("```bash", "```{code-cell}")
-
-    # 4. Replace download link and add wget command
+    # Replace download link
     download_pattern = r'(\{Download\}`(.+?\.csv)<\./data/(.+?\.csv)>`)'
     def replace_download_and_add_wget(match):
         full_match, filename, _ = match.groups()
         replacement = f"[{filename}](https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/{filename})"
-        wget_command = (
-            f"\n\n```{{code-cell}}\n"
-            f"!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/{filename}\n"
-            f"```\n"
-        )
-        return replacement# + wget_command
+        return replacement
 
     content = re.sub(download_pattern, replace_download_and_add_wget, content)
 
