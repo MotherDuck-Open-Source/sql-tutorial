@@ -37,9 +37,9 @@ Let's get started with inspecting some data! We'll use the {Download}`washington
 
 To download the dataset directly from GitHub, run:
 
-<!-- ```{code-cell}
+```{code-cell}
 !wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/washington_weather.csv -q
-``` -->
+```
 
 ## Create a new table from a CSV file
 
