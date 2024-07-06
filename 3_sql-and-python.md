@@ -1,11 +1,10 @@
 ---
 jupytext:
-  formats: md:myst
   text_representation:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.11.5
+    jupytext_version: 1.16.2
 kernelspec:
   display_name: Python 3
   language: python
@@ -16,7 +15,7 @@ kernelspec:
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-# 3. SQL ❤️ Python
+# 3. Combining SQL and Python
 
 ## A. Using `duckdb` from Python
 
@@ -27,11 +26,11 @@ Google Collab even has duckdb pre-installed!
 We will also install a few dataframe libraries, but these are optional unless you would like to do some of your analysis outside of DuckDB!
 
 ```{code-cell}
-!pip install --upgrade duckdb pandas polars pyarrow --quiet
+!pip install duckdb>=1.0.0 pandas polars pyarrow
 ```
 
 ```{code-cell}
-!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/ducks.csv -q
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/ducks.csv -q --show-progress
 ```
 
 DuckDB follows the Python DB API spec, so you can use it the same way you would use another database.
@@ -103,12 +102,14 @@ duckdb.sql("""SELECT * FROM ducks_arrow""").arrow()
 
 ## 2. Using `ibis` with a DuckDB backend
 
+### A. Introduction to Ibis and DuckDB
+
 We'll show you how to leverage the power of DuckDB without even needing to write a single line of SQL. Instead, we'll use Ibis, a powerful Python library that allows you to interact with databases using a DataFrame-like syntax. We'll also show you how to combine the two so you can get the best of both worlds.
 
 First, let's make sure you have the necessary packages installed. You can install DuckDB and Ibis using pip:
 
 ```{code-cell}
-!pip install "ibis-framework[duckdb,examples]" --upgrade --quiet
+!pip install ibis-framework[duckdb,examples] --upgrade --quiet
 ```
 
 We are using Ibis in interactive mode for demo purposes. This converts Ibis expressions from lazily evaluated to eagerly evaluated, so it is easier to see what is happening at each step. It also converts Ibis results into Pandas dataframes for nice formatting in Jupyter.
@@ -119,6 +120,7 @@ We can connect to a file-based DuckDB database by specifying a file path.
 
 ```{code-cell}
 import ibis
+from ibis import _
 ibis.options.interactive = True
 
 con = ibis.duckdb.connect(database='whats_quackalackin.duckdb')
@@ -136,15 +138,21 @@ The result of the prior read_csv operation is an Ibis object. It is similar to t
 To save the result of our read_csv into the DuckDB file, we create a table.
 
 ```{code-cell}
-persistent_ducks = con.create_table(name='ducks', obj=ducks_ibis.to_pyarrow(), overwrite=True)
+persistent_ducks = con.create_table(name='persistent_ducks', obj=ducks_ibis.to_pyarrow(), overwrite=True)
 persistent_ducks
 ```
 
 Now that we have a table set up, let's see how we can query this data using Ibis. With Ibis, you can perform operations on your data without writing SQL. Let's see how similar it feels...
 
+The question we will build up towards answering is, "Who were the most prolific people at finding many new species of non-extinct ducks, and when did they get started finding ducks?"
+
+Use a the `filter` function instead of a `where` clause to choose the rows you are interested in.
+
 ```{code-cell}
 persistent_ducks.filter(persistent_ducks.extinct == 0)
 ```
+
+Pick your columns using the conveniently named `select` function!
 
 ```{code-cell}
 (persistent_ducks
@@ -152,6 +160,10 @@ persistent_ducks.filter(persistent_ducks.extinct == 0)
   .select("name", "author", "year")
 )
 ```
+
+The `group_by` functions matches well with the `group by` clause.
+
+However, Ibis splits the `select` clause into the `select` function and the `aggregate` function when working with a group by. This aligns with the SQL best practice to organize your `select` clause with non-aggregate expressions first, then aggregate expressions.
 
 ```{code-cell}
 duck_legends = (persistent_ducks
@@ -168,8 +180,128 @@ duck_legends
 ibis.to_sql(duck_legends)
 ```
 
+### B. Mixing and matching SQL and Ibis
+
+If you have existing SQL queries, or want to use dialect-specific features of a specific SQL database, Ibis allows you to use SQL directly!
+
+If you want to begin your Ibis query with SQL, you can use `Table.sql` directly.
+
+However, we can no longer refer directly to the `persistent_ducks` object later in the expression. We instead need to use the `_` (which we imported earlier with `from ibis import _`), which is a way to build expressions using Ibis's deferred expression API. So instead of `persistent_ducks.column.function()`, we can say `_.column.function()`
+
+```{code-cell}
+duck_legends = (persistent_ducks
+  .sql("""SELECT name, author, year FROM persistent_ducks WHERE extinct = 0""")
+  .group_by("author")
+  .aggregate([_.name.count(), _.year.min()]) # Use _ instead of persistent_ducks
+  .order_by([ibis.desc("Count(name)")])
+)
+duck_legends
+```
+
+If you want to begin with Ibis, but transition to SQL, first give the Ibis expression a name using the `alias` function. Then you can refer to that as a table in your `Table.sql` call.
+
+```{code-cell}
+duck_legends = (persistent_ducks
+  .filter(persistent_ducks.extinct == 0)
+  .select("name", "author", "year")
+  .group_by("author")
+  .aggregate([persistent_ducks.name.count(), persistent_ducks.year.min()])
+  .alias('ibis_duck') # Rename the result of all Ibis expressions up to this point
+  .sql("""SELECT * from ibis_duck ORDER BY "Count(name)" desc""")
+)
+duck_legends
+```
+
+
 And there you go! You've learned:
 * How to read and write Pandas, Polars, and Apache Arrow with DuckDB
 * How to use Ibis to run dataframe queries on top of DuckDB
 * How to see the SQL that Ibis is running on your behalf
 * How to mix and match SQL and Ibis
+
+# Exercise 1: Apache Arrow to SQL
+Read in the birds.csv file using Apache Arrow, then use the DuckDB Python library to execute a SQL statement on that Apache Arrow table to find the maximum `wing_length` in the dataset. Output that result as an Apache Arrow table.
+
+```{code-cell}
+
+
+```
+
+
+# Exercise 2: Output the result of this SQL statement to a Polars dataframe
+
+Use the DuckDB Python client to return these results as a Polars dataframe.
+
+```sql
+SELECT
+    Species_Common_Name,
+    AVG(Beak_Width) AS Avg_Beak_Width,
+    AVG(Beak_Depth) AS Avg_Beak_Depth,
+    AVG(Beak_Length_Culmen) AS Avg_Beak_Length_Culmen
+FROM 'birds.csv'
+GROUP BY Species_Common_Name
+```
+
+```{code-cell}
+
+
+```
+
+
+# Exercise 3: Simplify the SQL that was auto-generated by Ibis
+
+The SQL that Ibis generated to find the people who discovered the most duck species is not the most concise. Can you re-write the Ibis SQL (listed below) to its simplest possible form, using DuckDB's Python client?
+
+Hint: as a first step, connect to the same database that Ibis connected to.
+```sql
+SELECT
+  *
+FROM (
+  SELECT
+    "t1"."author",
+    COUNT("t1"."name") AS "Count(name)",
+    MIN("t1"."year") AS "Min(year)"
+  FROM (
+    SELECT
+      "t0"."name",
+      "t0"."author",
+      "t0"."year"
+    FROM "whats_quackalackin"."main"."persistent_ducks" AS "t0"
+    WHERE
+      "t0"."extinct" = CAST(0 AS TINYINT)
+  ) AS "t1"
+  GROUP BY
+    1
+) AS "t2"
+ORDER BY
+  "t2"."Count(name)" DESC
+```
+
+```{code-cell}
+
+
+```
+
+# Exercise 4: Convert this SQL query into an Ibis expression
+
+Convert the SQL query below into an Ibis expression. You are welcome to ignore the column renaming - think of it as a "stretch-goal" if you have time! We did not cover how to do that yet.
+```sql
+SELECT
+    Species_Common_Name,
+    AVG(Beak_Width) AS Avg_Beak_Width,
+    AVG(Beak_Depth) AS Avg_Beak_Depth,
+    AVG(Beak_Length_Culmen) AS Avg_Beak_Length_Culmen
+FROM 'birds.csv'
+GROUP BY Species_Common_Name
+```
+
+Hint: Read directly from a csv file - no need to create a persistent table!
+
+Hint 2: Ibis uses `mean` instead of `avg`!
+
+Hint 3: Ibis aggregate documentation: https://ibis-project.org/reference/expression-tables#ibis.expr.types.relations.Table.aggregate
+
+```{code-cell}
+
+
+```
