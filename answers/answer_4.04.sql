@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE duckdb_ducks AS (SELECT * FROM read_csv("https://duckdb.org/data/duckdb-releases.csv"));

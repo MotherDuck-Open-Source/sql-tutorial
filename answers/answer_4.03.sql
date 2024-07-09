@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE animals AS (SELECT * FROM read_parquet('hf://datasets/datonic/threatened_animal_species/data/threatened_animal_species.parquet'));
