@@ -15,8 +15,8 @@ def convert_myst_markdown(input_file, output_file):
     content = re.sub(download_pattern, replace_download_and_add_wget, content)
 
     # 5. Replace admonition blocks for exercises
-    exercise_pattern = r'```\{admonition\} Exercise\n(.*?)```'
-    replacement = r'+++ {"cell_type": "markdown"}\n\n**Exercise**\n\n\1\n+++ {"cell_type": "markdown"}\n'
+    exercise_pattern = r'```\{admonition\} Exercise(.*?)\n(.*?)```'
+    replacement = r'+++ {"cell_type": "markdown"}\n\n**Exercise\1**\n\n\2\n+++ {"cell_type": "markdown"}\n'
     content = re.sub(exercise_pattern, replacement, content, flags=re.DOTALL)
 
     # 6. Replace admonition blocks for notes
