@@ -21,7 +21,7 @@ kernelspec:
 To start off, install the latest version of `duckdb`, `magic-duckdb` and `dash` to run this notebook.
 
 ```{code-cell}
-!pip install duckdb==1.0.0 magic-duckdb dash -q
+!pip install --upgrade duckdb magic-duckdb dash -q
 %load_ext magic_duckdb
 ```
 
