@@ -56,8 +56,12 @@ CREATE TABLE weather AS SELECT * FROM read_csv('washington_weather.csv');
 
 In general, it's easy to create a new table! The syntax `CREATE TABLE <name> AS ...` lets you create a new table using any query. If you want to overwrite an existing table, you can use the `CREATE OR REPLACE TABLE <name> AS ...` syntax. For more information about the `CREATE TABLE` syntax, see the <a href="https://duckdb.org/docs/sql/statements/create_table" target="_blank">docs</a>.
 
-```{admonition} Exercise
-Create a new table called `weather` by selecting all columns in the {Download}`washington_weather.csv<./data/washington_weather.csv>` file.
+```{admonition} Exercise 1.01
+Recreate the table called `weather` by selecting all columns in the {Download}`washington_weather.csv<./data/washington_weather.csv>` file.
+```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.01.sql
 ```
 
 ## Describe the table
@@ -104,10 +108,13 @@ SELECT * FROM weather WHERE precipitation > 2.5 OR elevation > 600;
 In DuckDB, strings are indicated with single quotes, like so: `'my string value'`, and column names with double quotes, like so: `"my column name"`. You'll only need to use double quotes for your column names if they contain spaces or special characters.
 ```
 
-```{admonition} Exercise
+```{admonition} Exercise 1.02
 Filter rows where the station name is `'TACOMA NUMBER 1, WA US'`.
 ```
-
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.02.sql
+```
 
 ### Pick the Columns that You Want
 
@@ -118,12 +125,20 @@ Sometimes, you may only want to see specific columns. For example, if you only w
 SELECT name, date, temperature_min, temperature_max FROM weather;
 ```
 
-```{admonition} Exercise
+```{admonition} Exercise 1.03
 Run a `DESCRIBE` query on the `weather` table to inspect the column names, and try selecting a few different ones! For example, select the `name`, `date`, `elevation`, `precipitation`, and/or `temperature_obs` columns.
 ```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.03.sql
+```
 
-```{admonition} Exercise
+```{admonition} Exercise 1.04
 Select the `temperature_max` and `temperature_min` columns, and filter down to only see the rows where both of those values are under 60 and above 50.
+```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.04.sql
 ```
 
 ### Add a calculated Column
@@ -138,12 +153,20 @@ FROM weather;
 
 This command creates a new column called `median_temperature` that contains the average of `temperature_min` and `temperature_max`.
 
-```{admonition} Exercise
+```{admonition} Exercise 1.05
 Add a new calculated column called `temperature_range` that gets the difference between `temperature_max` and `temperature_min` columns.
 ```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.05.sql
+```
 
-```{admonition} Exercise
+```{admonition} Exercise 1.06
 Create a new calculated column, `temperature_obs_celcius`, that converts the observed temperature to °C using the equation: `(32°F − 32) × 5/9 = 0°C`.
+```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.06.sql
 ```
 
 ### Order Rows (ORDER BY Clause)
@@ -158,10 +181,18 @@ ORDER BY precipitation DESC;
 
 This command sorts the rows by the `precipitation` column in descending order.
 
-```{admonition} Exercise
+```{admonition} Exercise 1.07
 Use the query you created in the previous exercise and order the rows by `precipitation` in ascending order.
 ```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.07.sql
+```
 
-```{admonition} Exercise
+```{admonition} Exercise 1.08
 Get the station `name`, `date`, `temperature_obs` and `precipitation`, and sort the table such that the row with the lowest temperature observed is at the top of the result table.
+```
+```{code-cell}
+# Show solution
+!cat ./answers/answer_1.08.sql
 ```
