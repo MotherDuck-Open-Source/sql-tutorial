@@ -288,6 +288,11 @@ Just like in Python, we use the `IS` keyword to check if a value is missing.
 
 A subquery, also known as a nested query, is a query within another SQL query. It's like a query inside a query! Subqueries are used to perform operations that require multiple steps, such as filtering data based on a complex condition or aggregating data before using it in the main query. In other words, instead of creating multiple new tables as intermediate steps, you can define these steps within the scope of a larger query.
 
+### Types of Subquery
+
+A Subquery can return a single value (one row and one column), an entire column of values, or a table of values. 
+These each can be used in the location within a query where a static value, column, or table would otherwise be.
+
 ### Using Subqueries in DuckDB
 
 Let's start by looking at our previously example query to understand how subqueries work in DuckDB.
