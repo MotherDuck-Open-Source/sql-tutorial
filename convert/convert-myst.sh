@@ -17,6 +17,7 @@ FILES_TO_PROCESS=(
     "1_intro-sql-1.md"
     "2_intro-sql-2.md"
     "3_sql-and-python.md"
+    "4_data-in-the-cloud.md"
 )
 
 # Copy specified files from parent directory to temp directory
