@@ -43,6 +43,8 @@ To download the dataset directly from GitHub, run:
 
 ```{code-cell}
 !wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/washington_weather.csv -q
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/answers/answers_1.zip -q 
+!unzip answers_1.zip -d answers
 ```
 
 ## Create a new table from a CSV file
