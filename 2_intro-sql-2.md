@@ -46,7 +46,7 @@ CREATE TABLE birds AS SELECT * FROM read_csv('birds.csv');
 CREATE TABLE ducks AS SELECT * FROM read_csv('ducks.csv');
 ```
 
-To inspect the names of the columns by describing the tables, you can run:
+To begin understanding the data contained in these tables, you can run:
 
 ```{code-cell}
 %%dql
@@ -59,11 +59,11 @@ SUMMARIZE ducks;
 ```
 
 ```{admonition} Exercise
-Create a new table `birds` from the file `birds.csv`, which contains the names and measurements of individuals from over 10k bird species.
+Create a new table `birds_measurements` from the file `birds.csv` (this file contains the names and measurements of individuals from over 10k bird species).
 ```
 
 ```{admonition} Exercise
-Create a new table `ducks` from the file `ducks.csv`, which contains species names and common names of ducks.
+Create a new table `ducks_species` from the file `ducks.csv` (this file contains species names and common names of ducks).
 ```
 
 ## 1. Aggregate Functions
@@ -169,7 +169,7 @@ INNER JOIN ducks ON birds.Species_Common_Name = ducks.name;
 ### Step-by-Step Explanation
 Let's break down the SQL query step by step:
 
-`SELECT birds.Species_Common_Name, birds.Beak_Length_Culmen, ducks.author`: We're selecting the species name and beak length from the `birds` table, and the duck species author from the `ducks` table.
+`SELECT birds.column00 as id, birds.Species_Common_Name, birds.Beak_Length_Culmen, ducks.author`: We're selecting the species id, name and beak length from the `birds` table, and the duck species author from the `ducks` table.
 
 Up until now, we haven't needed to specify which table a column is coming from since we have been working with just one table! 
 Now we prefix column names with the name of the table they come from. 
@@ -256,7 +256,7 @@ Let's start by looking at our previously example query to understand how subquer
 
 #### Finding the top `Beak_Length_Culmen`
 
-Suppose we want to find the _individual_ ducks with the largest `Beak_Length_Culmen`. We can use a subquery to calculate the 95<sup>th</sup> percentile of `Beak_Length_Culmen` first, and then use that result in our main query:
+Suppose we want to find the _individual_ ducks with the largest `Beak_Length_Culmen`. We can use a subquery to calculate the 99<sup>th</sup> percentile of `Beak_Length_Culmen` first, and then use that result in our main query:
 
 ```{code-cell}
 %%dql
@@ -285,7 +285,7 @@ Find the duck species that have a `Wing_Length` larger than the 99<sup>th</sup> 
 
 
 ```{admonition} Exercise
-Can you find any duck species that have both a `Wing_Length` _and_ `Beak_Length_Culmen` larger than the 95<sup>th</sup> percentile of all duck species?
+Can you find any duck species that have both a `Wing_Length` _and_ `Beak_Length_Culmen` larger than the 99<sup>th</sup> percentile of all duck species?
 ```
 
 

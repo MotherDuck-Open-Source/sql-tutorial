@@ -55,9 +55,10 @@ Throughout this tutorial, we'll show you SQL queries that you can run to inspect
 
 For the first two sections of this tutorial, we will use an in-memory database, since all examples are self-contained and can easily be re-run if needed.
 
-You can run SQL directly in a Jupyter Notebook with a Python kernel by loading the `magic_duckdb` extension:
+You can run SQL directly in a Jupyter Notebook with a Python kernel by installing and loading the `magic_duckdb` extension:
 
 ```python
+!pip install --upgrade duckdb magic-duckdb --quiet
 %load_ext magic_duckdb
 ```
 
@@ -88,6 +89,13 @@ SELECT * FROM test_table;
 ## MotherDuck
 
 You can also run SQL directly in a MotherDuck notebook. After <a href="https://app.motherduck.com/?auth_flow=signup" target="_blank">signing up</a>, go to <a href="https://app.motherduck.com/" target="_blank">app.motherduck.com</a> and log in. You'll see a SQL notebook environment where you can create cells, upload CSV files and run SQL queries.
+
+Once you have the account and [get the authentication token](https://motherduck.com/docs/key-tasks/authenticating-to-motherduck/#creating-an-access-token), you can interact with your data in MotherDuck through the same Python API:
+
+```python
+import duckdb
+con = duckdb.connect(f"md:my_db?motherduck_token={token}")
+```
 
 ## How to access files
 
