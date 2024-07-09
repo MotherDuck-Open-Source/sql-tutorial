@@ -101,7 +101,7 @@ WHERE
 ```
 
 ```{admonition} Exercise 4.02
-Take a look at the `sample_data.who.ambient_air_quality` 
+Run `DESCRIBE` on the `sample_data.who.ambient_air_quality` table to inspect the column names. Write a query that gets the average concentrations of PM1.0 and PM2.5 particles for the `'United States of America'`, for the last 10 years, grouped and ordered by year.
 ```
 
 ## Load data from Huggingface
@@ -251,4 +251,8 @@ def update_graph(value):
 
 if __name__ == '__main__':
   app.run(debug=True)
+```
+
+```{admonition} Exercise (bonus)
+Create a dashboard that plots the data your neighbor shared with you. Share it in the `#scipy-2024` Slack channel so others can give it a try!
 ```
