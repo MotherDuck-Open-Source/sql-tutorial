@@ -148,18 +148,6 @@ DESCRIBE duckdb_ducks;
 
 Now, we can get the endangered species status of all DuckDB ducks by joining the two.
 
-```{code-cell}
-%%dql -co con
-CREATE OR REPLACE TABLE duckdb_species AS
-SELECT
-  duckdb_ducks.version_number, duckdb_ducks.codename, duckdb_ducks.duck_species_primary, animals.category
-FROM duckdb_ducks
-LEFT JOIN animals
-ON animals.scientific_name = duckdb_ducks.duck_species_primary
-WHERE codename IS NOT NULL
-ORDER BY category, version_number;
-```
-
 ```{admonition} Exercise 4.05
 Create a new table called `duckdb_species` that joins the `duckdb_ducks` and `animals` tables on the scientific name.
 ```
@@ -207,5 +195,60 @@ SELECT * FROM seattle_weather;
 ```
 
 ```{admonition} Exercise 4.07
-Attach the share you received from your neighbor, inspect the tables.
+Attach the share you received from your neighbor and inspect the tables.
+```
+
+## Detaching and removing your shares
+
+To detach a database someone shared with you, make sure it's not selected, and run `DETACH`:
+
+```{code-cell}
+%%dql -co con
+USE my_db;
+DETACH mosaic_examples;
+```
+
+To drop the share you created, simply run:
+
+```{code-cell}
+%%dql -co con
+DROP SHARE duck_share;
+```
+
+## Visualize your data
+
+Now that your data is in the Cloud and easy to share, you can also create simple web apps that load and plot the data!
+
+Here is an example Dash app that you can run to plot data in the `sample_data` database.
+
+```{code-cell}
+:tags: [remove-output]
+from dash import Dash, html, dcc, callback, Output, Input
+import plotly.express as px
+import pandas as pd
+from sqlalchemy import create_engine, text
+
+con = duckdb.connect("md:sample_data")
+
+countries = con.sql('SELECT DISTINCT country_name as countries FROM who.ambient_air_quality ORDER BY country_name')
+
+app = Dash()
+
+app.layout = [
+    html.H1(children='Air quality by country', style={'textAlign':'center', 'font-family':'monospace'}),
+    dcc.Dropdown(countries.df().countries.values.tolist(), 'Canada', id='dropdown-selection'),
+    dcc.Graph(id='graph-content')
+]
+
+@callback(
+    Output('graph-content', 'figure'),
+    Input('dropdown-selection', 'value')
+)
+def update_graph(value):
+    sql = "SELECT year, avg(pm25_concentration) as avg_pm25 FROM who.ambient_air_quality WHERE country_name=? GROUP by year ORDER by year"
+    result = con.execute(sql, [value]).df()
+    return px.line(result, x='year', y='avg_pm25')
+
+if __name__ == '__main__':
+  app.run(debug=True)
 ```
