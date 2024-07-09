@@ -64,16 +64,16 @@ SUMMARIZE ducks;
 Create a new table `birds_measurements` from the file `birds.csv` (this file contains the names and measurements of individuals from over 10k bird species).
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.01.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.01.sql
 ```
 
 ```{admonition} Exercise 2.02
 Create a new table `ducks_species` from the file `ducks.csv` (this file contains species names and common names of ducks).
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.02.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.02.sql
 ```
 
 ## 1. Aggregate Functions
@@ -135,15 +135,15 @@ GROUP BY
 Run a query that gets the average `Beak_Length_Culmen`, `Wing_Length` and `Tail_Length` for all birds.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.03.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.03.sql
 ```
 ```{admonition} Exercise 2.04
 Run a query that finds the average `Tail_Length` by `Species_Common_Name` and by `Country_WRI`. 
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.04.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.04.sql
 ```
 
 ### Getting the 95<sup>th</sup> percentile of a column value
@@ -161,16 +161,16 @@ FROM birds;
 Run a query that gets the 95<sup>th</sup> percentile and 99<sup>th</sup> percentile of `Beak_Length_Culmen` for all birds.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.05.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.05.sql
 ```
 
 ```{admonition} Exercise 2.06
 Run a query that gets the 99<sup>th</sup> percentile of `Wing_Length` by `Species_Common_Name`.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.06.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.06.sql
 ```
 
 
@@ -228,16 +228,16 @@ Inequality conditions are also possible (as we will see later!).
 Run a query that gets the name, `Beak_Length_Culmen`, `Wing_Length` and `Tail_Length` of birds that are ducks.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.07.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.07.sql
 ```
 
 ```{admonition} Exercise 2.08
 Let's run a similar query, but group the ducks by species. Run a query that gets the `Species_Common_Name`, _average_ `Beak_Length_Culmen`, `Wing_Length` and `Tail_Length` of birds that are ducks, and sort the results by `Species_Common_Name`.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.08.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.08.sql
 ```
 
 ### LEFT OUTER JOIN (LEFT JOIN)
@@ -278,8 +278,8 @@ Hint: In Python (like in SQL), nothing equals None!
 Just like in Python, we use the `IS` keyword to check if a value is missing.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.09.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.09.sql
 ```
 
 ## 3. Subqueries
@@ -326,16 +326,16 @@ In this example, the subquery (`SELECT QUANTILE_CONT(birds.Beak_Length_Culmen, 0
 Find the duck species that have a `Wing_Length` larger than the 99<sup>th</sup> percentile of all ducks.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.10.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.10.sql
 ```
 
 ```{admonition} Exercise 2.11
 Can you find any duck species that have both a `Wing_Length` _and_ `Beak_Length_Culmen` larger than the 95<sup>th</sup> percentile of all duck species?
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.11.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.11.sql
 ```
 
 
@@ -345,8 +345,8 @@ NOTE: This is extra credit!
 Instead of individual ducks, find the duck species that _on average_ have a measured beak size that is larger than the 95<sup>th</sup> percentile of all ducks.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.12.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.12.sql
 ```
 
 
@@ -390,8 +390,8 @@ In this example, the `WITH` clause creates two temporary result sets called `duc
 Find the duck species that have an average `Wing_Length` larger than the 95<sup>th</sup> percentile of all duck species.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.13.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.13.sql
 ```
 
 
@@ -399,6 +399,6 @@ Find the duck species that have an average `Wing_Length` larger than the 95<sup>
 What about the duck species that have both a `Wing_Length` _or_ `Beak_Length_Culmen` larger than the 95sup>th</sup> percentile of all duck species?
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_2.14.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_2.14.sql
 ```

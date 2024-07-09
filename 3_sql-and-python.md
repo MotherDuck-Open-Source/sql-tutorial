@@ -106,8 +106,8 @@ duckdb.sql("""SELECT * FROM ducks_arrow""").arrow()
 Read in the birds.csv file using Apache Arrow, then use the DuckDB Python library to execute a SQL statement on that Apache Arrow table to find the maximum `wing_length` in the dataset. Output that result as an Apache Arrow table.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_3.01.py
+# Uncomment and run to show solution
+# !cat ./answers/answer_3.01.py
 ```
 
 ```{admonition} Exercise 3.02
@@ -125,8 +125,8 @@ GROUP BY Species_Common_Name
 
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_3.02.py
+# Uncomment and run to show solution
+# !cat ./answers/answer_3.02.py
 ```
 
 ## 2. Using `ibis` with a DuckDB backend
@@ -278,8 +278,8 @@ ORDER BY
   "t2"."Count(name)" DESC
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_3.03.py
+# Uncomment and run to show solution
+# !cat ./answers/answer_3.03.py
 ```
 
 
@@ -305,7 +305,6 @@ Hint 2: Ibis uses `mean` instead of `avg`!
 Hint 3: Ibis aggregate documentation: https://ibis-project.org/reference/expression-tables#ibis.expr.types.relations.Table.aggregate
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_3.04.py
+# Uncomment and run to show solution
+# !cat ./answers/answer_3.04.py
 ```
-

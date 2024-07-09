@@ -62,8 +62,8 @@ In general, it's easy to create a new table! The syntax `CREATE TABLE <name> AS 
 Recreate the table called `weather` by selecting all columns in the {Download}`washington_weather.csv<./data/washington_weather.csv>` file.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.01.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.01.sql
 ```
 
 ## Describe the table
@@ -114,8 +114,8 @@ In DuckDB, strings are indicated with single quotes, like so: `'my string value'
 Filter rows where the station name is `'TACOMA NUMBER 1, WA US'`.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.02.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.02.sql
 ```
 
 ### Pick the Columns that You Want
@@ -131,16 +131,16 @@ SELECT name, date, temperature_min, temperature_max FROM weather;
 Run a `DESCRIBE` query on the `weather` table to inspect the column names, and try selecting a few different ones! For example, select the `name`, `date`, `elevation`, `precipitation`, and/or `temperature_obs` columns.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.03.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.03.sql
 ```
 
 ```{admonition} Exercise 1.04
 Select the `temperature_max` and `temperature_min` columns, and filter down to only see the rows where both of those values are under 60 and above 50.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.04.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.04.sql
 ```
 
 ### Add a calculated Column
@@ -159,16 +159,16 @@ This command creates a new column called `mean_temperature` that contains the av
 Add a new calculated column called `temperature_range` that gets the difference between `temperature_max` and `temperature_min` columns.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.05.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.05.sql
 ```
 
 ```{admonition} Exercise 1.06
 Create a new calculated column, `temperature_obs_celcius`, that converts the observed temperature to °C using the equation: `(32°F − 32) × 5/9 = 0°C`.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.06.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.06.sql
 ```
 
 ### Order Rows (ORDER BY Clause)
@@ -187,14 +187,14 @@ This command sorts the rows by the `precipitation` column in descending order.
 Use the query you created in the previous exercise and order the rows by `precipitation` in ascending order.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.07.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.07.sql
 ```
 
 ```{admonition} Exercise 1.08
 Get the station `name`, `date`, `temperature_obs` and `precipitation`, and sort the table such that the row with the lowest temperature observed is at the top of the result table.
 ```
 ```{code-cell}
-# Show solution
-!cat ./answers/answer_1.08.sql
+# Uncomment and run to show solution
+# !cat ./answers/answer_1.08.sql
 ```
