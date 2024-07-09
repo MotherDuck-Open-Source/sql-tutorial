@@ -30,7 +30,7 @@ We will also install a few dataframe libraries, but these are optional unless yo
 ```
 
 ```{code-cell}
-!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/ducks.csv -q --show-progress
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/ducks.csv -r -q --show-progress
 ```
 
 DuckDB follows the Python DB API spec, so you can use it the same way you would use another database.
