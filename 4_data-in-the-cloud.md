@@ -88,7 +88,7 @@ To query the data, you'll want to fully specify the table name with the followin
 For example, you can run the below cell to get the service requests between March 27th and 31st of 2022:
 
 ```{code-cell}
-%%dql -co con -o df
+%%dql -co con
 SELECT
   created_date, agency_name, complaint_type,
   descriptor, incident_address, resolution_description
@@ -126,7 +126,86 @@ USE my_db;
 Create a new table called `animals` in your MotherDuck database `md:my_db` based on the `datonic/threatened_animal_species` dataset.
 ```
 
+```{admonition} Exercise 4.04
+DuckDB releases are each named after a duck! Let's load [this data](https://duckdb.org/data/duckdb-releases.csv) into a new table called `duckdb_ducks`. You can use `read_csv` to load the data directly from the HTTP URL: `https://duckdb.org/data/duckdb-releases.csv`.
+```
+
+## Sharing is caring: Teach your data to fly!
+
+Now, we have two tables that we can join together and share with our colleagues!
+
+Let's inspect them and take a look at the columns we have available.
+
 ```{code-cell}
 %%dql -co con
-CREATE OR REPLACE TABLE duckdb_ducks AS (SELECT * FROM read_csv("https://duckdb.org/data/duckdb-releases.csv"));
+DESCRIBE animals;
+```
+
+```{code-cell}
+%%dql -co con
+DESCRIBE duckdb_ducks;
+```
+
+Now, we can get the endangered species status of all DuckDB ducks by joining the two.
+
+```{code-cell}
+%%dql -co con
+CREATE OR REPLACE TABLE duckdb_species AS
+SELECT
+  duckdb_ducks.version_number, duckdb_ducks.codename, duckdb_ducks.duck_species_primary, animals.category
+FROM duckdb_ducks
+LEFT JOIN animals
+ON animals.scientific_name = duckdb_ducks.duck_species_primary
+WHERE codename IS NOT NULL
+ORDER BY category, version_number;
+```
+
+```{admonition} Exercise 4.05
+Create a new table called `duckdb_species` that joins the `duckdb_ducks` and `animals` tables on the scientific name.
+```
+
+To share your database, you can run:
+
+```{code-cell}
+%%dql -co con -o df
+CREATE SHARE duck_share FROM my_db (ACCESS UNRESTRICTED);
+```
+
+Now you can print the share URL:
+```{code-cell}
+print(df.share_url.iloc[0])
+```
+
+```{admonition} Exercise 4.06
+Check out these datasets from Huggingface: https://huggingface.co/datasets. Pick one, create a share and send it to your neighbor!
+```
+
+To attach a share into your Cloud data warehouse, run:
+
+```sql
+ATTACH '<share_url>';
+```
+
+For example, to load the [Mosaic example datasets](https://github.com/motherduckdb/wasm-client/tree/main), run
+
+```{code-cell}
+%%dql -co con
+ATTACH 'md:_share/mosaic_examples/b01cfda8-239e-4148-a228-054b94cdc3b4';
+```
+
+You can then inspect the database and query the data like so:
+
+```{code-cell}
+%%dql -co con
+USE mosaic_examples;
+SHOW TABLES;
+```
+
+```{code-cell}
+%%dql -co con
+SELECT * FROM seattle_weather;
+```
+
+```{admonition} Exercise 4.07
+Attach the share you received from your neighbor, inspect the tables.
 ```
