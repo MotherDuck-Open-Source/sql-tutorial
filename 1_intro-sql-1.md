@@ -90,7 +90,7 @@ This query selects all columns and rows from the `weather` table.
 
 ### Filter Rows (WHERE Clause)
 
-To filter rows based on certain conditions, you can use the `WHERE` clause. For example, if you only want to see the dates where a temperature higher than 75 was observed, you can run this query:
+To filter rows based on certain conditions, you can use the `WHERE` clause. For example, if you only want to see the dates where a temperature higher than 82 was observed, you can run this query:
 
 ```{code-cell}
 %%dql
@@ -149,11 +149,11 @@ You can also add a calculated column to your results. For example, if you want t
 
 ```{code-cell}
 %%dql
-SELECT name, date, (temperature_max + temperature_min) / 2 AS median_temperature 
+SELECT name, date, (temperature_max + temperature_min) / 2 AS mean_temperature
 FROM weather;
 ```
 
-This command creates a new column called `median_temperature` that contains the average of `temperature_min` and `temperature_max`.
+This command creates a new column called `mean_temperature` that contains the average of `temperature_min` and `temperature_max`.
 
 ```{admonition} Exercise 1.05
 Add a new calculated column called `temperature_range` that gets the difference between `temperature_max` and `temperature_min` columns.
@@ -172,11 +172,11 @@ Create a new calculated column, `temperature_obs_celcius`, that converts the obs
 ```
 
 ### Order Rows (ORDER BY Clause)
-To sort the rows based on a specific column, you can use the ORDER BY clause. For example, if you want to order the students by their average_score in descending order, you can run this query:
+To sort the rows based on a specific column, you can use the ORDER BY clause. For example, if you want to order the observations by the amount of precipitation with the rainiest days on top, you can run this query:
 
 ```{code-cell}
 %%dql
-SELECT name, date, precipitation, (temperature_max + temperature_min) / 2 AS median_temperature 
+SELECT name, date, precipitation, (temperature_max + temperature_min) / 2 AS mean_temperature
 FROM weather
 ORDER BY precipitation DESC;
 ```
