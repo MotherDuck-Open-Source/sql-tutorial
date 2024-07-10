@@ -35,6 +35,13 @@ except:
   IN_COLAB = False
 ```
 
+This cell downloads the answers for the exercises.
+
+```{code-cell}
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/answers/answers_4.zip -q 
+!unzip -o answers_4.zip -d answers 
+```
+
 ## Sign up for MotherDuck
 
 If you haven't already done it, [sign up for MotherDuck](https://app.motherduck.com/?auth_flow=signup).
@@ -103,6 +110,10 @@ WHERE
 ```{admonition} Exercise 4.02
 Run `DESCRIBE` on the `sample_data.who.ambient_air_quality` table to inspect the column names. Write a query that gets the average concentrations of PM1.0 and PM2.5 particles for the `'United States of America'`, for the last 10 years, grouped and ordered by year.
 ```
+```{code-cell}
+# Uncomment and run to show solution
+# !cat ./answers/answer_4.02.py
+```
 
 ## Load data from Huggingface
 
@@ -125,9 +136,17 @@ USE my_db;
 ```{admonition} Exercise 4.03
 Create a new table called `animals` in your MotherDuck database `md:my_db` based on the `datonic/threatened_animal_species` dataset.
 ```
+```{code-cell}
+# Uncomment and run to show solution
+# !cat ./answers/answer_4.03.py
+```
 
 ```{admonition} Exercise 4.04
 DuckDB releases are each named after a duck! Let's load [this data](https://duckdb.org/data/duckdb-releases.csv) into a new table called `duckdb_ducks`. You can use `read_csv` to load the data directly from the HTTP URL: `https://duckdb.org/data/duckdb-releases.csv`.
+```
+```{code-cell}
+# Uncomment and run to show solution
+# !cat ./answers/answer_4.04.py
 ```
 
 ## Sharing is caring: Teach your data to fly!
@@ -150,6 +169,10 @@ Now, we can get the endangered species status of all DuckDB ducks by joining the
 
 ```{admonition} Exercise 4.05
 Create a new table called `duckdb_species` that joins the `duckdb_ducks` and `animals` tables on the scientific name.
+```
+```{code-cell}
+# Uncomment and run to show solution
+# !cat ./answers/answer_4.05.py
 ```
 
 To share your database, you can run:
