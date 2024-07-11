@@ -31,6 +31,7 @@ We will also install a few dataframe libraries, but these are optional unless yo
 
 ```{code-cell}
 !wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/ducks.csv -q --show-progress
+!wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/data/birds.csv -q --show-progress
 !wget https://raw.githubusercontent.com/MotherDuck-Open-Source/sql-tutorial/main/answers/answers_3.zip -q 
 !unzip -o answers_3.zip -d answers 
 ```
